@@ -26,17 +26,17 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
-$gray-dark:                 #373a3c !default;
-$gray:                      #55595c !default;
-$gray-light:                #818a91 !default;
-$gray-lighter:              #eceeef !default;
+$gray-dark:                 #333 !default;
+$gray:                      #555 !default;
+$gray-light:                #CACACA !default;
+$gray-lighter:              #D5D5D5 !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #0275d8 !default;
-$brand-success:             #5cb85c !default;
-$brand-info:                #5bc0de !default;
-$brand-warning:             #f0ad4e !default;
-$brand-danger:              #d9534f !default;
+$brand-primary:             #004B8B !default;
+$brand-success:             #89B200 !default;
+$brand-info:                #2CA7FF !default;
+$brand-warning:             #E37A13 !default;
+$brand-danger:              #C21C45 !default;
 
 
 // Options
@@ -44,13 +44,12 @@ $brand-danger:              #d9534f !default;
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-flex:               false !default;
-$enable-rounded:            true !default;
+$enable-rounded:            false !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
-$enable-transitions:        false !default;
+$enable-transitions:        true !default;
 $enable-hover-media-query:  false !default;
 $enable-grid-classes:       true !default;
-
 
 // Spacing
 //

@@ -10,4 +10,12 @@ gulp.task('default', function () {
             path.extname = '.css';
         }))
         .pipe(gulp.dest('./'));
+
+    gulp.src('./styles/bootstrap/scss/bootstrap-flex.css.map')
+        .pipe(rename(function (path) {
+            path.dirname = './';
+            path.basename = 'styles.css';
+            path.extname = '.map';
+        }))
+        .pipe(gulp.dest('./'));
 });

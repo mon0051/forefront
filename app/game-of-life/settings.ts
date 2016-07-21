@@ -1,3 +1,4 @@
-/**
- * Created by andrew.monteith on 21/07/2016.
- */
+export class Settings{
+    width: number = 10;
+    height: number = 10;
+}

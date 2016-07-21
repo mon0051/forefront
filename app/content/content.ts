@@ -1,3 +1,11 @@
-/**
- * Created by andrew.monteith on 21/07/2016.
- */
+import {Component} from '@angular/core';
+import {GameOfLife} from '../game-of-life/gol';
+
+@Component({
+    selector: 'forefront-content',
+    templateUrl: './app/content/content.html',
+    directives: [GameOfLife]
+})
+export class ForeFrontContent{
+
+}

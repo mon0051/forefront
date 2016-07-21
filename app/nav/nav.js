@@ -8,22 +8,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var nav_1 = require('../nav/nav');
-var content_1 = require('../content/content');
 var core_1 = require('@angular/core');
-var ForeFrontRoot = (function () {
-    function ForeFrontRoot() {
-        this.title = 'Forefront Root';
+var ForeFrontNav = (function () {
+    function ForeFrontNav() {
     }
-    ForeFrontRoot = __decorate([
+    ForeFrontNav = __decorate([
         core_1.Component({
-            selector: 'forefront-root',
-            templateUrl: './app/forefront-root/forefront-root.html',
-            directives: [nav_1.ForeFrontNav, content_1.ForeFrontContent]
+            selector: 'forefront-nav',
+            templateUrl: './app/nav/nav.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], ForeFrontRoot);
-    return ForeFrontRoot;
+    ], ForeFrontNav);
+    return ForeFrontNav;
 }());
-exports.ForeFrontRoot = ForeFrontRoot;
-//# sourceMappingURL=forefront-root.js.map
+exports.ForeFrontNav = ForeFrontNav;
+//# sourceMappingURL=nav.js.map

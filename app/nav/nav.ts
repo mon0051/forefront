@@ -1,3 +1,9 @@
-/**
- * Created by andrew.monteith on 21/07/2016.
- */
+import {Component} from '@angular/core';
+
+@Component({
+    selector: 'forefront-nav',
+    templateUrl: './app/nav/nav.html'
+})
+export class ForeFrontNav{
+
+}
