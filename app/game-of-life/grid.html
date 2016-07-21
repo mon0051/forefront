@@ -1,7 +1,8 @@
 <div class="gol-grid">
-    <div class="gol-row" *ngFor="let row of cells">
-        <span *ngFor="let cell of row">
-            <span class="cell" [(ngClass)] = cell.status></span>
-        </span>
-    </div>
+  <div class="gol-row" *ngFor="let row of cells">
+    <span *ngFor="let cell of row">
+      <span class="cell" [(ngClass)]=cell.status (click)="cell.animate()">{{cell.livingNeigbours}}</span>
+    </span>
+  </div>
+  <div class="btn button-default btn-primary" (click)="digest()">Digest</div>
 </div>

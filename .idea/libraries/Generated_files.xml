@@ -2,22 +2,14 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-<<<<<<< HEAD
-        <item url="file://$PROJECT_DIR$/systemjs.config-compiled.js" />
         <item url="file://$PROJECT_DIR$/app/content/content-compiled.js" />
         <item url="file://$PROJECT_DIR$/app/forefront-root/forefront-root-compiled.js" />
-        <item url="file://$PROJECT_DIR$/app/main-compiled.js" />
-        <item url="file://$PROJECT_DIR$/gulpfile-compiled.js" />
-        <item url="file://$PROJECT_DIR$/app/util/theGoodParts-compiled.js" />
-        <item url="file://$PROJECT_DIR$/app/nav/nav-compiled.js" />
         <item url="file://$PROJECT_DIR$/app/forefront-root/app.forefront-root-compiled.js" />
-=======
-        <item url="file://$PROJECT_DIR$/app/forefront/app.app-root.js-compiled.js" />
-        <item url="file://$PROJECT_DIR$/app/main-compiled.js" />
+        <item url="file://$PROJECT_DIR$/gulpfile-compiled.js" />
         <item url="file://$PROJECT_DIR$/systemjs.config-compiled.js" />
-        <item url="file://$PROJECT_DIR$/theGoodParts-compiled.js" />
-        <item url="file://$PROJECT_DIR$/app/forefront/app.forefront-root.js-compiled.js" />
->>>>>>> 2a769834b7e111c8878bfa2c5aa87a59141dbc76
+        <item url="file://$PROJECT_DIR$/app/nav/nav-compiled.js" />
+        <item url="file://$PROJECT_DIR$/app/util/theGoodParts-compiled.js" />
+        <item url="file://$PROJECT_DIR$/app/main-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -350,26 +342,18 @@
       <root url="file://$PROJECT_DIR$/node_modules/.staging/@angular/platform-browser-473fef7685b8a65163f7e2312abc0634/src/web_workers/worker/location_providers-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/.staging/@angular/platform-browser-473fef7685b8a65163f7e2312abc0634/src/worker_app-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/.staging/@angular/platform-browser-473fef7685b8a65163f7e2312abc0634/src/worker_render-compiled.js" />
-<<<<<<< HEAD
       <root url="file://$PROJECT_DIR$/app/forefront-root/app.app-root.js-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/forefront-root/app.forefront-root.js-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/forefront-root/app.app-root.js-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/forefront-root/app.forefront-root.js-compiled.js" />
-      <root url="file://$PROJECT_DIR$/systemjs.config-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/content/content-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/forefront-root/forefront-root-compiled.js" />
-      <root url="file://$PROJECT_DIR$/app/main-compiled.js" />
-      <root url="file://$PROJECT_DIR$/gulpfile-compiled.js" />
-      <root url="file://$PROJECT_DIR$/app/util/theGoodParts-compiled.js" />
-      <root url="file://$PROJECT_DIR$/app/nav/nav-compiled.js" />
       <root url="file://$PROJECT_DIR$/app/forefront-root/app.forefront-root-compiled.js" />
-=======
-      <root url="file://$PROJECT_DIR$/app/forefront/app.app-root.js-compiled.js" />
-      <root url="file://$PROJECT_DIR$/app/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/gulpfile-compiled.js" />
       <root url="file://$PROJECT_DIR$/systemjs.config-compiled.js" />
-      <root url="file://$PROJECT_DIR$/theGoodParts-compiled.js" />
-      <root url="file://$PROJECT_DIR$/app/forefront/app.forefront-root.js-compiled.js" />
->>>>>>> 2a769834b7e111c8878bfa2c5aa87a59141dbc76
+      <root url="file://$PROJECT_DIR$/app/nav/nav-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/util/theGoodParts-compiled.js" />
+      <root url="file://$PROJECT_DIR$/app/main-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>

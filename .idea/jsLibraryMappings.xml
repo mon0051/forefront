@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$" libraries="{ForeFront node_modules}" />
-=======
-    <file url="file://$PROJECT_DIR$" libraries="{forefront node_modules}" />
->>>>>>> 2a769834b7e111c8878bfa2c5aa87a59141dbc76
     <includedPredefinedLibrary name="ECMAScript 6" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

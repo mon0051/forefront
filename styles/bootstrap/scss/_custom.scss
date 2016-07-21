@@ -5,10 +5,17 @@
   margin:1em;
   div.gol-row{
     span.cell {
+      margin:0.2em;
       height: 2em;
       width: 2em;
       display: inline-block;
 
+      &.growing{
+        background: $brand-info;
+      }
+      &.alive{
+        background: $brand-success;
+      }
       &.dormant{
         background: $gray;
       }

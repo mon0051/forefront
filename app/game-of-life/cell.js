@@ -13,6 +13,9 @@ var Cell = (function () {
             this.updateEnvironmentStatus(this.getNeighbours(matrix))
                 .updateHealthStatus();
         };
+        this.animate = function () {
+            this.status = "alive";
+        };
         this.digest = function (func, args) {
             return func.apply.apply(func, [this].concat(args));
         };
@@ -28,6 +31,7 @@ var Cell = (function () {
                     }
                 }
             }
+            return neighbours;
         };
         this.getRelative = function (matrix, offsetY, offsetX) {
             var height = matrix.length;
@@ -44,8 +48,9 @@ var Cell = (function () {
                 2: "stable",
                 3: "perfect"
             };
+            this.livingNeighbours = neighbours.filter(function (value) { return (value.status === "alive" || value.status === "dying"); }).length;
             neighbours.forEach(function (cell) {
-                if (cell.status === "living" || cell.status === "dying") {
+                if (cell.status === "alive" || cell.status === "dying") {
                     livingNeighbours += 1;
                 }
             });
@@ -59,7 +64,7 @@ var Cell = (function () {
             if (this.status === "dormant" && this.environment === "perfect") {
                 this.status = "growing";
             }
-            if (this.status === "living" && this.environment === "toxic") {
+            if (this.status === "alive" && this.environment === "toxic") {
                 this.status = "dying";
             }
             return this;

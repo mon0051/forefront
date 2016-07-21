@@ -15,19 +15,17 @@ var common_1 = require('@angular/common');
 var Grid = (function () {
     function Grid(settings) {
         this.digest = function () {
-            this.cells.forEach(function (value, index, array) {
-                var cycle = function (cellArray) {
-                    var x = this.x;
-                    var y = this.y;
-                };
-                value.digest(cycle, array);
+            this.cells.forEach(function (row, index, matrix) {
+                row.forEach(function (cell) {
+                    cell.cycleLife(matrix);
+                });
             });
         };
         this.height = settings.height;
         this.width = settings.width;
-        this.cells = new Array();
+        this.cells = [];
         for (var y = 0; y < this.height; y++) {
-            this.cells[y] = new Array();
+            this.cells[y] = [];
             for (var x = 0; x < this.width; x++) {
                 var cell = new cell_1.Cell();
                 cell.status = "dormant";

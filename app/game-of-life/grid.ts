@@ -16,10 +16,10 @@ export class Grid {
     constructor(settings: Settings) {
         this.height = settings.height;
         this.width = settings.width;
-        this.cells = new Array<Array<Cell>>();
+        this.cells = [];
 
         for (let y = 0; y < this.height; y++) {
-            this.cells[y] = new Array<Cell>();
+            this.cells[y] = [];
             for (let x = 0; x < this.width; x++) {
                 let cell = new Cell();
                 cell.status = "dormant";
@@ -31,13 +31,10 @@ export class Grid {
     }
 
     digest = function () {
-        this.cells.forEach(function (value:Cell, index, array:Array<Array<Cell>>) {
-            let cycle = function(cellArray:Array<Array<Cell>>){
-                let x = this.x;
-                let y = this.y;
-
-            };
-            value.digest(cycle,array);
+        this.cells.forEach(function (row:Array<Cell>, index, matrix:Array<Array<Cell>>) {
+            row.forEach(function (cell) {
+                cell.cycleLife(matrix);
+            });
         });
     };
 }

@@ -3,8 +3,9 @@ export class Cell {
     environment:string;
     x:number;
     y:number;
+    neigbours:Array<Cell>;
 
-    cycleLife = function (matrix:Array<Cell>) {
+    cycleLife = function (matrix:Array<Array<Cell>>) {
         if (this.status === "dying") {
             this.status = "dormant";
             return;
@@ -17,6 +18,10 @@ export class Cell {
 
         this.updateEnvironmentStatus(this.getNeighbours(matrix))
             .updateHealthStatus();
+    };
+
+    animate = function () {
+      this.status = "alive";
     };
 
     digest = function (func, args) {
@@ -36,6 +41,7 @@ export class Cell {
                 }
             }
         }
+        return neighbours;
     };
 
     private getRelative = function (matrix:Array<Array<Cell>>, offsetY:number, offsetX:number) {
@@ -57,9 +63,9 @@ export class Cell {
             2: "stable",
             3: "perfect"
         };
-
+        this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
         neighbours.forEach(function (cell) {
-            if (cell.status === "living" || cell.status === "dying") {
+            if (cell.status === "alive" || cell.status === "dying") {
                 livingNeighbours += 1;
             }
         });
@@ -78,7 +84,7 @@ export class Cell {
             this.status = "growing";
         }
 
-        if (this.status === "living" && this.environment === "toxic") {
+        if (this.status === "alive" && this.environment === "toxic") {
             this.status = "dying";
         }
 
