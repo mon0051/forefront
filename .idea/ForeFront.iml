@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+    <orderEntry type="library" name="ForeFront node_modules" level="project" />
+=======
+    <orderEntry type="library" name="forefront node_modules" level="project" />
+>>>>>>> 2a769834b7e111c8878bfa2c5aa87a59141dbc76
+  </component>
+</module>
