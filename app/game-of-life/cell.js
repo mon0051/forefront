@@ -1,8 +1,13 @@
 "use strict";
 var Cell = (function () {
-    function Cell() {
-        this.neighbours = [];
-        this.uiStatus = {};
+    function Cell(grid) {
+        this.uiStatus = {
+            hovered: false,
+            outlined: false
+        };
+        this.asJson = function () {
+            return JSON.stringify(Object.assign(this.getClasses(), { "env": this.environment }), null, 2);
+        };
         this.getClasses = function () {
             return Object.assign({
                 "alive": (this.status === "alive"),
@@ -17,57 +22,50 @@ var Cell = (function () {
         };
         this.mouseMoveOut = function () {
             this.uiStatus.hovered = false;
+            this.neighbours.forEach(function (val) { return val.updateStatus(); });
         };
         this.updateStatus = function () {
-            this.uiStatus["outlined"] = (this.neighbours.some(function (cell) { return (cell.uiStatus === "hovered"); }));
+            this.uiStatus.outlined = this.neighbours.some(function (cell) { return (cell.uiStatus.hovered === true); });
         };
-        this.cycleLife = function (matrix) {
-            if (this.status === "dying") {
-                this.status = "dormant";
-                return;
-            }
-            if (this.status === "growing") {
-                this.status = "alive";
-                return;
-            }
-            this.updateEnvironmentStatus(this.getNeighbours(matrix))
+        this.cycleLife = function () {
+            this.updateEnvironmentStatus()
                 .updateHealthStatus();
         };
         this.animate = function () {
             this.status = "alive";
         };
         this.digest = function (func, args) {
-            return func.apply.apply(func, [this].concat(args));
+            var that = this;
+            return func.apply.apply(func, [that].concat(args));
         };
-        this.getNeighbours = function (matrix) {
+        this.setNeighbours = function () {
             var neighbours = [];
             for (var i = -1; i <= 1; i++) {
                 for (var j = -1; j <= 1; j++) {
                     if (i === 0 && j === 0)
                         continue;
-                    neighbours[neighbours.length] = this.getRelative(matrix, i, j);
+                    neighbours[neighbours.length] = this.getRelative(i, j);
                 }
             }
-            this.neighbours = neighbours;
-            return neighbours.filter(function (x) { return (x); });
+            this.neighbours = neighbours.filter(function (x) { return (x); });
         };
-        this.getRelative = function (matrix, offsetY, offsetX) {
+        this.getRelative = function (offsetY, offsetX) {
+            var me = this;
             var relativeX = this.x + offsetX;
             var relativeY = this.y + offsetY;
-            if (matrix[relativeY]) {
-                return matrix[relativeY][relativeX];
+            if (me.parentGrid.cells[relativeY]) {
+                return me.parentGrid.cells[relativeY][relativeX];
             }
             return undefined;
         };
-        this.updateEnvironmentStatus = function (neighbours) {
+        this.updateEnvironmentStatus = function () {
             var that = this;
             var livingNeighbours = 0;
             var environMap = {
                 2: "stable",
                 3: "perfect"
             };
-            //this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
-            neighbours.forEach(function (cell) {
+            this.neighbours.forEach(function (cell) {
                 if (cell.status === "alive" || cell.status === "dying") {
                     livingNeighbours += 1;
                 }
@@ -77,17 +75,29 @@ var Cell = (function () {
             return that;
         };
         this.updateHealthStatus = function () {
+            if (this.status === "dying") {
+                this.status = "dormant";
+                return this;
+            }
+            if (this.status === "growing") {
+                this.status = "alive";
+                return this;
+            }
             if (this.environment === "stable") {
                 return this;
             }
             if (this.status === "dormant" && this.environment === "perfect") {
                 this.status = "growing";
+                return this;
             }
             if (this.status === "alive" && this.environment === "toxic") {
                 this.status = "dying";
+                return this;
             }
             return this;
         };
+        this.parentGrid = grid;
+        this.environment = "toxic";
     }
     return Cell;
 }());

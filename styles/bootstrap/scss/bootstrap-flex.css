@@ -4471,7 +4471,17 @@ a.bg-danger:focus, a.bg-danger:hover {
     width: 2em;
     display: inline-block;
     color: #f7f7f9;
-    text-align: center; }
+    text-align: center;
+    position: relative; }
+    .gol-grid div.gol-row span.cell > span {
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+    .gol-grid div.gol-row span.cell.massive {
+      height: 10rem;
+      width: 10rem; }
     .gol-grid div.gol-row span.cell.growing {
       background: #2CA7FF; }
     .gol-grid div.gol-row span.cell.alive {
@@ -4480,3 +4490,17 @@ a.bg-danger:focus, a.bg-danger:hover {
       background: #555; }
     .gol-grid div.gol-row span.cell.dying {
       background: #C21C45; }
+    .gol-grid div.gol-row span.cell.hovered > span.overlay {
+      background: #2CA7FF;
+      opacity: 0.2;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .gol-grid div.gol-row span.cell.outlined > span.overlay {
+      background: #004B8B;
+      opacity: 0.2;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }

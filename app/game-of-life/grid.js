@@ -18,17 +18,19 @@ var Grid = (function () {
         this.autoplay = false;
         this.cycleTime = 500; //time unit is ms
         this.step = function () {
-            var cellMatrix = this.cells;
             var that = this;
             this.cells.forEach(function (row) {
                 row.forEach(function (cell) {
-                    cell.cycleLife(cellMatrix);
+                    cell.cycleLife();
                 });
             });
             return that;
         };
-        this.digest = function () {
-            this.step().step();
+        this.digest = function (func, args) {
+            if (typeof func === "function") {
+                func.apply.apply(func, [this].concat(args));
+            }
+            this.step();
         };
         this.start = function () {
             this.autoplay = true;
@@ -50,13 +52,18 @@ var Grid = (function () {
         for (var y = 0; y < this.height; y++) {
             this.cells[y] = [];
             for (var x = 0; x < this.width; x++) {
-                var cell = new cell_1.Cell();
+                var cell = new cell_1.Cell(this);
                 cell.status = "dormant";
                 cell.x = x;
                 cell.y = y;
                 this.cells[y][x] = cell;
             }
         }
+        this.cells.forEach(function (row) {
+            row.forEach(function (cell) {
+                cell.setNeighbours();
+            });
+        });
     }
     Grid = __decorate([
         core_1.Component({

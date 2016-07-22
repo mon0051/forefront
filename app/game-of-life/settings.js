@@ -1,8 +1,8 @@
 "use strict";
 var Settings = (function () {
     function Settings() {
-        this.width = 20;
-        this.height = 20;
+        this.width = 6;
+        this.height = 6;
     }
     return Settings;
 }());

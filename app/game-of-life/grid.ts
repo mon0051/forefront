@@ -24,28 +24,35 @@ export class Grid {
         for (let y = 0; y < this.height; y++) {
             this.cells[y] = [];
             for (let x = 0; x < this.width; x++) {
-                let cell = new Cell();
+                let cell = new Cell(this);
                 cell.status = "dormant";
                 cell.x = x;
                 cell.y = y;
                 this.cells[y][x] = cell;
             }
         }
+        this.cells.forEach(function (row) {
+            row.forEach(function (cell) {
+                cell.setNeighbours();
+            })
+        })
     }
 
     step = function () {
-        var cellMatrix = this.cells;
         var that:Grid = this;
         this.cells.forEach(function (row:Array<Cell>) {
             row.forEach(function (cell) {
-                cell.cycleLife(cellMatrix);
+                cell.cycleLife();
             });
         });
         return that;
     };
 
-    digest = function () {
-        this.step().step();
+    digest = function (func,args) {
+        if(typeof func === "function"){
+            func.apply(this,...args);
+        }
+        this.step();
     };
 
     start = function () {

@@ -1,11 +1,13 @@
-<div class="gol-grid">
+<div class="gol-grid card">
   <div class="gol-row" *ngFor="let row of cells">
     <span *ngFor="let cell of row">
-      <span class="cell"
+      <span class="cell massive"
             [ngClass]="cell.getClasses()"
             (mouseleave)="cell.mouseMoveOut()"
             (mouseover)="cell.mouseMoveIn()"
             (click)="cell.animate()">
+        {{cell.asJson()}}
+        <span class="overlay"></span>
       </span>
     </span>
   </div>
