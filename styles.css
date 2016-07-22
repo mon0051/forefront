@@ -4469,7 +4469,9 @@ a.bg-danger:focus, a.bg-danger:hover {
     margin: 0.2em;
     height: 2em;
     width: 2em;
-    display: inline-block; }
+    display: inline-block;
+    color: #f7f7f9;
+    text-align: center; }
     .gol-grid div.gol-row span.cell.growing {
       background: #2CA7FF; }
     .gol-grid div.gol-row span.cell.alive {

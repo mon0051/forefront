@@ -12,6 +12,8 @@ export class Grid {
     cells:Array<Array<Cell>>;
     height:number;
     width:number;
+    autoplay:boolean = false;
+    cycleTime:number = 500; //time unit is ms
 
     constructor(settings: Settings) {
         this.height = settings.height;
@@ -31,10 +33,27 @@ export class Grid {
     }
 
     digest = function () {
-        this.cells.forEach(function (row:Array<Cell>, index, matrix:Array<Array<Cell>>) {
+        var cellMatrix = this.cells;
+        this.cells.forEach(function (row:Array<Cell>) {
             row.forEach(function (cell) {
-                cell.cycleLife(matrix);
+                cell.cycleLife(cellMatrix);
             });
         });
+    };
+
+    start = function () {
+        this.autoplay = true;
+        this.run();
+    };
+
+    stop = function () {
+        this.autoplay = false;
+    };
+
+    private run = function () {
+        this.digest();
+        if (this.autoplay === true) {
+            setTimeout(this.run, this.autoplay);
+        }
     };
 }

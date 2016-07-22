@@ -3,7 +3,8 @@ export class Cell {
     environment:string;
     x:number;
     y:number;
-    neigbours:Array<Cell>;
+    livingNeighbours:number;
+    neighbours:Array<Cell>;
 
     cycleLife = function (matrix:Array<Array<Cell>>) {
         if (this.status === "dying") {
@@ -34,24 +35,18 @@ export class Cell {
             for (let j = -1; j <= 1; j++) {
                 if (i === 0 && j === 0) continue;
 
-                let cell = this.getRelative(matrix, i, j);
-
-                if (cell !== undefined) {
-                    neighbours[neighbours.length] = cell;
-                }
+                neighbours[neighbours.length] = this.getRelative(matrix, i, j);
             }
         }
-        return neighbours;
+        return neighbours.filter((x)=>(x));
     };
 
     private getRelative = function (matrix:Array<Array<Cell>>, offsetY:number, offsetX:number) {
-        let height = matrix.length;
-        let width = matrix[this.y].length;
-
-        if (this.x + offsetX > 0 && this.x < width && this.y + offsetY > 0 && this.y + offsetY < height) {
-            return matrix[this.y][this.x];
+        let relativeX = this.x + offsetX;
+        let relativeY = this.y + offsetY;
+        if(matrix[relativeY]){
+            return matrix[relativeY][relativeX];
         }
-
         return undefined;
     };
 
@@ -63,13 +58,15 @@ export class Cell {
             2: "stable",
             3: "perfect"
         };
-        this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
+
+        //this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
+
         neighbours.forEach(function (cell) {
             if (cell.status === "alive" || cell.status === "dying") {
                 livingNeighbours += 1;
             }
         });
-
+        this.livingNeighbours = livingNeighbours;
         this.environment = environMap[livingNeighbours] || "toxic";
 
         return that;

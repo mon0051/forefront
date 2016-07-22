@@ -14,12 +14,28 @@ var settings_1 = require("./settings");
 var common_1 = require('@angular/common');
 var Grid = (function () {
     function Grid(settings) {
+        this.autoplay = false;
+        this.cycleTime = 500; //time unit is ms
         this.digest = function () {
-            this.cells.forEach(function (row, index, matrix) {
+            var cellMatrix = this.cells;
+            this.cells.forEach(function (row) {
                 row.forEach(function (cell) {
-                    cell.cycleLife(matrix);
+                    cell.cycleLife(cellMatrix);
                 });
             });
+        };
+        this.start = function () {
+            this.autoplay = true;
+            this.run();
+        };
+        this.stop = function () {
+            this.autoplay = false;
+        };
+        this.run = function () {
+            this.digest();
+            if (this.autoplay === true) {
+                setTimeout(this.run, this.autoplay);
+            }
         };
         this.height = settings.height;
         this.width = settings.width;

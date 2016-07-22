@@ -10,4 +10,5 @@ import {Settings} from "./settings";
 })
 export class GameOfLife{
     grid : Grid = new Grid(new Settings());
+
 }
