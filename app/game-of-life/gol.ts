@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
 import {Grid} from './grid';
 import {Settings} from "./settings";
+import {UrlHelper} from "../util/url-helper";
 
 @Component({
     selector: 'game-of-life',
-    templateUrl: './app/game-of-life/gol-root.html',
+    templateUrl: UrlHelper.resolvePath('app/game-of-life/gol-root.html'),
     providers: [Settings],
     directives: [Grid]
 })

@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var nav_1 = require('../nav/nav');
 var content_1 = require('../content/content');
+var url_helper_1 = require('../util/url-helper');
 var core_1 = require('@angular/core');
 var ForeFrontRoot = (function () {
     function ForeFrontRoot() {
@@ -18,7 +19,7 @@ var ForeFrontRoot = (function () {
     ForeFrontRoot = __decorate([
         core_1.Component({
             selector: 'forefront-root',
-            templateUrl: './app/forefront-root/forefront-root.html',
+            templateUrl: url_helper_1.UrlHelper.resolvePath('app/forefront-root/forefront-root.html'),
             directives: [nav_1.ForeFrontNav, content_1.ForeFrontContent]
         }), 
         __metadata('design:paramtypes', [])

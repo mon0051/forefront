@@ -63,7 +63,9 @@ export class Cell {
             2: "stable",
             3: "perfect"
         };
+
         this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
+
         neighbours.forEach(function (cell) {
             if (cell.status === "alive" || cell.status === "dying") {
                 livingNeighbours += 1;

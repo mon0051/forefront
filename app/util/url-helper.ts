@@ -1,3 +1,7 @@
-/**
- * Created by andrew.monteith on 22/07/2016.
- */
+export class UrlHelper{
+    static appRoot:string = "/ForeFront/";
+
+    static resolvePath = function (path) {
+        return UrlHelper.appRoot + path;
+    }
+}

@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var grid_1 = require('./grid');
 var settings_1 = require("./settings");
+var url_helper_1 = require("../util/url-helper");
 var GameOfLife = (function () {
     function GameOfLife() {
         this.grid = new grid_1.Grid(new settings_1.Settings());
@@ -18,7 +19,7 @@ var GameOfLife = (function () {
     GameOfLife = __decorate([
         core_1.Component({
             selector: 'game-of-life',
-            templateUrl: './app/game-of-life/gol-root.html',
+            templateUrl: url_helper_1.UrlHelper.resolvePath('app/game-of-life/gol-root.html'),
             providers: [settings_1.Settings],
             directives: [grid_1.Grid]
         }), 

@@ -16,6 +16,7 @@
         'rxjs': {defaultExtension: 'js'},
         'angular2-in-memory-web-api': {main: 'index.js', defaultExtension: 'js'},
     };
+
     var ngPackageNames = [
         'common',
         'compiler',

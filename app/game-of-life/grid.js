@@ -12,6 +12,7 @@ var cell_1 = require('./cell');
 var core_1 = require('@angular/core');
 var settings_1 = require("./settings");
 var common_1 = require('@angular/common');
+var url_helper_1 = require("../util/url-helper");
 var Grid = (function () {
     function Grid(settings) {
         this.digest = function () {
@@ -38,7 +39,7 @@ var Grid = (function () {
     Grid = __decorate([
         core_1.Component({
             selector: 'gol-grid',
-            templateUrl: './app/game-of-life/grid.html',
+            templateUrl: url_helper_1.UrlHelper.resolvePath('app/game-of-life/grid.html'),
             directives: [common_1.NgClass]
         }), 
         __metadata('design:paramtypes', [settings_1.Settings])
