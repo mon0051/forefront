@@ -11,4 +11,5 @@ import {UrlHelper} from "../util/url-helper";
 })
 export class GameOfLife{
     grid : Grid = new Grid(new Settings());
+
 }

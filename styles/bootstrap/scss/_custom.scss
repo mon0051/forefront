@@ -9,6 +9,8 @@
       height: 2em;
       width: 2em;
       display: inline-block;
+      color: $gray-lightest;
+      text-align: center;
 
       &.growing{
         background: $brand-info;
@@ -21,6 +23,9 @@
       }
       &.dying {
         background: $brand-danger;
+      }
+      &.hovered{
+        background: $brand-info;
       }
     }
   }

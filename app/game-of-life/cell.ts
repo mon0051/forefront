@@ -1,9 +1,33 @@
 export class Cell {
     status:string;
     environment:string;
+    livingNeighbours:number;
+    neighbours:Array<Cell> = [];
+    uiStatus:any = {};
     x:number;
     y:number;
-    neigbours:Array<Cell>;
+
+    getClasses = function () {
+        return Object.assign({
+            "alive": (this.status === "alive"),
+            "dying": (this.status === "dying"),
+            "dormant": (this.status === "dormant"),
+            "growing": (this.status === "growing"),
+        }, this.uiStatus);
+    };
+
+    mouseMoveIn = function () {
+        this.uiStatus.hovered = true;
+        this.neighbours.forEach((val:Cell)=>val.updateStatus());
+    };
+
+    mouseMoveOut = function () {
+        this.uiStatus.hovered = false;
+    };
+
+    updateStatus = function () {
+        this.uiStatus["outlined"] = (this.neighbours.some((cell:Cell)=>(cell.uiStatus === "hovered")));
+    };
 
     cycleLife = function (matrix:Array<Array<Cell>>) {
         if (this.status === "dying") {
@@ -34,24 +58,19 @@ export class Cell {
             for (let j = -1; j <= 1; j++) {
                 if (i === 0 && j === 0) continue;
 
-                let cell = this.getRelative(matrix, i, j);
-
-                if (cell !== undefined) {
-                    neighbours[neighbours.length] = cell;
-                }
+                neighbours[neighbours.length] = this.getRelative(matrix, i, j);
             }
         }
-        return neighbours;
+        this.neighbours = neighbours;
+        return neighbours.filter((x)=>(x));
     };
 
     private getRelative = function (matrix:Array<Array<Cell>>, offsetY:number, offsetX:number) {
-        let height = matrix.length;
-        let width = matrix[this.y].length;
-
-        if (this.x + offsetX > 0 && this.x < width && this.y + offsetY > 0 && this.y + offsetY < height) {
-            return matrix[this.y][this.x];
+        let relativeX = this.x + offsetX;
+        let relativeY = this.y + offsetY;
+        if(matrix[relativeY]){
+            return matrix[relativeY][relativeX];
         }
-
         return undefined;
     };
 
@@ -64,20 +83,21 @@ export class Cell {
             3: "perfect"
         };
 
-        this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
+        //this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
 
         neighbours.forEach(function (cell) {
             if (cell.status === "alive" || cell.status === "dying") {
                 livingNeighbours += 1;
             }
         });
-
+        this.livingNeighbours = livingNeighbours;
         this.environment = environMap[livingNeighbours] || "toxic";
 
         return that;
     };
 
     private updateHealthStatus = function () {
+
         if (this.environment === "stable") {
             return this;
         }

@@ -1,4 +1,4 @@
 export class Settings{
-    width: number = 10;
-    height: number = 10;
+    width: number = 20;
+    height: number = 20;
 }

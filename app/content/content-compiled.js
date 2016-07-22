@@ -14,9 +14,15 @@ var __metadata = undefined && undefined.__metadata || function (k, v) {
     if ((typeof Reflect === "undefined" ? "undefined" : _typeof(Reflect)) === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var gol_1 = require('../game-of-life/gol');
+var url_helper_1 = require("../util/url-helper");
 var ForeFrontContent = function () {
     function ForeFrontContent() {}
-    ForeFrontContent = __decorate([core_1.Component({}), __metadata('design:paramtypes', [])], ForeFrontContent);
+    ForeFrontContent = __decorate([core_1.Component({
+        selector: 'forefront-content',
+        templateUrl: url_helper_1.UrlHelper.resolvePath('app/content/content.html'),
+        directives: [gol_1.GameOfLife]
+    }), __metadata('design:paramtypes', [])], ForeFrontContent);
     return ForeFrontContent;
 }();
 exports.ForeFrontContent = ForeFrontContent;

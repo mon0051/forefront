@@ -14,11 +14,12 @@ var __metadata = undefined && undefined.__metadata || function (k, v) {
     if ((typeof Reflect === "undefined" ? "undefined" : _typeof(Reflect)) === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var url_helper_1 = require("../util/url-helper");
 var ForeFrontNav = function () {
     function ForeFrontNav() {}
     ForeFrontNav = __decorate([core_1.Component({
         selector: 'forefront-nav',
-        templateUrl: '/app/nav/nav.html'
+        templateUrl: url_helper_1.UrlHelper.resolvePath('app/nav/nav.html')
     }), __metadata('design:paramtypes', [])], ForeFrontNav);
     return ForeFrontNav;
 }();

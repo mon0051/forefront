@@ -13,22 +13,23 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
 var __metadata = undefined && undefined.__metadata || function (k, v) {
     if ((typeof Reflect === "undefined" ? "undefined" : _typeof(Reflect)) === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var nav_1 = require('../nav/nav');
-var content_1 = require('../content/content');
-var url_helper_1 = require('../util/url-helper');
 var core_1 = require('@angular/core');
-var ForeFrontRoot = function () {
-    function ForeFrontRoot() {
-        this.title = 'Forefront Root';
+var grid_1 = require('./grid');
+var settings_1 = require("./settings");
+var url_helper_1 = require("../util/url-helper");
+var GameOfLife = function () {
+    function GameOfLife() {
+        this.grid = new grid_1.Grid(new settings_1.Settings());
     }
-    ForeFrontRoot = __decorate([core_1.Component({
-        selector: 'forefront-root',
-        templateUrl: url_helper_1.UrlHelper.resolvePath('app/forefront-root/forefront-root.html'),
-        directives: [nav_1.ForeFrontNav, content_1.ForeFrontContent]
-    }), __metadata('design:paramtypes', [])], ForeFrontRoot);
-    return ForeFrontRoot;
+    GameOfLife = __decorate([core_1.Component({
+        selector: 'game-of-life',
+        templateUrl: url_helper_1.UrlHelper.resolvePath('app/game-of-life/gol-root.html'),
+        providers: [settings_1.Settings],
+        directives: [grid_1.Grid]
+    }), __metadata('design:paramtypes', [])], GameOfLife);
+    return GameOfLife;
 }();
-exports.ForeFrontRoot = ForeFrontRoot;
-//# sourceMappingURL=forefront-root.js.map
+exports.GameOfLife = GameOfLife;
+//# sourceMappingURL=gol.js.map
 
-//# sourceMappingURL=forefront-root-compiled.js.map
+//# sourceMappingURL=gol-compiled.js.map

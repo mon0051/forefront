@@ -15,12 +15,34 @@ var common_1 = require('@angular/common');
 var url_helper_1 = require("../util/url-helper");
 var Grid = (function () {
     function Grid(settings) {
-        this.digest = function () {
-            this.cells.forEach(function (row, index, matrix) {
+        this.autoplay = false;
+        this.cycleTime = 500; //time unit is ms
+        this.step = function () {
+            var cellMatrix = this.cells;
+            var that = this;
+            this.cells.forEach(function (row) {
                 row.forEach(function (cell) {
-                    cell.cycleLife(matrix);
+                    cell.cycleLife(cellMatrix);
                 });
             });
+            return that;
+        };
+        this.digest = function () {
+            this.step().step();
+        };
+        this.start = function () {
+            this.autoplay = true;
+            this.run();
+        };
+        this.stop = function () {
+            this.autoplay = false;
+        };
+        this.run = function () {
+            this.digest();
+            var that = this;
+            if (this.autoplay === true) {
+                setTimeout(function () { return that.run(); }, that.cycleTime);
+            }
         };
         this.height = settings.height;
         this.width = settings.width;

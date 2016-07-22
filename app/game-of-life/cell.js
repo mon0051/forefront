@@ -1,6 +1,26 @@
 "use strict";
 var Cell = (function () {
     function Cell() {
+        this.neighbours = [];
+        this.uiStatus = {};
+        this.getClasses = function () {
+            return Object.assign({
+                "alive": (this.status === "alive"),
+                "dying": (this.status === "dying"),
+                "dormant": (this.status === "dormant"),
+                "growing": (this.status === "growing"),
+            }, this.uiStatus);
+        };
+        this.mouseMoveIn = function () {
+            this.uiStatus.hovered = true;
+            this.neighbours.forEach(function (val) { return val.updateStatus(); });
+        };
+        this.mouseMoveOut = function () {
+            this.uiStatus.hovered = false;
+        };
+        this.updateStatus = function () {
+            this.uiStatus["outlined"] = (this.neighbours.some(function (cell) { return (cell.uiStatus === "hovered"); }));
+        };
         this.cycleLife = function (matrix) {
             if (this.status === "dying") {
                 this.status = "dormant";
@@ -25,19 +45,17 @@ var Cell = (function () {
                 for (var j = -1; j <= 1; j++) {
                     if (i === 0 && j === 0)
                         continue;
-                    var cell = this.getRelative(matrix, i, j);
-                    if (cell !== undefined) {
-                        neighbours[neighbours.length] = cell;
-                    }
+                    neighbours[neighbours.length] = this.getRelative(matrix, i, j);
                 }
             }
-            return neighbours;
+            this.neighbours = neighbours;
+            return neighbours.filter(function (x) { return (x); });
         };
         this.getRelative = function (matrix, offsetY, offsetX) {
-            var height = matrix.length;
-            var width = matrix[this.y].length;
-            if (this.x + offsetX > 0 && this.x < width && this.y + offsetY > 0 && this.y + offsetY < height) {
-                return matrix[this.y][this.x];
+            var relativeX = this.x + offsetX;
+            var relativeY = this.y + offsetY;
+            if (matrix[relativeY]) {
+                return matrix[relativeY][relativeX];
             }
             return undefined;
         };
@@ -48,12 +66,13 @@ var Cell = (function () {
                 2: "stable",
                 3: "perfect"
             };
-            this.livingNeighbours = neighbours.filter(function (value) { return (value.status === "alive" || value.status === "dying"); }).length;
+            //this.livingNeighbours = neighbours.filter((value:Cell)=>(value.status==="alive"||value.status==="dying")).length;
             neighbours.forEach(function (cell) {
                 if (cell.status === "alive" || cell.status === "dying") {
                     livingNeighbours += 1;
                 }
             });
+            this.livingNeighbours = livingNeighbours;
             this.environment = environMap[livingNeighbours] || "toxic";
             return that;
         };
