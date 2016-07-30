@@ -2,7 +2,7 @@
 var Settings = (function () {
     function Settings() {
         this.width = 15;
-        this.height = 15;
+        this.height = 13;
     }
     return Settings;
 }());
