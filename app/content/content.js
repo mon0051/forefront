@@ -9,8 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var gol_1 = require('../game-of-life/gol');
 var url_helper_1 = require("../util/url-helper");
+var router_1 = require('@angular/router');
+var not_found_1 = require("../util/not-found");
+var game_of_life_1 = require("../game-of-life/game-of-life");
+var home_1 = require("../home/home");
 var ForeFrontContent = (function () {
     function ForeFrontContent() {
     }
@@ -18,7 +21,8 @@ var ForeFrontContent = (function () {
         core_1.Component({
             selector: 'forefront-content',
             templateUrl: url_helper_1.UrlHelper.resolvePath('app/content/content.html'),
-            directives: [gol_1.GameOfLife]
+            directives: [router_1.ROUTER_DIRECTIVES],
+            precompile: [not_found_1.PageNotFoundComponent, game_of_life_1.GameOfLife, home_1.HomeComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], ForeFrontContent);

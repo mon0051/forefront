@@ -1,8 +1,8 @@
 import {Grid} from "./grid";
+
 export class Cell {
     status:string;
     environment:string;
-    livingNeighbours:number;
     parentGrid:Grid;
     neighbours:Array<Cell>;
     uiStatus:any = {
@@ -16,10 +16,6 @@ export class Cell {
         this.parentGrid = grid;
         this.environment = "toxic"
     }
-
-    asJson = function () {
-        return JSON.stringify(Object.assign(this.getClasses(),{"env":this.environment}),null,2);
-    };
 
     getClasses = function () {
         return Object.assign({
@@ -49,7 +45,19 @@ export class Cell {
             .updateHealthStatus();
     };
 
-    animate = function () {
+    factsOfLife = function () {
+        if (this.status === "dying") {
+            this.status = "dormant";
+            return this;
+        }
+
+        if (this.status === "growing") {
+            this.status = "alive";
+            return this;
+        }
+    };
+
+    vivicate = function () {
       this.status = "alive";
     };
 
@@ -95,22 +103,12 @@ export class Cell {
             }
         });
 
-        this.livingNeighbours = livingNeighbours;
         this.environment = environMap[livingNeighbours] || "toxic";
 
         return that;
     };
 
     private updateHealthStatus = function () {
-        if (this.status === "dying") {
-            this.status = "dormant";
-            return this;
-        }
-
-        if (this.status === "growing") {
-            this.status = "alive";
-            return this;
-        }
         if (this.environment === "stable") {
             return this;
         }

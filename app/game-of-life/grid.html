@@ -1,17 +1,22 @@
 <div class="gol-grid card">
-  <div class="gol-row" *ngFor="let row of cells">
+  <div class="card-block">
+    <div class="gol-row" *ngFor="let row of cells">
     <span *ngFor="let cell of row">
-      <span class="cell massive"
+      <span class="cell"
             [ngClass]="cell.getClasses()"
             (mouseleave)="cell.mouseMoveOut()"
             (mouseover)="cell.mouseMoveIn()"
-            (click)="cell.animate()">
-        {{cell.asJson()}}
+            (click)="cell.vivicate()">
         <span class="overlay"></span>
       </span>
     </span>
+    </div>
   </div>
-  <span class="btn button-default btn-primary" (click)="digest()">Digest</span>
-  <span class="btn btn-success" (click)="start()">Start</span>
-  <span class="btn btn-danger" (click)="stop()">Stop</span>
+  <div class="card-block">
+    <div class="buttons">
+      <button class="btn btn-default" (click)="start()">Start</button>
+      <button class="btn btn-default" (click)="stop()">Stop</button>
+      <button class="btn btn-default" (click)="clear()">Clear</button>
+    </div>
+  </div>
 </div>

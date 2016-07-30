@@ -10,13 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var url_helper_1 = require("../util/url-helper");
+var router_1 = require('@angular/router');
 var ForeFrontNav = (function () {
     function ForeFrontNav() {
     }
     ForeFrontNav = __decorate([
         core_1.Component({
             selector: 'forefront-nav',
-            templateUrl: url_helper_1.UrlHelper.resolvePath('app/nav/nav.html')
+            templateUrl: url_helper_1.UrlHelper.resolvePath('app/nav/nav.html'),
+            directives: [router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], ForeFrontNav);

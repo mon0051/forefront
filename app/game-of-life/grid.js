@@ -17,20 +17,26 @@ var Grid = (function () {
     function Grid(settings) {
         this.autoplay = false;
         this.cycleTime = 500; //time unit is ms
+        this.clear = function () {
+            this.forAllCells(function (cell) { return cell.status = "dormant"; });
+        };
         this.step = function () {
             var that = this;
+            this.forAllCells(function (cell) { return cell.cycleLife(); });
+            this.forAllCells(function (cell) { return cell.factsOfLife(); });
+            return that;
+        };
+        this.forAllCells = function (func, args) {
             this.cells.forEach(function (row) {
                 row.forEach(function (cell) {
-                    cell.cycleLife();
+                    func.apply(void 0, [cell].concat(args));
                 });
             });
-            return that;
         };
         this.digest = function (func, args) {
             if (typeof func === "function") {
                 func.apply.apply(func, [this].concat(args));
             }
-            this.step();
         };
         this.start = function () {
             this.autoplay = true;
@@ -40,7 +46,7 @@ var Grid = (function () {
             this.autoplay = false;
         };
         this.run = function () {
-            this.digest();
+            this.digest(this.step);
             var that = this;
             if (this.autoplay === true) {
                 setTimeout(function () { return that.run(); }, that.cycleTime);

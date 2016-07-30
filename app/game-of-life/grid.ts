@@ -38,21 +38,29 @@ export class Grid {
         })
     }
 
+    clear = function () {
+      this.forAllCells((cell:Cell)=>cell.status="dormant");
+    };
+
     step = function () {
         var that:Grid = this;
+        this.forAllCells((cell:Cell)=> cell.cycleLife());
+        this.forAllCells((cell:Cell)=> cell.factsOfLife());
+        return that;
+    };
+
+    forAllCells = function(func,args){
         this.cells.forEach(function (row:Array<Cell>) {
-            row.forEach(function (cell) {
-                cell.cycleLife();
+            row.forEach(function (cell:Cell) {
+                func(cell,...args);
             });
         });
-        return that;
     };
 
     digest = function (func,args) {
         if(typeof func === "function"){
             func.apply(this,...args);
         }
-        this.step();
     };
 
     start = function () {
@@ -65,7 +73,7 @@ export class Grid {
     };
 
     private run = function () {
-        this.digest();
+        this.digest(this.step);
         var that:Grid = this;
         if (this.autoplay === true) {
             setTimeout(() => that.run(), that.cycleTime);

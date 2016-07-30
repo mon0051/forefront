@@ -5,9 +5,6 @@ var Cell = (function () {
             hovered: false,
             outlined: false
         };
-        this.asJson = function () {
-            return JSON.stringify(Object.assign(this.getClasses(), { "env": this.environment }), null, 2);
-        };
         this.getClasses = function () {
             return Object.assign({
                 "alive": (this.status === "alive"),
@@ -31,7 +28,17 @@ var Cell = (function () {
             this.updateEnvironmentStatus()
                 .updateHealthStatus();
         };
-        this.animate = function () {
+        this.factsOfLife = function () {
+            if (this.status === "dying") {
+                this.status = "dormant";
+                return this;
+            }
+            if (this.status === "growing") {
+                this.status = "alive";
+                return this;
+            }
+        };
+        this.vivicate = function () {
             this.status = "alive";
         };
         this.digest = function (func, args) {
@@ -70,19 +77,10 @@ var Cell = (function () {
                     livingNeighbours += 1;
                 }
             });
-            this.livingNeighbours = livingNeighbours;
             this.environment = environMap[livingNeighbours] || "toxic";
             return that;
         };
         this.updateHealthStatus = function () {
-            if (this.status === "dying") {
-                this.status = "dormant";
-                return this;
-            }
-            if (this.status === "growing") {
-                this.status = "alive";
-                return this;
-            }
             if (this.environment === "stable") {
                 return this;
             }

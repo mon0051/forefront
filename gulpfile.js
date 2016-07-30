@@ -4,7 +4,7 @@ var rename = require('gulp-rename');
 gulp.task('default', function () {
     "use strict";
 
-    gulp.src('./styles/bootstrap/scss/bootstrap-flex.css')
+    gulp.src('./content/styles/bootstrap/scss/bootstrap-flex.css')
         .pipe(rename(function (path) {
             path.dirname = './';
             path.basename = 'styles';
@@ -12,7 +12,7 @@ gulp.task('default', function () {
         }))
         .pipe(gulp.dest('./'));
 
-    gulp.src('./styles/bootstrap/scss/bootstrap-flex.css.map')
+    gulp.src('./content/styles/bootstrap/scss/bootstrap-flex.css.map')
         .pipe(rename(function (path) {
             path.dirname = './';
             path.basename = 'styles.css';

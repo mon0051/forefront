@@ -14,7 +14,7 @@ var __metadata = undefined && undefined.__metadata || function (k, v) {
     if ((typeof Reflect === "undefined" ? "undefined" : _typeof(Reflect)) === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var gol_1 = require('../game-of-life/gol');
+var gol_1 = require('../game-of-life/game-of-life');
 var url_helper_1 = require("../util/url-helper");
 var ForeFrontContent = function () {
     function ForeFrontContent() {}
