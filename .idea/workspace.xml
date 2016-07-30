@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/blured.jpg" afterPath="$PROJECT_DIR$/content/img/blured.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/despeckle.jpg" afterPath="$PROJECT_DIR$/content/img/despeckle.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/flight-mountains-sky-flying.jpeg" afterPath="$PROJECT_DIR$/content/img/flight-mountains-sky-flying.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/half-05.jpg" afterPath="$PROJECT_DIR$/content/img/half-05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/half-size-0.jpg" afterPath="$PROJECT_DIR$/content/img/half-size-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/half-size-1.jpg" afterPath="$PROJECT_DIR$/content/img/half-size-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/half-size-2.jpg" afterPath="$PROJECT_DIR$/content/img/half-size-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/half-size-3.jpg" afterPath="$PROJECT_DIR$/content/img/half-size-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/landscape-clouds-trees-sunrise-21845.jpg" afterPath="$PROJECT_DIR$/content/img/landscape-clouds-trees-sunrise-21845.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/lighten-0.jpg" afterPath="$PROJECT_DIR$/content/img/lighten-0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/lighten-3.jpg" afterPath="$PROJECT_DIR$/content/img/lighten-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/lighten-sm-d.jpg" afterPath="$PROJECT_DIR$/content/img/lighten-sm-d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/lighten-sm.jpg" afterPath="$PROJECT_DIR$/content/img/lighten-sm.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/lighten.jpg" afterPath="$PROJECT_DIR$/content/img/lighten.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/motherboard.jpg" afterPath="$PROJECT_DIR$/content/img/motherboard.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/pexels-photo-48659.jpeg" afterPath="$PROJECT_DIR$/content/img/pexels-photo-48659.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/pexels-photo.jpg" afterPath="$PROJECT_DIR$/content/img/pexels-photo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/sky-de.jpg" afterPath="$PROJECT_DIR$/content/img/sky-de.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/img/telescope-science-discover-world.jpg" afterPath="$PROJECT_DIR$/content/img/telescope-science-discover-world.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ForeFront.iml" afterPath="$PROJECT_DIR$/.idea/ForeFront.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
@@ -29,7 +47,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/game-of-life/game-of-life.ts" afterPath="$PROJECT_DIR$/app/game-of-life/game-of-life.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/game-of-life/grid.html" afterPath="$PROJECT_DIR$/app/game-of-life/grid.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/game-of-life/grid.ts" afterPath="$PROJECT_DIR$/app/game-of-life/grid.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/game-of-life/settings.js" afterPath="$PROJECT_DIR$/app/game-of-life/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/game-of-life/settings.ts" afterPath="$PROJECT_DIR$/app/game-of-life/settings.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.html" afterPath="$PROJECT_DIR$/app/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.js" afterPath="$PROJECT_DIR$/app/home/home.js" />
@@ -585,7 +602,7 @@
       <workItem from="1469197054766" duration="182000" />
       <workItem from="1469197271939" duration="8940000" />
       <workItem from="1469793486920" duration="4437000" />
-      <workItem from="1469844106042" duration="7288000" />
+      <workItem from="1469844106042" duration="7886000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -598,7 +615,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85888000" />
+    <option name="totallyTimeSpent" value="86486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
