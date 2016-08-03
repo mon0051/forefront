@@ -14,8 +14,8 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/babel.cmd" />
-      <option name="scopeName" value="not_node" />
+      <option name="program" value="$ProjectFileDir$/client/node_modules/.bin/babel.cmd" />
+      <option name="scopeName" value="just_index" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
@@ -52,7 +52,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/gulp.cmd" />
+      <option name="program" value="$ProjectFileDir$/client/node_modules/.bin/gulp.cmd" />
       <option name="scopeName" value="css" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$ProjectFileDir$\client" />

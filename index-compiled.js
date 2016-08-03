@@ -1,6 +1,16 @@
-'use strict';
-
 var express = require('express');
+
+var allForward = function (host, url) {
+    "use strict";
+
+    return { url: ['http://127.0.0.1:3000'] };
+};
+
+var proxy = require('redbird')({
+    port: 5000,
+    resolvers: [allForward]
+});
+
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
