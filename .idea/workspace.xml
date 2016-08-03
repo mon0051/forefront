@@ -1,188 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/home/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/nav/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-compiled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-compiled.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/game-of-life/game-of-life.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/nav/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_custom.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile-compiled-compiled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile-compiled-compiled.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/systemjs.config-compiled-compiled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/systemjs.config-compiled-compiled.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/app.routes.js" afterPath="$PROJECT_DIR$/client/app/app.routes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/app.routes.js.map" afterPath="$PROJECT_DIR$/client/app/app.routes.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/app.routes.ts" afterPath="$PROJECT_DIR$/client/app/app.routes.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/brain.html" afterPath="$PROJECT_DIR$/client/app/brain/brain.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/brain.js" afterPath="$PROJECT_DIR$/client/app/brain/brain.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/brain.js.map" afterPath="$PROJECT_DIR$/client/app/brain/brain.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/brain.ts" afterPath="$PROJECT_DIR$/client/app/brain/brain.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/engine.js" afterPath="$PROJECT_DIR$/client/app/brain/engine.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/engine.js.map" afterPath="$PROJECT_DIR$/client/app/brain/engine.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/brain/engine.ts" afterPath="$PROJECT_DIR$/client/app/brain/engine.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content-compiled.js" afterPath="$PROJECT_DIR$/client/app/content/content-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content-compiled.js.map" afterPath="$PROJECT_DIR$/client/app/content/content-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content.html" afterPath="$PROJECT_DIR$/client/app/content/content.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content.js" afterPath="$PROJECT_DIR$/client/app/content/content.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content.js.map" afterPath="$PROJECT_DIR$/client/app/content/content.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/content/content.ts" afterPath="$PROJECT_DIR$/client/app/content/content.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/forefront-root/forefront-root.html" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/forefront-root/forefront-root.js" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/forefront-root/forefront-root.js.map" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/forefront-root/forefront-root.ts" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/cell.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/cell.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/cell.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/game-of-life.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/game-of-life.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/game-of-life.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/grid.html" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/grid.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/grid.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/grid.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/settings.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/settings.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/game-of-life/settings.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/home/home.js" afterPath="$PROJECT_DIR$/client/app/home/home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/home/home.js.map" afterPath="$PROJECT_DIR$/client/app/home/home.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/home/home.ts" afterPath="$PROJECT_DIR$/client/app/home/home.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main-compiled.js" afterPath="$PROJECT_DIR$/client/app/main-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main-compiled.js.map" afterPath="$PROJECT_DIR$/client/app/main-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/client/app/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main.js.map" afterPath="$PROJECT_DIR$/client/app/main.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main.ts" afterPath="$PROJECT_DIR$/client/app/main.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/nav/nav-compiled.js" afterPath="$PROJECT_DIR$/client/app/nav/nav-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/nav/nav-compiled.js.map" afterPath="$PROJECT_DIR$/client/app/nav/nav-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/nav/nav.js" afterPath="$PROJECT_DIR$/client/app/nav/nav.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/nav/nav.js.map" afterPath="$PROJECT_DIR$/client/app/nav/nav.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/nav/nav.ts" afterPath="$PROJECT_DIR$/client/app/nav/nav.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/not-found.js" afterPath="$PROJECT_DIR$/client/app/util/not-found.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/not-found.js.map" afterPath="$PROJECT_DIR$/client/app/util/not-found.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/not-found.ts" afterPath="$PROJECT_DIR$/client/app/util/not-found.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/page-not-found.html" afterPath="$PROJECT_DIR$/client/app/util/page-not-found.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/theGoodParts.js" afterPath="$PROJECT_DIR$/client/app/util/theGoodParts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/url-helper.js" afterPath="$PROJECT_DIR$/client/app/util/url-helper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/url-helper.js.map" afterPath="$PROJECT_DIR$/client/app/util/url-helper.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/util/url-helper.ts" afterPath="$PROJECT_DIR$/client/app/util/url-helper.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/blured.jpg" afterPath="$PROJECT_DIR$/client/content/img/blured.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/despeckle.jpg" afterPath="$PROJECT_DIR$/client/content/img/despeckle.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/flight-mountains-sky-flying.jpeg" afterPath="$PROJECT_DIR$/client/content/img/flight-mountains-sky-flying.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/half-05.jpg" afterPath="$PROJECT_DIR$/client/content/img/half-05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/half-size-0.jpg" afterPath="$PROJECT_DIR$/client/content/img/half-size-0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/half-size-1.jpg" afterPath="$PROJECT_DIR$/client/content/img/half-size-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/half-size-2.jpg" afterPath="$PROJECT_DIR$/client/content/img/half-size-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/half-size-3.jpg" afterPath="$PROJECT_DIR$/client/content/img/half-size-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/landscape-clouds-trees-sunrise-21845.jpg" afterPath="$PROJECT_DIR$/client/content/img/landscape-clouds-trees-sunrise-21845.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/lighten-0.jpg" afterPath="$PROJECT_DIR$/client/content/img/lighten-0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/lighten-3.jpg" afterPath="$PROJECT_DIR$/client/content/img/lighten-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/lighten-sm-d.jpg" afterPath="$PROJECT_DIR$/client/content/img/lighten-sm-d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/lighten-sm.jpg" afterPath="$PROJECT_DIR$/client/content/img/lighten-sm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/lighten.jpg" afterPath="$PROJECT_DIR$/client/content/img/lighten.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/motherboard.jpg" afterPath="$PROJECT_DIR$/client/content/img/motherboard.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/pexels-photo-48659.jpeg" afterPath="$PROJECT_DIR$/client/content/img/pexels-photo-48659.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/pexels-photo.jpg" afterPath="$PROJECT_DIR$/client/content/img/pexels-photo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/science-logo.png" afterPath="$PROJECT_DIR$/client/content/img/science-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/sky-de.jpg" afterPath="$PROJECT_DIR$/client/content/img/sky-de.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/img/telescope-science-discover-world.jpg" afterPath="$PROJECT_DIR$/client/content/img/telescope-science-discover-world.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_alert.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_alert.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_animation.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_animation.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_breadcrumb.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_breadcrumb.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_button-group.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_button-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_buttons.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_card.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_card.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_carousel.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_carousel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_close.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_close.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_code.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_code.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_custom-forms.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_custom-forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_dropdown.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_dropdown.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_forms.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_game-of-life.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_game-of-life.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_grid.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_images.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_images.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_input-group.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_input-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_jumbotron.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_jumbotron.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_labels.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_list-group.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_media.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_media.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_mixins.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_modal.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_modal.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_nav.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_nav.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_navbar.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_normalize.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_normalize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_pager.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_pager.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_pagination.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_popover.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_popover.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_print.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_print.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_progress.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_progress.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_reboot.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_reboot.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_responsive-embed.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_responsive-embed.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_tables.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_tooltip.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_tooltip.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_type.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_type.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_utilities-background.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_utilities-background.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_utilities-responsive.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_utilities-responsive.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_utilities-spacing.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_utilities-spacing.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_utilities.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/_variables.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-flex.css" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-flex.css.map" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-flex.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-grid.css" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-grid.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-reboot.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-reboot.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-reboot.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_alert.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_alert.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_background-variant.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_border-radius.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_breakpoints.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_cards.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_center-block.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_center-block.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_clearfix.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_forms.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_gradients.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_grid-framework.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_grid.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_hover.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_hover.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_image.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_label.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_label.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_lists.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_lists.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_nav-divider.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_navbar-align.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_navbar-align.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_progress.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_progress.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_pulls.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_pulls.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_reset-filter.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_reset-filter.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_reset-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_resize.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_resize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_size.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_size.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_tab-focus.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_tab-focus.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_table-row.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_text-emphasis.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_text-hide.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_text-hide.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/content/styles/bootstrap/scss/mixins/_text-truncate.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/mixins/_text-truncate.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/client/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/systemjs.config-compiled.js" afterPath="$PROJECT_DIR$/client/systemjs.config-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/systemjs.config-compiled.js.map" afterPath="$PROJECT_DIR$/client/systemjs.config-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/systemjs.config.js" afterPath="$PROJECT_DIR$/client/systemjs.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="" />
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -204,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="418">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -442,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -496,6 +314,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,6 +493,7 @@
       <workItem from="1470102413674" duration="4629000" />
       <workItem from="1470108509112" duration="7066000" />
       <workItem from="1470118589877" duration="1607000" />
+      <workItem from="1470199187466" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -686,7 +506,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100358000" />
+    <option name="totallyTimeSpent" value="101602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,23 +523,23 @@
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29660144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5053381" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32646757" sideWeight="0.49466193" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32646757" sideWeight="0.49466193" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -782,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-526">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3652">
           <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,8 +903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="418">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
