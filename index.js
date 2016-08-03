@@ -1,33 +1,38 @@
-var express = require('express');
+// modules       ============================================================================
+let express = require('express');
+let redbird = require('redbird');
+let nodeHttp = require('http');
+let socketIo = require('socket.io');
 
-var allForward = function (host, url) {
-    "use strict";
-    return {url:[
-        'http://127.0.0.1:3000'
-    ]}
+// instances     ============================================================================
+let app = express();
+let http = nodeHttp.Server(app);
+let io = socketIo(http,undefined);
+
+// configuration ============================================================================
+
+// redbird       ===->
+let defaultServer = function () {
+    return {url: ['http://127.0.0.1:3000']}
 };
 
-var proxy = require('redbird')({
-    port:5000,
-    resolvers:[allForward]
+let proxy = redbird({
+    port: 5000,
+    resolvers: [defaultServer]
 });
 
-var app = express();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-
+// express       ===->
 app.use(express.static('client'));
 
-app.get('/',function (request, response) {
-    console.log(request);
-    response.sendFile(__dirname + '/index.html');
+app.get('*',function (request, response) {
+    response.sendFile(__dirname + '/client/index.html');
 });
 
-io.on('connection',function (socket) {
-    console.log('io hit')
-});
-
+// start http    ===->
 http.listen(3000, function () {
-    "use strict";
-    console.log('listening to you sleep on *:3000')
+});
+
+// socket.io     ===->
+io.on('connection', function (socket) {
+    console.log('io hit');
 });
