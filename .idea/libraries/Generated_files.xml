@@ -2,9 +2,8 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/index-compiled.js" />
-        <item url="file://$PROJECT_DIR$/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/client/package-compiled.js" />
+        <item url="file://$PROJECT_DIR$/index-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -438,9 +437,8 @@
       <root url="file://$PROJECT_DIR$/client/node_modules/@angular/forms/esm/src/directives-compiled.js" />
       <root url="file://$PROJECT_DIR$/client/node_modules/@angular/forms/esm/src/directives/select_multiple_control_value_accessor-compiled.js" />
       <root url="file://$PROJECT_DIR$/client/node_modules/@angular/forms/esm/src/form_builder-compiled.js" />
-      <root url="file://$PROJECT_DIR$/index-compiled.js" />
-      <root url="file://$PROJECT_DIR$/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/client/package-compiled.js" />
+      <root url="file://$PROJECT_DIR$/index-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>
