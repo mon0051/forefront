@@ -9,18 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var UrlHelper = (function () {
-    function UrlHelper() {
+var HttpDataLine = (function () {
+    function HttpDataLine() {
     }
-    UrlHelper.appRoot = "/";
-    UrlHelper.resolvePath = function (path) {
-        return UrlHelper.appRoot + path;
-    };
-    UrlHelper = __decorate([
+    HttpDataLine = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], UrlHelper);
-    return UrlHelper;
+    ], HttpDataLine);
+    return HttpDataLine;
 }());
-exports.UrlHelper = UrlHelper;
-//# sourceMappingURL=url-helper.js.map
+exports.HttpDataLine = HttpDataLine;
+//# sourceMappingURL=http-dataline.js.map

@@ -8,19 +8,29 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var UrlHelper = (function () {
-    function UrlHelper() {
+var core_1 = require('@angular/core');
+var mock_data_1 = require("../mock-data/mock-data");
+var DataLineService = (function () {
+    function DataLineService() {
+        this.source = 'dummyData';
+        this.sourceMap = {
+            'dummyData': function () { return mock_data_1.MOCK_DATA; }
+        };
     }
-    UrlHelper.appRoot = "/";
-    UrlHelper.resolvePath = function (path) {
-        return UrlHelper.appRoot + path;
+    DataLineService.prototype.getData = function (source, args) {
+        var getFunc = this.sourceMap[(source || this.source || 'dummyData')];
+        if (typeof getFunc === 'function') {
+            return getFunc.apply.apply(getFunc, [this].concat(args));
+        }
+        else {
+            return getFunc;
+        }
     };
-    UrlHelper = __decorate([
+    DataLineService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], UrlHelper);
-    return UrlHelper;
+    ], DataLineService);
+    return DataLineService;
 }());
-exports.UrlHelper = UrlHelper;
-//# sourceMappingURL=url-helper.js.map
+exports.DataLineService = DataLineService;
+//# sourceMappingURL=dataline.js.map
