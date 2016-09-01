@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var UrlHelper = (function () {
-    function UrlHelper() {
+var url_helper_1 = require("../util/url-helper");
+var CardWidget = (function () {
+    function CardWidget() {
     }
-    UrlHelper.appRoot = "/";
-    UrlHelper.resolvePath = function (path) {
-        return UrlHelper.appRoot + path;
-    };
-    UrlHelper = __decorate([
-        core_1.Injectable(), 
+    CardWidget = __decorate([
+        core_1.Component({
+            selector: 'card-widget',
+            templateUrl: url_helper_1.UrlHelper.resolvePath('app/widget/widget.html')
+        }), 
         __metadata('design:paramtypes', [])
-    ], UrlHelper);
-    return UrlHelper;
+    ], CardWidget);
+    return CardWidget;
 }());
-exports.UrlHelper = UrlHelper;
-//# sourceMappingURL=url-helper.js.map
+exports.CardWidget = CardWidget;
+//# sourceMappingURL=widget.js.map

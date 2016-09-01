@@ -5,12 +5,13 @@ import {PageNotFoundComponent} from "../util/not-found";
 import {GameOfLife} from "../game-of-life/game-of-life";
 import {HomeComponent} from "../home/home";
 import {TypographyThinger} from "../line-height/typography-thinger";
+import {DataLineComponent} from "../dataline/DataLineComponent";
 
 @Component({
     selector: 'forefront-content',
     templateUrl: UrlHelper.resolvePath('app/content/content.html'),
     directives: [ROUTER_DIRECTIVES],
-    precompile: [PageNotFoundComponent,GameOfLife,HomeComponent,TypographyThinger]
+    precompile: [PageNotFoundComponent,GameOfLife,HomeComponent,TypographyThinger, DataLineComponent]
 })
 export class ForeFrontContent{
 

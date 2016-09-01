@@ -1,6 +1,6 @@
-import {bootstrap} from '@angular/platform-browser-dynamic';
-import {ForeFrontRoot} from './forefront-root/forefront-root';
-import {appRouterProviders} from './app.routes';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
-bootstrap(ForeFrontRoot,[appRouterProviders])
-    .catch(err => console.log(err));
+
+import {AppModule} from './app.modules';
+
+platformBrowserDynamic().bootstrapModule(AppModule);
