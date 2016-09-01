@@ -27,6 +27,8 @@ var TypographyThinger = (function () {
             this.lineWidth = this.lineHeight * this.lineHeight;
         };
         this.resolveFromFontSize = function () {
+            //  As both height and width are watched variables, complex calculations can cause the
+            //  view to glitch. Best to fully resolve the variables, then assign.
             this.lineHeight = (this.fontSize * this.goldenRatio).toFixed();
             this.lineWidth = (this.fontSize * this.goldenRatio * this.fontSize * this.goldenRatio *
                 (1 + (2 * this.goldenRatio) * ((this.lineHeight / this.fontSize) - this.goldenRatio)));
