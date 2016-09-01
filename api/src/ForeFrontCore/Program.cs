@@ -15,6 +15,7 @@ namespace ForeFrontCore
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseUrls("http://localhost:4000")
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();

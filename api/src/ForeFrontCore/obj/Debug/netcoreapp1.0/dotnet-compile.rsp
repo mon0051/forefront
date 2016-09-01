@@ -1,5 +1,5 @@
---temp-output:c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\obj\Debug\netcoreapp1.0\
---out:c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\bin\Debug\netcoreapp1.0\ForeFrontCore.dll
+--temp-output:C:\Git\projects\ForeFront\api\src\ForeFrontCore\obj\Debug\netcoreapp1.0\
+--out:C:\Git\projects\ForeFront\api\src\ForeFrontCore\bin\Debug\netcoreapp1.0\ForeFrontCore.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -166,7 +166,7 @@
 --reference:C:\Users\andrew.monteith\.nuget\packages\System.Threading.Timer\4.0.1-rc2-24027\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\andrew.monteith\.nuget\packages\System.Xml.ReaderWriter\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\andrew.monteith\.nuget\packages\System.Xml.XDocument\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\obj\Debug\netcoreapp1.0\ForeFrontCoredotnet-compile.deps.json",ForeFrontCore.deps.json
-c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\Program.cs
-c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\Startup.cs
-c:\users\andrew.monteith\documents\visual studio 2015\Projects\ForeFrontCore\src\ForeFrontCore\Controllers\ValuesController.cs
+--resource:"C:\Git\projects\ForeFront\api\src\ForeFrontCore\obj\Debug\netcoreapp1.0\ForeFrontCoredotnet-compile.deps.json",ForeFrontCore.deps.json
+C:\Git\projects\ForeFront\api\src\ForeFrontCore\Program.cs
+C:\Git\projects\ForeFront\api\src\ForeFrontCore\Startup.cs
+C:\Git\projects\ForeFront\api\src\ForeFrontCore\Controllers\ValuesController.cs
