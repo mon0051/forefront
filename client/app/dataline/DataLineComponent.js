@@ -14,11 +14,24 @@ var widget_1 = require("../widget/widget");
 var dataline_1 = require("./dataline");
 var DataLineComponent = (function () {
     function DataLineComponent(ds) {
+        var _this = this;
         this.dataLineService = ds;
-        this.data = this.dataLineService.getData(null, null);
+        this.dataLineService.getData('http', null)
+            .then(function (r) { return _this.data = r; });
     }
+    DataLineComponent.prototype.ngOnInit = function () {
+        //this.data = this.dataLineService.subscribe(data=>this.data=data);
+    };
+    ;
     DataLineComponent.prototype.stringed = function () {
-        return JSON.stringify(this.data, null, 2);
+        try {
+            return JSON.stringify(this.data, null, 2);
+        }
+        catch (e) {
+            console.log(e);
+            console.log(this.data);
+            return this.data.toString();
+        }
     };
     DataLineComponent.prototype.update = function () {
         this.data = this.dataLineService.getData(null, null);
@@ -28,9 +41,9 @@ var DataLineComponent = (function () {
             selector: 'data-line-component',
             templateUrl: url_helper_1.UrlHelper.resolvePath('app/dataline/data-line-component.html'),
             directives: [widget_1.CardWidget],
-            providers: [dataline_1.DataLineService]
+            providers: [dataline_1.DataLineRepository]
         }), 
-        __metadata('design:paramtypes', [dataline_1.DataLineService])
+        __metadata('design:paramtypes', [dataline_1.DataLineRepository])
     ], DataLineComponent);
     return DataLineComponent;
 }());

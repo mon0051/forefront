@@ -10,15 +10,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var mock_data_1 = require("../mock-data/mock-data");
-var DataLineService = (function () {
-    function DataLineService() {
-        this.source = 'dummyData';
+var http_dataline_1 = require("./http-dataline");
+var DataLineRepository = (function () {
+    function DataLineRepository(httpDataLine) {
+        this.contentSource = 'dummyData';
         this.sourceMap = {
-            'dummyData': function () { return mock_data_1.MOCK_DATA; }
+            'dummyData': function () { return Promise.resolve(function () { return mock_data_1.MOCK_DATA; }); },
+            'http': function dlHttp() { return httpDataLine.getData(); }
         };
     }
-    DataLineService.prototype.getData = function (source, args) {
-        var getFunc = this.sourceMap[(source || this.source || 'dummyData')];
+    DataLineRepository.prototype.getData = function (source, args) {
+        var getFunc = this.sourceMap[(source || this.contentSource || 'dummyData')];
         if (typeof getFunc === 'function') {
             return getFunc.apply.apply(getFunc, [this].concat(args));
         }
@@ -26,11 +28,11 @@ var DataLineService = (function () {
             return getFunc;
         }
     };
-    DataLineService = __decorate([
+    DataLineRepository = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [])
-    ], DataLineService);
-    return DataLineService;
+        __metadata('design:paramtypes', [http_dataline_1.HttpDataLine])
+    ], DataLineRepository);
+    return DataLineRepository;
 }());
-exports.DataLineService = DataLineService;
+exports.DataLineRepository = DataLineRepository;
 //# sourceMappingURL=dataline.js.map

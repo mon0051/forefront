@@ -19,6 +19,14 @@ var game_of_life_1 = require("./game-of-life/game-of-life");
 var typography_thinger_1 = require("./line-height/typography-thinger");
 var DataLineComponent_1 = require("./dataline/DataLineComponent");
 var not_found_1 = require("./util/not-found");
+var http_dataline_1 = require("./dataline/http-dataline");
+require('rxjs/add/observable/throw');
+require('rxjs/add/operator/catch');
+require('rxjs/add/operator/debounceTime');
+require('rxjs/add/operator/distinctUntilChanged');
+require('rxjs/add/operator/map');
+require('rxjs/add/operator/switchMap');
+require('rxjs/add/operator/toPromise');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -28,6 +36,7 @@ var AppModule = (function () {
                 http_1.HttpModule,
                 forms_1.FormsModule,
                 platform_browser_1.BrowserModule,
+                app_routes_1.appRouterProviders
             ],
             declarations: [
                 forefront_root_1.ForeFrontRoot,
@@ -36,7 +45,7 @@ var AppModule = (function () {
                 typography_thinger_1.TypographyThinger,
                 DataLineComponent_1.DataLineComponent,
                 not_found_1.PageNotFoundComponent],
-            providers: [app_routes_1.appRouterProviders],
+            providers: [http_dataline_1.HttpDataLine],
             bootstrap: [forefront_root_1.ForeFrontRoot]
         }), 
         __metadata('design:paramtypes', [])

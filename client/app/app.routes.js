@@ -14,7 +14,5 @@ var routes = [
     { path: 'index.html', redirectTo: 'home', pathMatch: 'full' },
     { path: '**', component: not_found_1.PageNotFoundComponent },
 ];
-exports.appRouterProviders = [
-    router_1.provideRouter(routes)
-];
+exports.appRouterProviders = router_1.RouterModule.forRoot(routes);
 //# sourceMappingURL=app.routes.js.map

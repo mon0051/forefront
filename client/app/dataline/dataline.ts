@@ -1,21 +1,28 @@
 import {Injectable} from '@angular/core';
-import {DataBlob} from "../mock-data/DataBlob";
 import {MOCK_DATA} from "../mock-data/mock-data";
+import {HttpDataLine} from "./http-dataline";
+import {Observable} from "rxjs/observable";
 
 @Injectable()
-export class DataLineService{
-    source:string = 'dummyData';
-    sourceMap:any = {
-        'dummyData': ()=>{return MOCK_DATA}
-    };
+export class DataLineRepository{
+    data:any;
+    contentSource:string = 'dummyData';
+    sourceMap:any;
 
-    getData(source:string,args): DataBlob[]{
-        let getFunc = this.sourceMap[(source || this.source || 'dummyData')];
+    getData(source,args): Promise<any>{
+        let getFunc = this.sourceMap[(source || this.contentSource || 'dummyData')];
 
         if(typeof getFunc === 'function'){
             return getFunc.apply(this,...args);
         }else{
             return getFunc;
         }
+    }
+
+    constructor(httpDataLine:HttpDataLine){
+        this.sourceMap = {
+            'dummyData': ()=> Promise.resolve(()=>MOCK_DATA),
+            'http': function dlHttp(){return httpDataLine.getData();}
+        };
     }
 }

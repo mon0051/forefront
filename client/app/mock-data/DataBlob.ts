@@ -1,4 +1,4 @@
-export class DataBlob {
+export class DataBlob{
     name: string;
     metadata: any;
 

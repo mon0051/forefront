@@ -12,7 +12,10 @@ let io = socketIo(http,undefined);
 // configuration ============================================================================
 
 // redbird       ===->
-let defaultServer = function () {
+let defaultServer = function (host,url) {
+    if(url.includes("api")){
+        return "http://127.0.0.1:4000";
+    }
     return {url: ['http://127.0.0.1:3000']}
 };
 

@@ -9,12 +9,22 @@ import {GameOfLife} from "./game-of-life/game-of-life";
 import {TypographyThinger} from "./line-height/typography-thinger";
 import {DataLineComponent} from "./dataline/DataLineComponent";
 import {PageNotFoundComponent} from "./util/not-found";
+import {HttpDataLine} from "./dataline/http-dataline";
+
+import 'rxjs/add/observable/throw';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/toPromise';
 
 @NgModule({
     imports:[
         HttpModule,
         FormsModule,
         BrowserModule,
+        appRouterProviders
         ],
     declarations:[
         ForeFrontRoot,
@@ -23,9 +33,8 @@ import {PageNotFoundComponent} from "./util/not-found";
         TypographyThinger,
         DataLineComponent,
         PageNotFoundComponent],
-    providers: [appRouterProviders],
+    providers:[HttpDataLine],
     bootstrap:[ForeFrontRoot]
-
 })
 export class AppModule{
 
