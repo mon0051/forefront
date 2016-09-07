@@ -33,8 +33,12 @@ import 'rxjs/add/operator/toPromise';
         TypographyThinger,
         DataLineComponent,
         PageNotFoundComponent],
-    providers:[HttpDataLine],
-    bootstrap:[ForeFrontRoot]
+    providers:[
+        HttpDataLine
+    ],
+    bootstrap:[
+        ForeFrontRoot
+    ]
 })
 export class AppModule{
 

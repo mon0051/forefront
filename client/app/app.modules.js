@@ -45,8 +45,12 @@ var AppModule = (function () {
                 typography_thinger_1.TypographyThinger,
                 DataLineComponent_1.DataLineComponent,
                 not_found_1.PageNotFoundComponent],
-            providers: [http_dataline_1.HttpDataLine],
-            bootstrap: [forefront_root_1.ForeFrontRoot]
+            providers: [
+                http_dataline_1.HttpDataLine
+            ],
+            bootstrap: [
+                forefront_root_1.ForeFrontRoot
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

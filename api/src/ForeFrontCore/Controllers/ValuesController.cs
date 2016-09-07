@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ForeFrontCore.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ForeFrontCore.Controllers
@@ -9,11 +10,13 @@ namespace ForeFrontCore.Controllers
     [Route("api/values")]
     public class ValuesController : Controller
     {
+        private DummyData data = new DummyData();
+
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<object> Get()
         {
-            return new string[] { "value1", "value2" };
+            return data.Data;
         }
 
         // GET api/values/5

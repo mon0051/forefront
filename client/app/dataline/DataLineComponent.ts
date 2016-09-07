@@ -1,39 +1,53 @@
-import {Component, OnInit} from "@angular/core";
+import {Component} from "@angular/core";
 import {UrlHelper} from "../util/url-helper";
 import {CardWidget} from "../widget/widget";
-import {DataLineRepository} from "./dataline";
+import {DataLineRepository} from "./DataLineRepository";
 
 @Component({
-    selector:'data-line-component',
-    templateUrl:UrlHelper.resolvePath('app/dataline/data-line-component.html'),
-    directives:[CardWidget],
-    providers:[DataLineRepository]
+    selector: 'data-line-component',
+    templateUrl: UrlHelper.resolvePath('app/dataline/data-line-component.html'),
+    directives: [CardWidget],
+    providers: [DataLineRepository]
 })
-export class DataLineComponent implements OnInit{
-    data:any;
-    dataLineService:DataLineRepository;
-
-    ngOnInit(){
-        //this.data = this.dataLineService.subscribe(data=>this.data=data);
-    };
+export class DataLineComponent {
+    data: any;
+    observed: any;
+    dataLineService: DataLineRepository;
+    source: string;
+    sourceTypes: Array<string> = ['dummyData', 'http'];
 
     stringed(): string {
         try {
-            return JSON.stringify(this.data, null, 2);
-        }catch(e) {
+            return JSON.stringify(this.data, null, 4);
+        } catch (e) {
             console.log(e);
             console.log(this.data);
             return this.data.toString();
         }
     }
 
-    update(): void{
-        this.data = this.dataLineService.getData(null, null);
+    stringedObservable(): string {
+        try {
+            return JSON.stringify(this.observed, null, 4);
+        } catch (e) {
+            console.log(e);
+            console.log(this.observed);
+            return this.observed.toString();
+        }
     }
 
-    constructor(ds: DataLineRepository){
+    update(): void {
+        this.data = this.dataLineService.getDataAsPromise(null, null);
+    }
+
+    constructor(ds: DataLineRepository) {
         this.dataLineService = ds;
-        this.dataLineService.getData('http', null)
-            .then((r)=>this.data = r);
+        this.source = 'dummyData';
+
+        ds.getDataAsPromise(this.source, null)
+            .then((r)=> this.data = r);
+
+        ds.getDataAsObservable(this.source, null)
+            .subscribe((x)=>this.observed = x);
     }
 }

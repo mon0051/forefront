@@ -11,16 +11,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var mock_data_1 = require("../mock-data/mock-data");
 var http_dataline_1 = require("./http-dataline");
+var PromiseObservable_1 = require("rxjs/observable/PromiseObservable");
 var DataLineRepository = (function () {
     function DataLineRepository(httpDataLine) {
         this.contentSource = 'dummyData';
         this.sourceMap = {
-            'dummyData': function () { return Promise.resolve(function () { return mock_data_1.MOCK_DATA; }); },
-            'http': function dlHttp() { return httpDataLine.getData(); }
+            'dummyData': function () { return Promise.resolve(mock_data_1.MOCK_DATA); },
+            'http': function () { return httpDataLine.getDataAsPromise(); }
+        };
+        this.sourceMapForObservable = {
+            'dummyData': function () { return PromiseObservable_1.PromiseObservable.create(Promise.resolve(mock_data_1.MOCK_DATA)); },
+            'http': function () { return httpDataLine.getDataAsObservable(); }
         };
     }
-    DataLineRepository.prototype.getData = function (source, args) {
+    DataLineRepository.prototype.getDataAsPromise = function (source, args) {
         var getFunc = this.sourceMap[(source || this.contentSource || 'dummyData')];
+        if (typeof getFunc === 'function') {
+            return getFunc.apply.apply(getFunc, [this].concat(args));
+        }
+        else {
+            return getFunc;
+        }
+    };
+    DataLineRepository.prototype.getDataAsObservable = function (source, args) {
+        var getFunc = this.sourceMapForObservable[(source || this.contentSource || 'dummyData')];
         if (typeof getFunc === 'function') {
             return getFunc.apply.apply(getFunc, [this].concat(args));
         }
@@ -35,4 +49,4 @@ var DataLineRepository = (function () {
     return DataLineRepository;
 }());
 exports.DataLineRepository = DataLineRepository;
-//# sourceMappingURL=dataline.js.map
+//# sourceMappingURL=DataLineRepository.js.map

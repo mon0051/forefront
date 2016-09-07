@@ -4,17 +4,15 @@ let redbird = require('redbird');
 let nodeHttp = require('http');
 let socketIo = require('socket.io');
 let bunyan = require('bunyan');
-let exec = require('child_process').exec;
+let spawn = require('child_process').spawn;
 
 // instances     ============================================================================
 let app = express();
 let http = nodeHttp.Server(app);
 let io = socketIo(http,undefined);
-let dotnet = exec('dotnet api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.dll',function (e,stdout,stderr) {
-    if(e){
-        console.error(e);
-        return false;
-    }
+let dotnet = spawn('dotnet' ,['run'], {
+    cwd:'api/src/ForeFrontCore',
+    stdio:['ignore','inherit','inherit']
 });
 
 // configuration ============================================================================

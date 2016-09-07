@@ -11,21 +11,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var url_helper_1 = require("../util/url-helper");
 var widget_1 = require("../widget/widget");
-var dataline_1 = require("./dataline");
+var DataLineRepository_1 = require("./DataLineRepository");
 var DataLineComponent = (function () {
     function DataLineComponent(ds) {
         var _this = this;
+        this.sourceTypes = ['dummyData', 'http'];
         this.dataLineService = ds;
-        this.dataLineService.getData('http', null)
+        this.source = 'dummyData';
+        ds.getDataAsPromise(this.source, null)
             .then(function (r) { return _this.data = r; });
+        ds.getDataAsObservable(this.source, null)
+            .subscribe(function (x) { return _this.observed = x; });
     }
-    DataLineComponent.prototype.ngOnInit = function () {
-        //this.data = this.dataLineService.subscribe(data=>this.data=data);
-    };
-    ;
     DataLineComponent.prototype.stringed = function () {
         try {
-            return JSON.stringify(this.data, null, 2);
+            return JSON.stringify(this.data, null, 4);
         }
         catch (e) {
             console.log(e);
@@ -33,17 +33,27 @@ var DataLineComponent = (function () {
             return this.data.toString();
         }
     };
+    DataLineComponent.prototype.stringedObservable = function () {
+        try {
+            return JSON.stringify(this.observed, null, 4);
+        }
+        catch (e) {
+            console.log(e);
+            console.log(this.observed);
+            return this.observed.toString();
+        }
+    };
     DataLineComponent.prototype.update = function () {
-        this.data = this.dataLineService.getData(null, null);
+        this.data = this.dataLineService.getDataAsPromise(null, null);
     };
     DataLineComponent = __decorate([
         core_1.Component({
             selector: 'data-line-component',
             templateUrl: url_helper_1.UrlHelper.resolvePath('app/dataline/data-line-component.html'),
             directives: [widget_1.CardWidget],
-            providers: [dataline_1.DataLineRepository]
+            providers: [DataLineRepository_1.DataLineRepository]
         }), 
-        __metadata('design:paramtypes', [dataline_1.DataLineRepository])
+        __metadata('design:paramtypes', [DataLineRepository_1.DataLineRepository])
     ], DataLineComponent);
     return DataLineComponent;
 }());
