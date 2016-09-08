@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/util/ParamsAggregate.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/dataline/dataline.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/dataline/dataline.ts" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/app/dataline/dataline.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.dll" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.pdb" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Agreement.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Dependent.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Employee.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/EmployeePerformance.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Project.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Reporting_PerformanceSummary.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/Team.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/TimesheetEntry.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/KiandraTimesheets/storedProcedures.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/proving-grounds/ProvingGrounds.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/proving-grounds/proving-grounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/util/Monad.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/andrew_monteith.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/andrew_monteith.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/Controllers/ValuesController.cs" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/Controllers/ValuesController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/Program.cs" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/.IncrementalCache" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/.IncrementalCache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/dotnet-compile-csc.rsp" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/dotnet-compile-csc.rsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/dotnet-compile.rsp" afterPath="$PROJECT_DIR$/api/src/ForeFrontCore/obj/Debug/netcoreapp1.0/dotnet-compile.rsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js" afterPath="$PROJECT_DIR$/client/app/app.modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js.map" afterPath="$PROJECT_DIR$/client/app/app.modules.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.ts" afterPath="$PROJECT_DIR$/client/app/app.modules.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/data-line-component.html" afterPath="$PROJECT_DIR$/client/app/dataline/data-line-component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.ts" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/ParamsAggregate.js.map" afterPath="$PROJECT_DIR$/client/app/util/ParamsAggregate.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/ParamsAggregate.ts" afterPath="$PROJECT_DIR$/client/app/util/ParamsAggregate.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/theGoodParts.js" afterPath="$PROJECT_DIR$/client/app/util/theGoodParts.js" />
     </list>
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,83 +41,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataLineRepository.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineRepository.ts">
+      <file leaf-file-name="Reporting_PerformanceSummary.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Reporting_PerformanceSummary.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NullSafeAccessor.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParamsAggregate.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/app/util/ParamsAggregate.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lib.es6.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="2384" column="4" selection-start-line="2384" selection-start-column="4" selection-end-line="2384" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http-dataline.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/dataline/http-dataline.ts">
+      <file leaf-file-name="storedProcedures.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/storedProcedures.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationRouteValidationController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../optal/src/ui/portal/app/registration/application/RegistrationRouteValidationController.js">
+      <file leaf-file-name="EmployeePerformance.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/EmployeePerformance.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="308">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimesheetEntry.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/TimesheetEntry.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#TimesheetEntry#0" expanded="false" />
+                <element signature="n#TimesheetEntryDetail#0" expanded="false" />
+                <element signature="n#TimesheetEntryBreakdown#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Agreement.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Agreement.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-line-component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/dataline/data-line-component.html">
+      <file leaf-file-name="Project.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Project.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="22">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataLineComponent.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts">
+      <file leaf-file-name="Team.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Team.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Employee.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,20 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/content/styles/bootstrap/scss/_game-of-life.scss" />
-        <option value="$PROJECT_DIR$/app/game-of-life/settings.ts" />
-        <option value="$PROJECT_DIR$/app/app.routes.ts" />
-        <option value="$PROJECT_DIR$/app/content/content.html" />
-        <option value="$PROJECT_DIR$/content/styles/bootstrap/scss/_utilities-background.scss" />
-        <option value="$PROJECT_DIR$/content/styles/bootstrap/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/game-of-life/game-of-life.html" />
-        <option value="$PROJECT_DIR$/app/home/home.html" />
-        <option value="$PROJECT_DIR$/content/styles/bootstrap/scss/_custom.scss" />
-        <option value="$PROJECT_DIR$/app/nav/nav.html" />
-        <option value="$PROJECT_DIR$/content/styles/bootstrap/scss/_nav.scss" />
-        <option value="$PROJECT_DIR$/server/index.js" />
-        <option value="$PROJECT_DIR$/app/util/url-helper.ts" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/client/package.json.js" />
         <option value="$PROJECT_DIR$/client/gulpfile.js" />
@@ -199,6 +186,20 @@
         <option value="$PROJECT_DIR$/../../optal/src/ui/portal/app/registration/application/RegistrationRouteValidationController.js" />
         <option value="$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts" />
         <option value="$PROJECT_DIR$/client/app/util/ParamsAggregate.ts" />
+        <option value="$PROJECT_DIR$/client/app/util/theGoodParts.js" />
+        <option value="$PROJECT_DIR$/client/app/proving-grounds/proving-grounds.html" />
+        <option value="$PROJECT_DIR$/client/app/proving-grounds/ProvingGrounds.ts" />
+        <option value="$PROJECT_DIR$/client/app/util/Monad.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Employee.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Team.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Dependent.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Reporting_PerformanceSummary.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/storedProcedures.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/TimesheetEntryByDayExtended.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Agreement.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/Project.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/EmployeePerformance.ts" />
+        <option value="$PROJECT_DIR$/client/app/KiandraTimesheets/TimesheetEntry.ts" />
       </list>
     </option>
   </component>
@@ -238,63 +239,21 @@
             <id />
           </State>
           <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Code style issuesCSS</id>
-          </State>
-          <State>
             <id>Code style issuesJavaScript</id>
           </State>
           <State>
             <id>Control flow issuesJavaScript</id>
           </State>
           <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
             <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>HAML</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
           </State>
           <State>
             <id>JavaScript</id>
           </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Pug/Jade</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>GeneralJavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -325,7 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,34 +352,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataline" />
+              <option name="myItemId" value="KiandraTimesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -445,18 +382,18 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.3.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\projects\ForeFront" />
+      <recent name="C:\Git\projects\ForeFront\client\client_node" />
+      <recent name="C:\git\forefront\content\img" />
+      <recent name="C:\Git\projects\ForeFront\styles\bootstrap" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git\forefront\client\app\widget" />
       <recent name="C:\Git\projects\ForeFront\client" />
       <recent name="C:\Git\projects\ForeFront\client\content" />
       <recent name="C:\Git\projects\ForeFront" />
       <recent name="C:\git\forefront\content\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Git\projects\ForeFront" />
-      <recent name="C:\Git\projects\ForeFront\client\client_node" />
-      <recent name="C:\git\forefront\content\img" />
-      <recent name="C:\Git\projects\ForeFront\styles\bootstrap" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -620,7 +557,8 @@
       <workItem from="1472776417465" duration="12403000" />
       <workItem from="1473043163787" duration="1830000" />
       <workItem from="1473206226175" duration="26000" />
-      <workItem from="1473206275237" duration="5929000" />
+      <workItem from="1473206275237" duration="13749000" />
+      <workItem from="1473305293715" duration="10532000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -633,7 +571,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194937000" />
+    <option name="totallyTimeSpent" value="213289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,14 +583,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29660144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27345416" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29660144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27665246" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5053381" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -665,7 +604,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -704,96 +642,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/app/app.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/web.config" />
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.runtimeconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.runtimeconfig.dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/bin/Debug/netcoreapp1.0/ForeFrontCore.deps.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/ForeFrontCore.xproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/project.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/ForeFrontCore/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1008,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineRepository.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="594">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1046,27 +897,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="52162">
+          <caret line="2384" column="4" selection-start-line="2384" selection-start-column="4" selection-end-line="2384" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/util/theGoodParts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="2384" column="4" selection-start-line="2384" selection-start-column="4" selection-end-line="2384" selection-end-column="4" />
+        <state relative-caret-position="110">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/proving-grounds/proving-grounds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/proving-grounds/ProvingGrounds.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/util/ParamsAggregate.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/Monad.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Dependent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Reporting_PerformanceSummary.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/storedProcedures.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Team.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Agreement.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Project.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/Employee.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/EmployeePerformance.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/KiandraTimesheets/TimesheetEntry.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#TimesheetEntry#0" expanded="false" />
+            <element signature="n#TimesheetEntryDetail#0" expanded="false" />
+            <element signature="n#TimesheetEntryBreakdown#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

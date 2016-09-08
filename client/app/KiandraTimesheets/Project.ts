@@ -1,0 +1,24 @@
+export class Project {
+    projectId;
+    projectName;
+    projectAbbreviation;
+    projectType:string;
+    projectBudget;
+    budgetHours;
+    projectBudgetAndContingency;
+    projectContingency;
+    projectTeamId;
+    clientId;
+    clientCode;
+    clientName;
+    projectCloseDate;
+    projectIsFixedPrice;
+    projectIsPresales;
+    projectIsActive;
+    projectStatus;
+    projectStartDate;
+    projectEndDate;
+    manager;
+    itemDescription;
+    employeeCode;
+}
