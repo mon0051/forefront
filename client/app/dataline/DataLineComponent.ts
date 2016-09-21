@@ -1,13 +1,12 @@
 import {Component} from "@angular/core";
-import {UrlHelper} from "../util/url-helper";
+import {resolvePath} from "../util/url-helper";
 import {CardWidget} from "../widget/widget";
 import {DataLineRepository} from "./DataLineRepository";
 
 @Component({
     selector: 'data-line-component',
-    templateUrl: UrlHelper.resolvePath('app/dataline/data-line-component.html'),
-    directives: [CardWidget],
-    providers: [DataLineRepository]
+    templateUrl: resolvePath('app/dataline/data-line-component.html'),
+    providers: [DataLineRepository, CardWidget]
 })
 export class DataLineComponent {
     data: any;

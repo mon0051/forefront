@@ -15,7 +15,7 @@ var PageNotFoundComponent = (function () {
     }
     PageNotFoundComponent = __decorate([
         core_1.Component({
-            templateUrl: url_helper_1.UrlHelper.resolvePath('app/util/page-not-found.html')
+            templateUrl: url_helper_1.resolvePath('app/util/page-not-found.html')
         }), 
         __metadata('design:paramtypes', [])
     ], PageNotFoundComponent);

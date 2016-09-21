@@ -49,9 +49,8 @@ var DataLineComponent = (function () {
     DataLineComponent = __decorate([
         core_1.Component({
             selector: 'data-line-component',
-            templateUrl: url_helper_1.UrlHelper.resolvePath('app/dataline/data-line-component.html'),
-            directives: [widget_1.CardWidget],
-            providers: [DataLineRepository_1.DataLineRepository]
+            templateUrl: url_helper_1.resolvePath('app/dataline/data-line-component.html'),
+            providers: [DataLineRepository_1.DataLineRepository, widget_1.CardWidget]
         }), 
         __metadata('design:paramtypes', [DataLineRepository_1.DataLineRepository])
     ], DataLineComponent);

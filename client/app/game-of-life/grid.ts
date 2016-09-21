@@ -2,12 +2,12 @@ import {Cell} from './cell';
 import {Component} from '@angular/core';
 import {Settings} from "./settings";
 import {NgClass} from '@angular/common'
-import {UrlHelper} from "../util/url-helper";
+import {resolvePath} from "../util/url-helper";
 
 @Component({
     selector: 'gol-grid',
-    templateUrl: UrlHelper.resolvePath('app/game-of-life/grid.html'),
-    directives:[NgClass]
+    templateUrl: resolvePath('app/game-of-life/grid.html'),
+    providers:[NgClass]
 })
 export class Grid {
     cells:Array<Array<Cell>>;
@@ -49,7 +49,7 @@ export class Grid {
         return that;
     };
 
-    forAllCells = function(func,args){
+    forAllCells = function(func:any,args:any){
         this.cells.forEach(function (row:Array<Cell>) {
             row.forEach(function (cell:Cell) {
                 func(cell,...args);

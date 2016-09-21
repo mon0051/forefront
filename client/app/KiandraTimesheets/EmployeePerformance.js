@@ -25,6 +25,7 @@ var EmployeePerformanceCW = (function () {
 exports.EmployeePerformanceCW = EmployeePerformanceCW;
 var EmployeePerformanceTS = (function () {
     function EmployeePerformanceTS() {
+        this.dependencies = [];
     }
     return EmployeePerformanceTS;
 }());

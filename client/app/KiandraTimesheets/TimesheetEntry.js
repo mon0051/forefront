@@ -12,24 +12,28 @@ var TimesheetEntry = (function () {
 }());
 var TimesheetEntryDetail = (function () {
     function TimesheetEntryDetail() {
+        this.parentView = new TimesheetEntry();
         this.dependencies = [TimesheetEntry];
     }
     return TimesheetEntryDetail;
 }());
 var TimesheetEntryBreakdown = (function () {
     function TimesheetEntryBreakdown() {
+        this.parentView = new TimesheetEntryDetail();
         this.dependencies = [TimesheetEntryDetail];
     }
     return TimesheetEntryBreakdown;
 }());
 var TimesheetEntryByDay = (function () {
     function TimesheetEntryByDay() {
+        this.parentView = new TimesheetEntryBreakdown();
         this.dependencies = [TimesheetEntryBreakdown];
     }
     return TimesheetEntryByDay;
 }());
 var TimesheetEntryByDayExtended = (function () {
     function TimesheetEntryByDayExtended() {
+        this.parentView = new TimesheetEntryByDay();
         this.dependencies = [
             TimesheetEntryByDay
         ];

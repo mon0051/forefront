@@ -42,6 +42,7 @@ var Cell = (function () {
             this.status = "alive";
         };
         this.digest = function (func, args) {
+            if (args === void 0) { args = null; }
             var that = this;
             return func.apply.apply(func, [that].concat(args));
         };

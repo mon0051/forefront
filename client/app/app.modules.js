@@ -27,6 +27,10 @@ require('rxjs/add/operator/distinctUntilChanged');
 require('rxjs/add/operator/map');
 require('rxjs/add/operator/switchMap');
 require('rxjs/add/operator/toPromise');
+var nav_1 = require("./nav/nav");
+var content_1 = require("./content/content");
+var grid_1 = require("./game-of-life/grid");
+var widget_1 = require("./widget/widget");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -40,8 +44,12 @@ var AppModule = (function () {
             ],
             declarations: [
                 forefront_root_1.ForeFrontRoot,
-                home_1.HomeComponent,
+                nav_1.ForeFrontNav,
+                content_1.ForeFrontContent,
                 game_of_life_1.GameOfLife,
+                home_1.HomeComponent,
+                grid_1.Grid,
+                widget_1.CardWidget,
                 typography_thinger_1.TypographyThinger,
                 DataLineComponent_1.DataLineComponent,
                 not_found_1.PageNotFoundComponent],

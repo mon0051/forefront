@@ -61,13 +61,13 @@ export class Cell {
       this.status = "alive";
     };
 
-    digest = function (func, args) {
+    digest = function (func:any, args:any=null) {
         let that:Cell = this;
         return func.apply(that, ...args);
     };
 
     setNeighbours = function () {
-        let neighbours = [];
+        let neighbours:any = [];
         for (let i = -1; i <= 1; i++) {
             for (let j = -1; j <= 1; j++) {
                 if (i === 0 && j === 0) continue;
@@ -75,7 +75,7 @@ export class Cell {
                 neighbours[neighbours.length] = this.getRelative(i, j);
             }
         }
-        this.neighbours = neighbours.filter((x)=>(x));
+        this.neighbours = neighbours.filter((x: any)=>(x));
     };
 
     private getRelative = function (offsetY:number, offsetX:number) {
@@ -97,7 +97,7 @@ export class Cell {
             3: "perfect"
         };
 
-        this.neighbours.forEach(function (cell) {
+        this.neighbours.forEach(function (cell: any) {
             if (cell.status === "alive" || cell.status === "dying") {
                 livingNeighbours += 1;
             }

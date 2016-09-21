@@ -44,7 +44,7 @@ var TypographyThinger = (function () {
     TypographyThinger = __decorate([
         core_1.Component({
             selector: "typography-thinger",
-            templateUrl: url_helper_1.UrlHelper.resolvePath("app/line-height/typography-thinger.html")
+            templateUrl: url_helper_1.resolvePath("app/line-height/typography-thinger.html")
         }), 
         __metadata('design:paramtypes', [])
     ], TypographyThinger);

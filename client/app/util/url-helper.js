@@ -9,12 +9,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+//let appRoot:string = "C:/Git/projects/ForeFront/client/";
+var appRoot = "";
 var UrlHelper = (function () {
     function UrlHelper() {
     }
-    UrlHelper.appRoot = "/";
     UrlHelper.resolvePath = function (path) {
-        return UrlHelper.appRoot + path;
+        return appRoot + path;
     };
     UrlHelper = __decorate([
         core_1.Injectable(), 
@@ -23,4 +24,12 @@ var UrlHelper = (function () {
     return UrlHelper;
 }());
 exports.UrlHelper = UrlHelper;
+function updatePath(path) {
+    appRoot = path;
+}
+exports.updatePath = updatePath;
+function resolvePath(path) {
+    return appRoot + path;
+}
+exports.resolvePath = resolvePath;
 //# sourceMappingURL=url-helper.js.map

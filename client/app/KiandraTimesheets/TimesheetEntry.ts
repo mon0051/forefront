@@ -51,6 +51,7 @@ class TimesheetEntry implements Dependent {
 }
 
 class TimesheetEntryDetail implements Dependent {
+    parentView:TimesheetEntry = new TimesheetEntry();
     dependencies: Array<any> = [TimesheetEntry];
     TimesheetEntryId;
     TimesheetEntryDate;
@@ -119,6 +120,7 @@ class TimesheetEntryDetail implements Dependent {
 }
 
 class TimesheetEntryBreakdown implements Dependent {
+    parentView:TimesheetEntryDetail = new TimesheetEntryDetail();
     dependencies: Array<any> = [TimesheetEntryDetail];
 
     BillableHours;
@@ -188,6 +190,7 @@ class TimesheetEntryBreakdown implements Dependent {
 }
 
 class TimesheetEntryByDay implements Dependent {
+    parentView:TimesheetEntryBreakdown = new TimesheetEntryBreakdown();
     dependencies: Array<any> = [TimesheetEntryBreakdown];
 
     ActualHours;
@@ -241,6 +244,8 @@ class TimesheetEntryByDay implements Dependent {
 }
 
 export class TimesheetEntryByDayExtended implements Dependent {
+    parentView: TimesheetEntryByDay = new TimesheetEntryByDay();
+
     dependencies: Array<any> = [
         TimesheetEntryByDay
     ];

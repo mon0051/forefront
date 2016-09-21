@@ -16,7 +16,7 @@ var CardWidget = (function () {
     CardWidget = __decorate([
         core_1.Component({
             selector: 'card-widget',
-            templateUrl: url_helper_1.UrlHelper.resolvePath('app/widget/widget.html')
+            templateUrl: url_helper_1.resolvePath('app/widget/widget.html')
         }), 
         __metadata('design:paramtypes', [])
     ], CardWidget);

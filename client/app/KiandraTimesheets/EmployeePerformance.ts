@@ -8,15 +8,17 @@ export class EmployeePerformance implements Dependent{
         EmployeePerformanceCW,
         EmployeePerformanceTS,
         Team
-    ]
+    ];
 }
+
 export class EmployeePerformanceCW implements Dependent{
     dependencies = [
         TimesheetEntryByDayExtended
-    ]
+    ];
 }
+
 export class EmployeePerformanceTS implements Dependent{
-    dependencies;
+    dependencies = [];
 }
 
 

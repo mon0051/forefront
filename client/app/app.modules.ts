@@ -18,28 +18,36 @@ import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/operator/toPromise';
+import {ForeFrontNav} from "./nav/nav";
+import {ForeFrontContent} from "./content/content";
+import {Grid} from "./game-of-life/grid";
+import {CardWidget} from "./widget/widget";
 
 @NgModule({
-    imports:[
+    imports: [
         HttpModule,
         FormsModule,
         BrowserModule,
         appRouterProviders
-        ],
-    declarations:[
+    ],
+    declarations: [
         ForeFrontRoot,
-        HomeComponent,
+        ForeFrontNav,
+        ForeFrontContent,
         GameOfLife,
+        HomeComponent,
+        Grid,
+        CardWidget,
         TypographyThinger,
         DataLineComponent,
         PageNotFoundComponent],
-    providers:[
+    providers: [
         HttpDataLine
     ],
-    bootstrap:[
+    bootstrap: [
         ForeFrontRoot
     ]
 })
-export class AppModule{
+export class AppModule {
 
 }
