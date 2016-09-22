@@ -3,4 +3,4 @@
 
 
 
-}(window.app || (window.app = {settings: {}, alert: function(){}})));
+}(window.app || (window.clientFiles = {settings: {}, alert: function(){}})));

@@ -1,64 +1,49 @@
-// modules       ============================================================================
-let express = require('express');
-let redbird = require('redbird');
-let nodeHttp = require('http');
-let socketIo = require('socket.io');
-let bunyan = require('bunyan');
-let spawn = require('child_process').spawn;
+"use strict";
+
+// settings      ============================================================================
+var dotNetCoreServerAddress = "http://127.0.0.1:4000";
+var staticContentPort = 3000;
+var staticContentServerAddress = "http://127.0.0.1:" + staticContentPort;
+var reverseProxyPort = 5000;
+var loggerSettings = { name: 'std', level: 'warn' };
+var dotnetCoreRoot = 'api/src/ForeFrontCore';
+
+// imports       ============================================================================
+var express = require('express');
+var redbird = require('redbird');
+var nodeHttp = require('http');
+require('bunyan');
+var spawn = require('child_process').spawn;
 
 // instances     ============================================================================
-let app = express();
-let liveApp = express();
-let http = nodeHttp.Server(app);
-let liveHttp = nodeHttp.Server(liveApp);
-let io = socketIo(http,undefined);
-let dotnet = spawn('dotnet' ,['run'], {
-    cwd:'api/src/ForeFrontCore',
-    stdio:['ignore','inherit','inherit']
+var clientFiles = express();
+
+var dotnet = spawn('dotnet', ['run'], {
+    cwd: dotnetCoreRoot,
+    stdio: ['ignore', 'inherit', 'inherit']
 });
 
 // configuration ============================================================================
 
-// redbird       ===->
-let defaultServer = function (host,url) {
-    if(url.startsWith("/api/")){
-        return "http://127.0.0.1:4000";
-    }
-    if (url.startsWith("/live/")) {
-        return "http://127.0.0.1:2000";
-    }
-    return {url: ['http://127.0.0.1:3000']}
+// reverse proxy resolver      ===->
+var resolveUrl = function resolveUrl(host, url) {
+    return url.startsWith("/api/") ? dotNetCoreServerAddress : { url: [staticContentServerAddress] };
 };
 
-let proxy = redbird({
-    port: 5000,
-    bunyan:{
-        name:'std',
-        level:'warn'
-    },
-    resolvers: [defaultServer]
+// start redbird reverse proxy ===->
+redbird({
+    port: reverseProxyPort,
+    bunyan: loggerSettings,
+    resolvers: [resolveUrl]
 });
 
 // express       ===->
-app.use(express.static('client'));
-app.get('*',function (request, response) {
-    response.sendFile(__dirname + '/client/index-dynamic.html');
+clientFiles.use(express.static('client'));
+clientFiles.get('*', function (request, response) {
+    response.sendFile(__dirname + '/client/index.html');
 });
 
-// start http    ===->
-http.listen(3000, function () {
-});
-/*
-liveApp.use(express.static('client'));
-liveApp.get('*', function (request, response) {
-    response.sendFile(__dirname + '/client/index-dynamic.html');
-});
+// start serving static files    ===->
+nodeHttp.Server(clientFiles).listen(staticContentPort, function () {});
 
-// start http    ===->
-liveHttp.listen(2000, function () {
-});
-*/
-// socket.io     ===->
-io.on('connection', function (socket) {
-    console.log('io hit');
-});
+//# sourceMappingURL=index.js.map
