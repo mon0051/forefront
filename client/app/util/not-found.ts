@@ -1,7 +1,8 @@
 import {Component} from "@angular/core";
-import {resolvePath} from "./url-helper";
+import {pathPrefix} from "./url-helper";
+
 @Component({
-    templateUrl: resolvePath('app/util/page-not-found.html')
+    templateUrl: pathPrefix +'app/util/page-not-found.html'
 })
 export class PageNotFoundComponent{
 

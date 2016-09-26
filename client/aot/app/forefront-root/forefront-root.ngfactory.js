@@ -12,40 +12,20 @@ var __extends = (this && this.__extends) || function (d, b) {
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
 var import3 = require('../../../app/forefront-root/forefront-root');
-var import4 = require('../../../app/nav/nav');
-var import5 = require('../../../app/content/content');
-var import8 = require('@angular/core/src/linker/view_type');
-var import9 = require('@angular/core/src/change_detection/change_detection');
-var import10 = require('@angular/core/src/metadata/view');
-var import11 = require('@angular/core/src/linker/component_factory');
+var import6 = require('@angular/core/src/linker/view_type');
+var import7 = require('@angular/core/src/change_detection/change_detection');
+var import8 = require('@angular/core/src/metadata/view');
+var import9 = require('@angular/core/src/linker/component_factory');
+var import10 = require('../../../app/nav/nav');
+var import11 = require('../../../app/content/content');
 var import12 = require('../nav/nav.ngfactory');
 var import13 = require('../content/content.ngfactory');
 var renderType_ForeFrontRoot_Host = null;
 var _View_ForeFrontRoot_Host0 = (function (_super) {
     __extends(_View_ForeFrontRoot_Host0, _super);
     function _View_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationEl) {
-        _super.call(this, _View_ForeFrontRoot_Host0, renderType_ForeFrontRoot_Host, import8.ViewType.HOST, viewUtils, parentInjector, declarationEl, import9.ChangeDetectorStatus.CheckAlways);
+        _super.call(this, _View_ForeFrontRoot_Host0, renderType_ForeFrontRoot_Host, import6.ViewType.HOST, viewUtils, parentInjector, declarationEl, import7.ChangeDetectorStatus.CheckAlways);
     }
-    Object.defineProperty(_View_ForeFrontRoot_Host0.prototype, "_ForeFrontNav_0_5", {
-        get: function () {
-            if ((this.__ForeFrontNav_0_5 == null)) {
-                (this.__ForeFrontNav_0_5 = new import4.ForeFrontNav());
-            }
-            return this.__ForeFrontNav_0_5;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(_View_ForeFrontRoot_Host0.prototype, "_ForeFrontContent_0_6", {
-        get: function () {
-            if ((this.__ForeFrontContent_0_6 == null)) {
-                (this.__ForeFrontContent_0_6 = new import5.ForeFrontContent());
-            }
-            return this.__ForeFrontContent_0_6;
-        },
-        enumerable: true,
-        configurable: true
-    });
     _View_ForeFrontRoot_Host0.prototype.createInternal = function (rootSelector) {
         this._el_0 = this.selectOrCreateHostElement('forefront-root', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
@@ -60,29 +40,23 @@ var _View_ForeFrontRoot_Host0 = (function (_super) {
         if (((token === import3.ForeFrontRoot) && (0 === requestNodeIndex))) {
             return this._ForeFrontRoot_0_4;
         }
-        if (((token === import4.ForeFrontNav) && (0 === requestNodeIndex))) {
-            return this._ForeFrontNav_0_5;
-        }
-        if (((token === import5.ForeFrontContent) && (0 === requestNodeIndex))) {
-            return this._ForeFrontContent_0_6;
-        }
         return notFoundResult;
     };
     return _View_ForeFrontRoot_Host0;
 }(import1.AppView));
 function viewFactory_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ForeFrontRoot_Host === null)) {
-        (renderType_ForeFrontRoot_Host = viewUtils.createRenderComponentType('', 0, import10.ViewEncapsulation.None, [], {}));
+        (renderType_ForeFrontRoot_Host = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, [], {}));
     }
     return new _View_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontRootNgFactory = new import11.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRoot);
+exports.ForeFrontRootNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRoot);
 var styles_ForeFrontRoot = [];
 var renderType_ForeFrontRoot = null;
 var _View_ForeFrontRoot0 = (function (_super) {
     __extends(_View_ForeFrontRoot0, _super);
     function _View_ForeFrontRoot0(viewUtils, parentInjector, declarationEl) {
-        _super.call(this, _View_ForeFrontRoot0, renderType_ForeFrontRoot, import8.ViewType.COMPONENT, viewUtils, parentInjector, declarationEl, import9.ChangeDetectorStatus.CheckAlways);
+        _super.call(this, _View_ForeFrontRoot0, renderType_ForeFrontRoot, import6.ViewType.COMPONENT, viewUtils, parentInjector, declarationEl, import7.ChangeDetectorStatus.CheckAlways);
     }
     _View_ForeFrontRoot0.prototype.createInternal = function (rootSelector) {
         var parentRenderNode = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
@@ -92,14 +66,14 @@ var _View_ForeFrontRoot0 = (function (_super) {
         this._el_2 = this.renderer.createElement(this._el_0, 'forefront-nav', null);
         this._appEl_2 = new import2.AppElement(2, 0, this, this._el_2);
         var compView_2 = import12.viewFactory_ForeFrontNav0(this.viewUtils, this.injector(2), this._appEl_2);
-        this._ForeFrontNav_2_4 = new import4.ForeFrontNav();
+        this._ForeFrontNav_2_4 = new import10.ForeFrontNav();
         this._appEl_2.initComponent(this._ForeFrontNav_2_4, [], compView_2);
         compView_2.create(this._ForeFrontNav_2_4, [], null);
         this._text_3 = this.renderer.createText(this._el_0, '\n    ', null);
         this._el_4 = this.renderer.createElement(this._el_0, 'forefront-content', null);
         this._appEl_4 = new import2.AppElement(4, 0, this, this._el_4);
         var compView_4 = import13.viewFactory_ForeFrontContent0(this.viewUtils, this.injector(4), this._appEl_4);
-        this._ForeFrontContent_4_4 = new import5.ForeFrontContent();
+        this._ForeFrontContent_4_4 = new import11.ForeFrontContent();
         this._appEl_4.initComponent(this._ForeFrontContent_4_4, [], compView_4);
         compView_4.create(this._ForeFrontContent_4_4, [], null);
         this._text_5 = this.renderer.createText(this._el_0, '\n', null);
@@ -114,10 +88,10 @@ var _View_ForeFrontRoot0 = (function (_super) {
         return null;
     };
     _View_ForeFrontRoot0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import4.ForeFrontNav) && (2 === requestNodeIndex))) {
+        if (((token === import10.ForeFrontNav) && (2 === requestNodeIndex))) {
             return this._ForeFrontNav_2_4;
         }
-        if (((token === import5.ForeFrontContent) && (4 === requestNodeIndex))) {
+        if (((token === import11.ForeFrontContent) && (4 === requestNodeIndex))) {
             return this._ForeFrontContent_4_4;
         }
         return notFoundResult;
@@ -126,7 +100,7 @@ var _View_ForeFrontRoot0 = (function (_super) {
 }(import1.AppView));
 function viewFactory_ForeFrontRoot0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ForeFrontRoot === null)) {
-        (renderType_ForeFrontRoot = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/forefront-root/forefront-root.html', 0, import10.ViewEncapsulation.None, styles_ForeFrontRoot, {}));
+        (renderType_ForeFrontRoot = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/forefront-root/forefront-root.html', 0, import8.ViewEncapsulation.None, styles_ForeFrontRoot, {}));
     }
     return new _View_ForeFrontRoot0(viewUtils, parentInjector, declarationEl);
 }

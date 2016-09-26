@@ -19,7 +19,7 @@ var GameOfLife = (function () {
     GameOfLife = __decorate([
         core_1.Component({
             selector: 'game-of-life',
-            templateUrl: url_helper_1.resolvePath('app/game-of-life/game-of-life.html'),
+            templateUrl: url_helper_1.pathPrefix + 'app/game-of-life/game-of-life.html',
             providers: [settings_1.Settings, grid_1.Grid],
         }), 
         __metadata('design:paramtypes', [])

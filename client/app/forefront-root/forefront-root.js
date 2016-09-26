@@ -17,7 +17,7 @@ var ForeFrontRoot = (function () {
     ForeFrontRoot = __decorate([
         core_1.Component({
             selector: 'forefront-root',
-            templateUrl: url_helper_1.resolvePath('app/forefront-root/forefront-root.html'),
+            templateUrl: url_helper_1.pathPrefix + 'app/forefront-root/forefront-root.html',
         }), 
         __metadata('design:paramtypes', [])
     ], ForeFrontRoot);

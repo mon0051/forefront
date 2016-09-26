@@ -74,7 +74,7 @@ var Grid = (function () {
     Grid = __decorate([
         core_1.Component({
             selector: 'gol-grid',
-            templateUrl: url_helper_1.resolvePath('app/game-of-life/grid.html'),
+            templateUrl: url_helper_1.pathPrefix + 'app/game-of-life/grid.html',
             providers: [common_1.NgClass]
         }), 
         __metadata('design:paramtypes', [settings_1.Settings])

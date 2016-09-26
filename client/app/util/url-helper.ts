@@ -12,7 +12,18 @@ export class UrlHelper{
 export function updatePath(path:string){
     appRoot = path;
 }
-export function resolvePath (path:string) {
 
+
+export const pathPrefix:string = "C:/Git/projects/ForeFront/client/";
+
+export function resolvePath (path:string):string {
+    let appRoot: string = "";
+
+    let isStatic = false;
+
+    if(isStatic === true){
+        path = path.replace(/.*\//,"")
+    }
+    console.log(path);
     return appRoot + path;
 }

@@ -8,6 +8,7 @@ export default {
     dest: 'dist/build.js', // output a single application bundle
     sourceMap: false,
     format: 'iife',
+    onwarn: function(){},
     plugins: [
         nodeResolve({jsnext: true, module: true}),
         commonjs({

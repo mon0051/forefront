@@ -28,7 +28,14 @@ function updatePath(path) {
     appRoot = path;
 }
 exports.updatePath = updatePath;
+exports.pathPrefix = "C:/Git/projects/ForeFront/client/";
 function resolvePath(path) {
+    var appRoot = "";
+    var isStatic = false;
+    if (isStatic === true) {
+        path = path.replace(/.*\//, "");
+    }
+    console.log(path);
     return appRoot + path;
 }
 exports.resolvePath = resolvePath;

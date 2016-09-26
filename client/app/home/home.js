@@ -16,7 +16,7 @@ var HomeComponent = (function () {
     HomeComponent = __decorate([
         core_1.Component({
             selector: 'home-component',
-            templateUrl: url_helper_1.resolvePath('app/home/home.html')
+            templateUrl: url_helper_1.pathPrefix + 'app/home/home.html'
         }), 
         __metadata('design:paramtypes', [])
     ], HomeComponent);

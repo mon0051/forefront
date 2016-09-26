@@ -2,11 +2,11 @@ import {Cell} from './cell';
 import {Component} from '@angular/core';
 import {Settings} from "./settings";
 import {NgClass} from '@angular/common'
-import {resolvePath} from "../util/url-helper";
+import {pathPrefix} from "../util/url-helper";
 
 @Component({
     selector: 'gol-grid',
-    templateUrl: resolvePath('app/game-of-life/grid.html'),
+    templateUrl: pathPrefix+'app/game-of-life/grid.html',
     providers:[NgClass]
 })
 export class Grid {

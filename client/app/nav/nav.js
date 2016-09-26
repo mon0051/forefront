@@ -16,7 +16,7 @@ var ForeFrontNav = (function () {
     ForeFrontNav = __decorate([
         core_1.Component({
             selector: 'forefront-nav',
-            templateUrl: url_helper_1.resolvePath('app/nav/nav.html')
+            templateUrl: url_helper_1.pathPrefix + 'app/nav/nav.html'
         }), 
         __metadata('design:paramtypes', [])
     ], ForeFrontNav);

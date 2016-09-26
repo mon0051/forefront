@@ -1,9 +1,9 @@
 import {Component} from '@angular/core';
-import {resolvePath} from "../util/url-helper";
+import {pathPrefix} from "../util/url-helper";
 
 @Component({
     selector: 'forefront-nav',
-    templateUrl: resolvePath('app/nav/nav.html')
+    templateUrl: pathPrefix + 'app/nav/nav.html'
 })
 export class ForeFrontNav{
 

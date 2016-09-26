@@ -1,10 +1,10 @@
 import {Component} from "@angular/core";
-import {resolvePath} from "../util/url-helper";
+import {pathPrefix} from "../util/url-helper";
 
 
 @Component({
     selector:'card-widget',
-    templateUrl:resolvePath('app/widget/widget.html')
+    templateUrl: pathPrefix + 'app/widget/widget.html'
 })
 export class CardWidget{
 

@@ -16,7 +16,7 @@ var ForeFrontContent = (function () {
     ForeFrontContent = __decorate([
         core_1.Component({
             selector: 'forefront-content',
-            templateUrl: url_helper_1.resolvePath('app/content/content.html'),
+            templateUrl: url_helper_1.pathPrefix + 'app/content/content.html',
         }), 
         __metadata('design:paramtypes', [])
     ], ForeFrontContent);
