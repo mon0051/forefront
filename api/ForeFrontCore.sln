@@ -8,9 +8,23 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E536191-5789-4630-BAD5-DBDC05235558}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		src\ForeFrontIdentityServer4\global.json = src\ForeFrontIdentityServer4\global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForeFrontCore", "src\ForeFrontCore\ForeFrontCore.xproj", "{0E004905-9DA7-402A-81C6-2D16ABF8FADC}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForeFrontCoreApi", "src\ForeFrontCoreWeb\ForeFrontCoreApi.xproj", "{0E004905-9DA7-402A-81C6-2D16ABF8FADC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793} = {1D9B76DB-CC37-4A0C-9419-B18A6805D793}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForeFrontCoreData", "src\ForeFrontCoreData\ForeFrontCoreData.xproj", "{1D9B76DB-CC37-4A0C-9419-B18A6805D793}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForeFrontUsers", "src\ForeFrontCoreUsers\ForeFrontUsers.xproj", "{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102}"
+	ProjectSection(ProjectDependencies) = postProject
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D} = {407C030E-60E6-41F7-AF43-0AC48EDCC17D}
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793} = {1D9B76DB-CC37-4A0C-9419-B18A6805D793}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityServer4", "src\ForeFrontIdentityServer4\src\IdentityServer4\IdentityServer4.xproj", "{407C030E-60E6-41F7-AF43-0AC48EDCC17D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +36,26 @@ Global
 		{0E004905-9DA7-402A-81C6-2D16ABF8FADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E004905-9DA7-402A-81C6-2D16ABF8FADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E004905-9DA7-402A-81C6-2D16ABF8FADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0E004905-9DA7-402A-81C6-2D16ABF8FADC} = {4434A3EC-E998-4252-A15D-9224374882A3}
+		{1D9B76DB-CC37-4A0C-9419-B18A6805D793} = {4434A3EC-E998-4252-A15D-9224374882A3}
+		{9E565AC0-92CB-4BDA-9D0C-A7D5ABD41102} = {4434A3EC-E998-4252-A15D-9224374882A3}
+		{407C030E-60E6-41F7-AF43-0AC48EDCC17D} = {4434A3EC-E998-4252-A15D-9224374882A3}
 	EndGlobalSection
 EndGlobal

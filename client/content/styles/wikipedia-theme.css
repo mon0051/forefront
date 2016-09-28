@@ -1,30 +1,24 @@
 html, body, #mw-page-base {
-  background: #f2f0ec; }
-
-#content {
-  position: relative; }
-  #content p {
-    font-size: 17px;
-    line-height: 28px; }
+  background: #e3e0d8; }
 
 .mw-indicators {
-  background: #004B8B;
+  background: #6699cc;
   position: relative;
   top: -20px;
-  width: 734px;
+  width: 789px;
   left: 24px;
   height: 40px; }
   .mw-indicators * {
     opacity: 0; }
 
 .mw-body {
-  max-width: 685px;
+  max-width: 740px;
   margin-left: auto;
   margin-right: auto;
   z-index: 5;
   position: relative;
   top: 5px;
-  border: 1px solid #bbb; }
+  border: 1px solid #d3d0c8; }
   .mw-body * {
     font-family: "segoe ui", sans-serif; }
 
@@ -55,3 +49,43 @@ div#right-navigation {
 
 #p-personal, #left-navigation, #mw-panel {
   display: none; }
+
+#main {
+  width: 940px; }
+
+#sidebar-primary {
+  display: none; }
+
+#content {
+  position: relative; }
+  #content a {
+    color: #3972ad; }
+  #content a:visited {
+    color: #b166b1; }
+  #content b, #content caption, #content strong, #content th {
+    font-weight: 500; }
+  #content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content p, #content a, #content div, #content span, #content body, #content li {
+    font-family: 'segoe ui', 'Helvetica Neue', 'Helvetica', sans-serif; }
+  #content p, #content li {
+    font-size: 1rem;
+    line-height: 1.6rem; }
+  #content h1 {
+    font-size: 3.998rem;
+    line-height: 5.653rem;
+    font-weight: 300; }
+  #content h2 {
+    font-size: 2.827rem;
+    line-height: 3.9973rem;
+    font-weight: 300; }
+  #content h3 {
+    font-size: 1.999rem;
+    line-height: 2.826rem;
+    font-weight: 300; }
+  #content h4 {
+    font-size: 1.414rem;
+    line-height: 1.999rem;
+    font-weight: 300; }
+  #content .code code {
+    font-family: consolas, sans-serif;
+    font-size: 1rem !important;
+    line-height: 1.414rem !important; }

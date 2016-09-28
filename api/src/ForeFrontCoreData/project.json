@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "Microsoft.NETCore.App": {
+    "version": "1.0.1",
+    "type": "platform"
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.1",
+    "Microsoft.EntityFrameworkCore": "1.0.*",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+#main {
+    width: 940px;
+}
+
+#sidebar-primary {
+    display: none;
+}
+
+#content{
+    width:        800px;
+    padding:      60px;
+    margin-right: auto;
+    border:       1px #DDD solid;
+    h1, h2, h3, h4, h5, h6, p, a, div, span, body, li {
+        font-family: 'segoe ui', 'Helvetica Neue', 'Helvetica', sans-serif;
+    }
+
+    p, li {
+        font-size:   1rem;
+        line-height: 1.6rem;
+    }
+
+    strong {
+        font-weight: 500;
+    }
+
+    h1 {
+        font-size: 3.998rem;
+        line-height: 5.653rem;
+    }
+    h2 {
+        font-size: 2.827rem;
+        line-height: 3.9973rem;
+    }
+    h3 {
+        font-size: 1.999rem;
+        line-height: 2.826rem;
+    }
+    h4 {
+        font-size: 1.414rem;
+        line-height:1.999rem;
+    }
+
+    .code code {
+        font-family: consolas, sans-serif;
+        font-size: 1rem!important;
+        line-height: 1.414rem!important;
+    }
+}
+
