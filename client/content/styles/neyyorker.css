@@ -1,42 +1,5 @@
-html, body, #mw-page-base {
+html, body {
   background: #e3e0d8; }
-
-#mw-content-text .infobox {
-  width: 22em;
-  left: 828px;
-  position: absolute;
-  top: -205px; }
-
-#coordinates {
-  top: -15px; }
-
-.mw-indicators {
-  background: #6699cc;
-  position: relative;
-  top: -20px;
-  width: 836px;
-  left: 48px;
-  height: 40px; }
-  .mw-indicators * {
-    opacity: 0; }
-
-.mw-body {
-  max-width: 740px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  z-index: 5;
-  position: relative;
-  top: 5px;
-  border: 1px solid #d3d0c8; }
-  .mw-body * {
-    font-family: "segoe ui", sans-serif; }
-
-table.wikitable .description {
-  font-size: 16px;
-  line-height: 28px;
-  padding: 30px 55px 55px; }
 
 h1, h1.firstHeading, h2, h3 {
   font-family: "segoe ui", sans-serif;
@@ -54,7 +17,7 @@ div#right-navigation {
 
 #mw-head {
   z-index: 0;
-  background: #e3e0d8; }
+  background: white; }
   #mw-head .vectorTabs {
     display: none; }
 
@@ -84,22 +47,19 @@ div#right-navigation {
     font-size: 3.998rem;
     line-height: 5.653rem;
     font-weight: 300;
-    border-bottom: none; }
+    margin-bottom: 1.6rem; }
   #content h2 {
     font-size: 2.827rem;
     line-height: 3.9973rem;
-    font-weight: 300;
-    border-bottom: none; }
+    font-weight: 300; }
   #content h3 {
     font-size: 1.999rem;
     line-height: 2.826rem;
-    font-weight: 300;
-    border-bottom: none; }
+    font-weight: 300; }
   #content h4 {
     font-size: 1.414rem;
     line-height: 1.999rem;
-    font-weight: 300;
-    border-bottom: none; }
+    font-weight: 300; }
   #content .code code {
     font-family: consolas, sans-serif;
     font-size: 1rem !important;
