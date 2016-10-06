@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "Microsoft.NETCore.App": {
+    "version": "1.0.1",
+    "type": "platform"
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.1",
+    "Microsoft.Extensions.Configuration": "1.0.*",
+    "Microsoft.Extensions.DependencyInjection": "1.0.*",
+    "Microsoft.Extensions.Logging": "1.0.*",
+    "Microsoft.AspNetCore.Hosting": "1.0.*",
+    "Microsoft.AspNetCore.Identity": "1.0.*",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.*",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "ForeFrontCoreData": "1.0.0-*",
+    "IdentityServer4": "1.0.0-rc2-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

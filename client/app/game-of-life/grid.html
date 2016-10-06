@@ -1,0 +1,22 @@
+<div class="gol-grid card">
+  <div class="card-block">
+    <div class="gol-row" *ngFor="let row of cells">
+    <span *ngFor="let cell of row">
+      <span class="cell"
+            [ngClass]="cell.getClasses()"
+            (mouseleave)="cell.mouseMoveOut()"
+            (mouseover)="cell.mouseMoveIn()"
+            (click)="cell.vivicate()">
+        <span class="overlay"></span>
+      </span>
+    </span>
+    </div>
+  </div>
+  <div class="card-block">
+    <div class="buttons">
+      <button class="btn btn-default" (click)="start()">Start</button>
+      <button class="btn btn-default" (click)="stop()">Stop</button>
+      <button class="btn btn-default" (click)="clear()">Clear</button>
+    </div>
+  </div>
+</div>

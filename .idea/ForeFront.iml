@@ -4,10 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-<<<<<<< HEAD
-    <orderEntry type="library" name="ForeFront node_modules" level="project" />
-=======
-    <orderEntry type="library" name="forefront node_modules" level="project" />
->>>>>>> 2a769834b7e111c8878bfa2c5aa87a59141dbc76
   </component>
 </module>

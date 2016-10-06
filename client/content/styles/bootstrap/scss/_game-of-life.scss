@@ -1,0 +1,60 @@
+
+.gol-grid {
+    text-align: center;
+    div.gol-row {
+        span.cell {
+            margin:     0.2em;
+            height:     2em;
+            width:      2em;
+            display:    inline-block;
+            color:      $gray-lightest;
+            text-align: center;
+            position:   relative;
+
+            > span {
+                opacity: 0;
+                height:  100%;
+                width:   100%;
+                padding: 0;
+                margin:  0;
+            }
+            &.massive {
+                height: 10rem;
+                width:  10rem;
+            }
+            &.growing {
+                background: $brand-info;
+            }
+            &.alive {
+                background: $brand-success;
+            }
+            &.dormant {
+                background: $gray;
+            }
+            &.dying {
+                background: $brand-danger;
+            }
+            &.hovered {
+                > span.overlay {
+                    background: $brand-info;
+                    opacity:    0.2;
+                    display:    block;
+                    position:   absolute;
+                    top:        0;
+                    left:       0;
+                }
+
+            }
+            &.outlined {
+                > span.overlay {
+                    background: $brand-primary;
+                    opacity:    0.2;
+                    display:    block;
+                    position:   absolute;
+                    top:        0;
+                    left:       0;
+                }
+            }
+        }
+    }
+}
