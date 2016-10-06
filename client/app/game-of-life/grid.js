@@ -55,14 +55,14 @@ var Grid = (function () {
         this.height = settings.height;
         this.width = settings.width;
         this.cells = [];
-        for (var y_1 = 0; y_1 < this.height; y_1++) {
-            this.cells[y_1] = [];
-            for (var x_1 = 0; x_1 < this.width; x_1++) {
+        for (var y = 0; y < this.height; y++) {
+            this.cells[y] = [];
+            for (var x = 0; x < this.width; x++) {
                 var cell = new cell_1.Cell(this);
                 cell.status = "dormant";
-                cell.x = x_1;
-                cell.y = y_1;
-                this.cells[y_1][x_1] = cell;
+                cell.x = x;
+                cell.y = y;
+                this.cells[y][x] = cell;
             }
         }
         this.cells.forEach(function (row) {

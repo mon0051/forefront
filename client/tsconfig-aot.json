@@ -17,7 +17,7 @@
     "./typings/index.d.ts"
   ],
   "angularCompilerOptions": {
-    "genDir": "aot",
+    "genDir": "compiled",
     "skipMetadataEmit": true
   }
 }

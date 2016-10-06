@@ -6,5 +6,5 @@ exports.liveContentPort = 7000;
 exports.liveContentServerAddress = "http://127.0.0.1:" + exports.liveContentPort;
 exports.reverseProxyPort = 5000;
 exports.loggerSettings = { name: 'std', level: 'warn' };
-exports.dotnetCoreRoot = 'api/src/ForeFrontCore';
+exports.dotnetCoreRoot = 'api/src/ForeFrontCoreWeb';
 //# sourceMappingURL=serverSettings.js.map

@@ -5,4 +5,4 @@ export const liveContentPort = 7000;
 export const liveContentServerAddress = "http://127.0.0.1:" + liveContentPort;
 export const reverseProxyPort = 5000;
 export const loggerSettings = {name: 'std', level: 'warn'};
-export const dotnetCoreRoot = 'api/src/ForeFrontCore';
+export const dotnetCoreRoot = 'api/src/ForeFrontCoreWeb';
