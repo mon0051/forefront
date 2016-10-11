@@ -9,7 +9,7 @@ export function startExpress(){
     clientFiles.use(express.static('client')); // relative to index.js, not this file
 
     clientFiles.get('*', (request, response) => {
-        response.sendFile('/client/index-dynamic.html',{'root':__dirname + '/../'});
+        response.sendFile('/client/index.html',{'root':__dirname + '/../'});
     });
 
     // start serving static files    ===->
