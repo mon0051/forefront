@@ -3,7 +3,6 @@ import {FormGroup}        from '@angular/forms';
 import {FieldInputBase} from "./FieldInput";
 
 @Component({
-    moduleId: module.id,
     selector: 'df-question',
     templateUrl: 'dynamic-form-question-component.html'
 })
