@@ -19,7 +19,7 @@ export const pathPrefix:string = "C:/Git/projects/ForeFront/client/";
 export function resolvePath (path:string):string {
     let appRoot: string = "";
 
-    let isStatic = false;
+    let isStatic = true;
 
     if(isStatic === true){
         path = path.replace(/.*\//,"")
