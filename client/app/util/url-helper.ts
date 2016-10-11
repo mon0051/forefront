@@ -14,7 +14,7 @@ export function updatePath(path:string){
 }
 
 
-export const pathPrefix:string = "C:/Git/projects/ForeFront/client/";
+export const pathPrefix:string = "";//"C:/Git/projects/ForeFront/client/";
 
 export function resolvePath (path:string):string {
     let appRoot: string = "";
