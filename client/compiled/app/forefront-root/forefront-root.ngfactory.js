@@ -3,23 +3,22 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/forefront-root/forefront-root');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('../../../app/nav/nav');
-var import11 = require('../../../app/content/content');
-var import12 = require('../nav/nav.ngfactory');
-var import13 = require('../content/content.ngfactory');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/forefront-root/forefront-root';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '../../../app/nav/nav';
+import * as import11 from '../../../app/content/content';
+import * as import12 from '../nav/nav.ngfactory';
+import * as import13 from '../content/content.ngfactory';
 var renderType_ForeFrontRoot_Host = null;
 var _View_ForeFrontRoot_Host0 = (function (_super) {
     __extends(_View_ForeFrontRoot_Host0, _super);
@@ -50,7 +49,7 @@ function viewFactory_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationE
     }
     return new _View_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontRootNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRoot);
+export var ForeFrontRootNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRoot);
 var styles_ForeFrontRoot = [];
 var renderType_ForeFrontRoot = null;
 var _View_ForeFrontRoot0 = (function (_super) {
@@ -98,11 +97,10 @@ var _View_ForeFrontRoot0 = (function (_super) {
     };
     return _View_ForeFrontRoot0;
 }(import1.AppView));
-function viewFactory_ForeFrontRoot0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_ForeFrontRoot0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ForeFrontRoot === null)) {
-        (renderType_ForeFrontRoot = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/forefront-root/forefront-root.html', 0, import8.ViewEncapsulation.None, styles_ForeFrontRoot, {}));
+        (renderType_ForeFrontRoot = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_ForeFrontRoot, {}));
     }
     return new _View_ForeFrontRoot0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_ForeFrontRoot0 = viewFactory_ForeFrontRoot0;
 //# sourceMappingURL=forefront-root.ngfactory.js.map

@@ -69,7 +69,6 @@ import * as import61 from '@angular/core/src/change_detection/differs/keyvalue_d
 import * as import62 from '@angular/core/src/linker/ng_module_factory_loader';
 import * as import63 from '@angular/router/src/router_config_loader';
 import * as import64 from '@angular/router/src/router_state';
-import * as import65 from '@angular/core/src/i18n/tokens';
 class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
   _HttpModule_0:import2.HttpModule;
   _InternalFormsSharedModule_1:import3.InternalFormsSharedModule;
@@ -122,7 +121,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
   __ActivatedRoute_48:any;
   __APP_BOOTSTRAP_LISTENER_49:any[];
   __HttpDataLine_50:import30.HttpDataLine;
-  __TRANSLATIONS_FORMAT_51:any;
   constructor(parent:import31.Injector) {
     super(parent,[
       import32.HomeComponentNgFactory,
@@ -163,7 +161,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     return this.__RadioControlRegistry_15;
   }
   get _LOCALE_ID_16():any {
-    if ((this.__LOCALE_ID_16 == (null as any))) { (this.__LOCALE_ID_16 = (null as any)); }
+    if ((this.__LOCALE_ID_16 == (null as any))) { (this.__LOCALE_ID_16 = 'en-US'); }
     return this.__LOCALE_ID_16;
   }
   get _NgLocalization_17():import14.NgLocaleLocalization {
@@ -330,10 +328,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((this.__HttpDataLine_50 == (null as any))) { (this.__HttpDataLine_50 = new import30.HttpDataLine(this._Http_14)); }
     return this.__HttpDataLine_50;
   }
-  get _TRANSLATIONS_FORMAT_51():any {
-    if ((this.__TRANSLATIONS_FORMAT_51 == (null as any))) { (this.__TRANSLATIONS_FORMAT_51 = (null as any)); }
-    return this.__TRANSLATIONS_FORMAT_51;
-  }
   createInternal():import1.AppModule {
     this._HttpModule_0 = new import2.HttpModule();
     this._InternalFormsSharedModule_1 = new import3.InternalFormsSharedModule();
@@ -402,7 +396,6 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((token === import64.ActivatedRoute)) { return this._ActivatedRoute_48; }
     if ((token === import38.APP_BOOTSTRAP_LISTENER)) { return this._APP_BOOTSTRAP_LISTENER_49; }
     if ((token === import30.HttpDataLine)) { return this._HttpDataLine_50; }
-    if ((token === import65.TRANSLATIONS_FORMAT)) { return this._TRANSLATIONS_FORMAT_51; }
     return notFoundResult;
   }
   destroyInternal():void {

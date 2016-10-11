@@ -85,6 +85,6 @@ class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
   }
 }
 export function viewFactory_CardWidget0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.CardWidget> {
-  if ((renderType_CardWidget === (null as any))) { (renderType_CardWidget = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/widget/widget.html',1,import8.ViewEncapsulation.None,styles_CardWidget,{})); }
+  if ((renderType_CardWidget === (null as any))) { (renderType_CardWidget = viewUtils.createRenderComponentType('',1,import8.ViewEncapsulation.None,styles_CardWidget,{})); }
   return new _View_CardWidget0(viewUtils,parentInjector,declarationEl);
 }

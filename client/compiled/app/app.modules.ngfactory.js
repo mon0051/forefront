@@ -3,77 +3,75 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import0 = require('@angular/core/src/linker/ng_module_factory');
-var import1 = require('../../app/app.modules');
-var import2 = require('@angular/http/src/http_module');
-var import3 = require('@angular/forms/src/directives');
-var import4 = require('@angular/forms/src/form_providers');
-var import5 = require('@angular/common/src/common_module');
-var import6 = require('@angular/core/src/application_module');
-var import7 = require('@angular/platform-browser/src/browser');
-var import8 = require('@angular/router/src/router_module');
-var import9 = require('@angular/http/src/backends/browser_xhr');
-var import10 = require('@angular/http/src/base_response_options');
-var import11 = require('@angular/http/src/backends/xhr_backend');
-var import12 = require('@angular/http/src/base_request_options');
-var import13 = require('@angular/forms/src/directives/radio_control_value_accessor');
-var import14 = require('@angular/common/src/localization');
-var import15 = require('@angular/core/src/application_init');
-var import16 = require('@angular/core/src/testability/testability');
-var import17 = require('@angular/core/src/application_ref');
-var import18 = require('@angular/core/src/linker/compiler');
-var import19 = require('@angular/platform-browser/src/dom/events/hammer_gestures');
-var import20 = require('@angular/platform-browser/src/dom/events/event_manager');
-var import21 = require('@angular/platform-browser/src/dom/shared_styles_host');
-var import22 = require('@angular/platform-browser/src/dom/dom_renderer');
-var import23 = require('@angular/platform-browser/src/security/dom_sanitization_service');
-var import24 = require('@angular/core/src/linker/view_utils');
-var import25 = require('@angular/platform-browser/src/browser/title');
-var import26 = require('@angular/common/src/location/location');
-var import27 = require('@angular/router/src/url_tree');
-var import28 = require('@angular/router/src/router_outlet_map');
-var import29 = require('@angular/core/src/linker/system_js_ng_module_factory_loader');
-var import30 = require('../../app/dataline/http-dataline');
-var import32 = require('./home/home.ngfactory');
-var import33 = require('./game-of-life/game-of-life.ngfactory');
-var import34 = require('./line-height/typography-thinger.ngfactory');
-var import35 = require('./dataline/DataLineComponent.ngfactory');
-var import36 = require('./util/not-found.ngfactory');
-var import37 = require('./forefront-root/forefront-root.ngfactory');
-var import38 = require('@angular/core/src/application_tokens');
-var import39 = require('@angular/platform-browser/src/dom/events/dom_events');
-var import40 = require('@angular/platform-browser/src/dom/events/key_events');
-var import41 = require('@angular/core/src/zone/ng_zone');
-var import42 = require('@angular/platform-browser/src/dom/debug/ng_probe');
-var import43 = require('@angular/common/src/location/platform_location');
-var import44 = require('@angular/common/src/location/location_strategy');
-var import45 = require('../../app/home/home');
-var import46 = require('../../app/game-of-life/game-of-life');
-var import47 = require('../../app/line-height/typography-thinger');
-var import48 = require('../../app/dataline/DataLineComponent');
-var import49 = require('../../app/util/not-found');
-var import50 = require('@angular/router/src/router');
-var import51 = require('@angular/core/src/console');
-var import52 = require('@angular/http/src/interfaces');
-var import53 = require('@angular/http/src/http');
-var import54 = require('@angular/core/src/i18n/tokens');
-var import55 = require('@angular/core/src/error_handler');
-var import56 = require('@angular/platform-browser/src/dom/dom_tokens');
-var import57 = require('@angular/platform-browser/src/dom/animation_driver');
-var import58 = require('@angular/core/src/render/api');
-var import59 = require('@angular/core/src/security');
-var import60 = require('@angular/core/src/change_detection/differs/iterable_differs');
-var import61 = require('@angular/core/src/change_detection/differs/keyvalue_differs');
-var import62 = require('@angular/core/src/linker/ng_module_factory_loader');
-var import63 = require('@angular/router/src/router_config_loader');
-var import64 = require('@angular/router/src/router_state');
-var import65 = require('@angular/core/src/i18n/tokens');
+import * as import0 from '@angular/core/src/linker/ng_module_factory';
+import * as import1 from '../../app/app.modules';
+import * as import2 from '@angular/http/src/http_module';
+import * as import3 from '@angular/forms/src/directives';
+import * as import4 from '@angular/forms/src/form_providers';
+import * as import5 from '@angular/common/src/common_module';
+import * as import6 from '@angular/core/src/application_module';
+import * as import7 from '@angular/platform-browser/src/browser';
+import * as import8 from '@angular/router/src/router_module';
+import * as import9 from '@angular/http/src/backends/browser_xhr';
+import * as import10 from '@angular/http/src/base_response_options';
+import * as import11 from '@angular/http/src/backends/xhr_backend';
+import * as import12 from '@angular/http/src/base_request_options';
+import * as import13 from '@angular/forms/src/directives/radio_control_value_accessor';
+import * as import14 from '@angular/common/src/localization';
+import * as import15 from '@angular/core/src/application_init';
+import * as import16 from '@angular/core/src/testability/testability';
+import * as import17 from '@angular/core/src/application_ref';
+import * as import18 from '@angular/core/src/linker/compiler';
+import * as import19 from '@angular/platform-browser/src/dom/events/hammer_gestures';
+import * as import20 from '@angular/platform-browser/src/dom/events/event_manager';
+import * as import21 from '@angular/platform-browser/src/dom/shared_styles_host';
+import * as import22 from '@angular/platform-browser/src/dom/dom_renderer';
+import * as import23 from '@angular/platform-browser/src/security/dom_sanitization_service';
+import * as import24 from '@angular/core/src/linker/view_utils';
+import * as import25 from '@angular/platform-browser/src/browser/title';
+import * as import26 from '@angular/common/src/location/location';
+import * as import27 from '@angular/router/src/url_tree';
+import * as import28 from '@angular/router/src/router_outlet_map';
+import * as import29 from '@angular/core/src/linker/system_js_ng_module_factory_loader';
+import * as import30 from '../../app/dataline/http-dataline';
+import * as import32 from './home/home.ngfactory';
+import * as import33 from './game-of-life/game-of-life.ngfactory';
+import * as import34 from './line-height/typography-thinger.ngfactory';
+import * as import35 from './dataline/DataLineComponent.ngfactory';
+import * as import36 from './util/not-found.ngfactory';
+import * as import37 from './forefront-root/forefront-root.ngfactory';
+import * as import38 from '@angular/core/src/application_tokens';
+import * as import39 from '@angular/platform-browser/src/dom/events/dom_events';
+import * as import40 from '@angular/platform-browser/src/dom/events/key_events';
+import * as import41 from '@angular/core/src/zone/ng_zone';
+import * as import42 from '@angular/platform-browser/src/dom/debug/ng_probe';
+import * as import43 from '@angular/common/src/location/platform_location';
+import * as import44 from '@angular/common/src/location/location_strategy';
+import * as import45 from '../../app/home/home';
+import * as import46 from '../../app/game-of-life/game-of-life';
+import * as import47 from '../../app/line-height/typography-thinger';
+import * as import48 from '../../app/dataline/DataLineComponent';
+import * as import49 from '../../app/util/not-found';
+import * as import50 from '@angular/router/src/router';
+import * as import51 from '@angular/core/src/console';
+import * as import52 from '@angular/http/src/interfaces';
+import * as import53 from '@angular/http/src/http';
+import * as import54 from '@angular/core/src/i18n/tokens';
+import * as import55 from '@angular/core/src/error_handler';
+import * as import56 from '@angular/platform-browser/src/dom/dom_tokens';
+import * as import57 from '@angular/platform-browser/src/dom/animation_driver';
+import * as import58 from '@angular/core/src/render/api';
+import * as import59 from '@angular/core/src/security';
+import * as import60 from '@angular/core/src/change_detection/differs/iterable_differs';
+import * as import61 from '@angular/core/src/change_detection/differs/keyvalue_differs';
+import * as import62 from '@angular/core/src/linker/ng_module_factory_loader';
+import * as import63 from '@angular/router/src/router_config_loader';
+import * as import64 from '@angular/router/src/router_state';
 var AppModuleInjector = (function (_super) {
     __extends(AppModuleInjector, _super);
     function AppModuleInjector(parent) {
@@ -159,7 +157,7 @@ var AppModuleInjector = (function (_super) {
     Object.defineProperty(AppModuleInjector.prototype, "_LOCALE_ID_16", {
         get: function () {
             if ((this.__LOCALE_ID_16 == null)) {
-                (this.__LOCALE_ID_16 = null);
+                (this.__LOCALE_ID_16 = 'en-US');
             }
             return this.__LOCALE_ID_16;
         },
@@ -502,16 +500,6 @@ var AppModuleInjector = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AppModuleInjector.prototype, "_TRANSLATIONS_FORMAT_51", {
-        get: function () {
-            if ((this.__TRANSLATIONS_FORMAT_51 == null)) {
-                (this.__TRANSLATIONS_FORMAT_51 = null);
-            }
-            return this.__TRANSLATIONS_FORMAT_51;
-        },
-        enumerable: true,
-        configurable: true
-    });
     AppModuleInjector.prototype.createInternal = function () {
         this._HttpModule_0 = new import2.HttpModule();
         this._InternalFormsSharedModule_1 = new import3.InternalFormsSharedModule();
@@ -682,9 +670,6 @@ var AppModuleInjector = (function (_super) {
         if ((token === import30.HttpDataLine)) {
             return this._HttpDataLine_50;
         }
-        if ((token === import65.TRANSLATIONS_FORMAT)) {
-            return this._TRANSLATIONS_FORMAT_51;
-        }
         return notFoundResult;
     };
     AppModuleInjector.prototype.destroyInternal = function () {
@@ -692,5 +677,5 @@ var AppModuleInjector = (function (_super) {
     };
     return AppModuleInjector;
 }(import0.NgModuleInjector));
-exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
+export var AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
 //# sourceMappingURL=app.modules.ngfactory.js.map

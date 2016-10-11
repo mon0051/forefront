@@ -120,6 +120,6 @@ class _View_GameOfLife0 extends import1.AppView<import3.GameOfLife> {
   }
 }
 export function viewFactory_GameOfLife0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import2.AppElement):import1.AppView<import3.GameOfLife> {
-  if ((renderType_GameOfLife === (null as any))) { (renderType_GameOfLife = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/game-of-life/game-of-life.html',0,import10.ViewEncapsulation.None,styles_GameOfLife,{})); }
+  if ((renderType_GameOfLife === (null as any))) { (renderType_GameOfLife = viewUtils.createRenderComponentType('',0,import10.ViewEncapsulation.None,styles_GameOfLife,{})); }
   return new _View_GameOfLife0(viewUtils,parentInjector,declarationEl);
 }

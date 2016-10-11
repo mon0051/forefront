@@ -130,6 +130,6 @@ class _View_PageNotFoundComponent0 extends import1.AppView<import3.PageNotFoundC
   }
 }
 export function viewFactory_PageNotFoundComponent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.PageNotFoundComponent> {
-  if ((renderType_PageNotFoundComponent === (null as any))) { (renderType_PageNotFoundComponent = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/util/page-not-found.html',0,import8.ViewEncapsulation.None,styles_PageNotFoundComponent,{})); }
+  if ((renderType_PageNotFoundComponent === (null as any))) { (renderType_PageNotFoundComponent = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_PageNotFoundComponent,{})); }
   return new _View_PageNotFoundComponent0(viewUtils,parentInjector,declarationEl);
 }

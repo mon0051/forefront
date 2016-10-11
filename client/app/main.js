@@ -1,5 +1,4 @@
-"use strict";
-var platform_browser_1 = require('@angular/platform-browser');
-var app_modules_ngfactory_1 = require('../compiled/app/app.modules.ngfactory');
-platform_browser_1.platformBrowser().bootstrapModuleFactory(app_modules_ngfactory_1.AppModuleNgFactory);
+import { platformBrowser } from '@angular/platform-browser';
+import { AppModuleNgFactory } from '../compiled/app/app.modules.ngfactory';
+platformBrowser().bootstrapModuleFactory(AppModuleNgFactory);
 //# sourceMappingURL=main.js.map

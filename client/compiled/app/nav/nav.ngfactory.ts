@@ -422,6 +422,6 @@ class _View_ForeFrontNav0 extends import1.AppView<import3.ForeFrontNav> {
   }
 }
 export function viewFactory_ForeFrontNav0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontNav> {
-  if ((renderType_ForeFrontNav === (null as any))) { (renderType_ForeFrontNav = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/nav/nav.html',0,import8.ViewEncapsulation.None,styles_ForeFrontNav,{})); }
+  if ((renderType_ForeFrontNav === (null as any))) { (renderType_ForeFrontNav = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_ForeFrontNav,{})); }
   return new _View_ForeFrontNav0(viewUtils,parentInjector,declarationEl);
 }

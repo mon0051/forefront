@@ -694,6 +694,6 @@ class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThinger
   }
 }
 export function viewFactory_TypographyThinger0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.TypographyThinger> {
-  if ((renderType_TypographyThinger === (null as any))) { (renderType_TypographyThinger = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/line-height/typography-thinger.html',0,import8.ViewEncapsulation.None,styles_TypographyThinger,{})); }
+  if ((renderType_TypographyThinger === (null as any))) { (renderType_TypographyThinger = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_TypographyThinger,{})); }
   return new _View_TypographyThinger0(viewUtils,parentInjector,declarationEl);
 }

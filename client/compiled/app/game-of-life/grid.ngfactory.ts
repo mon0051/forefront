@@ -194,7 +194,7 @@ class _View_Grid0 extends import1.AppView<import3.Grid> {
   }
 }
 export function viewFactory_Grid0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import2.AppElement):import1.AppView<import3.Grid> {
-  if ((renderType_Grid === (null as any))) { (renderType_Grid = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/game-of-life/grid.html',0,import13.ViewEncapsulation.None,styles_Grid,{})); }
+  if ((renderType_Grid === (null as any))) { (renderType_Grid = viewUtils.createRenderComponentType('',0,import13.ViewEncapsulation.None,styles_Grid,{})); }
   return new _View_Grid0(viewUtils,parentInjector,declarationEl);
 }
 class _View_Grid1 extends import1.AppView<any> {

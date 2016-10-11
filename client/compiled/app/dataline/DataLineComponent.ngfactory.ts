@@ -160,6 +160,6 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
   }
 }
 export function viewFactory_DataLineComponent0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import2.AppElement):import1.AppView<import4.DataLineComponent> {
-  if ((renderType_DataLineComponent === (null as any))) { (renderType_DataLineComponent = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/dataline/data-line-component.html',0,import11.ViewEncapsulation.None,styles_DataLineComponent,{})); }
+  if ((renderType_DataLineComponent === (null as any))) { (renderType_DataLineComponent = viewUtils.createRenderComponentType('',0,import11.ViewEncapsulation.None,styles_DataLineComponent,{})); }
   return new _View_DataLineComponent0(viewUtils,parentInjector,declarationEl);
 }

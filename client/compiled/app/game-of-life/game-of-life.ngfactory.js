@@ -3,26 +3,25 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/game-of-life/game-of-life');
-var import4 = require('../../../app/game-of-life/settings');
-var import5 = require('../../../app/game-of-life/grid');
-var import8 = require('@angular/core/src/linker/view_type');
-var import9 = require('@angular/core/src/change_detection/change_detection');
-var import10 = require('@angular/core/src/metadata/view');
-var import11 = require('@angular/core/src/linker/component_factory');
-var import12 = require('@angular/common/src/directives/ng_class');
-var import13 = require('./grid.ngfactory');
-var import14 = require('@angular/core/src/change_detection/differs/iterable_differs');
-var import15 = require('@angular/core/src/change_detection/differs/keyvalue_differs');
-var import16 = require('@angular/core/src/linker/element_ref');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/game-of-life/game-of-life';
+import * as import4 from '../../../app/game-of-life/settings';
+import * as import5 from '../../../app/game-of-life/grid';
+import * as import8 from '@angular/core/src/linker/view_type';
+import * as import9 from '@angular/core/src/change_detection/change_detection';
+import * as import10 from '@angular/core/src/metadata/view';
+import * as import11 from '@angular/core/src/linker/component_factory';
+import * as import12 from '@angular/common/src/directives/ng_class';
+import * as import13 from './grid.ngfactory';
+import * as import14 from '@angular/core/src/change_detection/differs/iterable_differs';
+import * as import15 from '@angular/core/src/change_detection/differs/keyvalue_differs';
+import * as import16 from '@angular/core/src/linker/element_ref';
 var renderType_GameOfLife_Host = null;
 var _View_GameOfLife_Host0 = (function (_super) {
     __extends(_View_GameOfLife_Host0, _super);
@@ -79,7 +78,7 @@ function viewFactory_GameOfLife_Host0(viewUtils, parentInjector, declarationEl) 
     }
     return new _View_GameOfLife_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.GameOfLifeNgFactory = new import11.ComponentFactory('game-of-life', viewFactory_GameOfLife_Host0, import3.GameOfLife);
+export var GameOfLifeNgFactory = new import11.ComponentFactory('game-of-life', viewFactory_GameOfLife_Host0, import3.GameOfLife);
 var styles_GameOfLife = [];
 var renderType_GameOfLife = null;
 var _View_GameOfLife0 = (function (_super) {
@@ -131,11 +130,10 @@ var _View_GameOfLife0 = (function (_super) {
     };
     return _View_GameOfLife0;
 }(import1.AppView));
-function viewFactory_GameOfLife0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_GameOfLife0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_GameOfLife === null)) {
-        (renderType_GameOfLife = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/game-of-life/game-of-life.html', 0, import10.ViewEncapsulation.None, styles_GameOfLife, {}));
+        (renderType_GameOfLife = viewUtils.createRenderComponentType('', 0, import10.ViewEncapsulation.None, styles_GameOfLife, {}));
     }
     return new _View_GameOfLife0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_GameOfLife0 = viewFactory_GameOfLife0;
 //# sourceMappingURL=game-of-life.ngfactory.js.map

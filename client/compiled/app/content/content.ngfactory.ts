@@ -84,6 +84,6 @@ class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContent> 
   }
 }
 export function viewFactory_ForeFrontContent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontContent> {
-  if ((renderType_ForeFrontContent === (null as any))) { (renderType_ForeFrontContent = viewUtils.createRenderComponentType('C:/Git/projects/ForeFront/client/app/content/content.html',0,import8.ViewEncapsulation.None,styles_ForeFrontContent,{})); }
+  if ((renderType_ForeFrontContent === (null as any))) { (renderType_ForeFrontContent = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_ForeFrontContent,{})); }
   return new _View_ForeFrontContent0(viewUtils,parentInjector,declarationEl);
 }

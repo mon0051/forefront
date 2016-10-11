@@ -6,6 +6,81 @@
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js" afterPath="$PROJECT_DIR$/client/app/app.modules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js.map" afterPath="$PROJECT_DIR$/client/app/app.modules.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.routes.js" afterPath="$PROJECT_DIR$/client/app/app.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.routes.js.map" afterPath="$PROJECT_DIR$/client/app/app.routes.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js" afterPath="$PROJECT_DIR$/client/app/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js.map" afterPath="$PROJECT_DIR$/client/app/content/content.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js.map" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/cell.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/cell.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/grid.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/grid.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/settings.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/settings.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/home/home.js" afterPath="$PROJECT_DIR$/client/app/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/home/home.js.map" afterPath="$PROJECT_DIR$/client/app/home/home.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js" afterPath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js.map" afterPath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main.js" afterPath="$PROJECT_DIR$/client/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main.js.map" afterPath="$PROJECT_DIR$/client/app/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js" afterPath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js.map" afterPath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/mock-data.js" afterPath="$PROJECT_DIR$/client/app/mock-data/mock-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/mock-data.js.map" afterPath="$PROJECT_DIR$/client/app/mock-data/mock-data.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/nav/nav.js" afterPath="$PROJECT_DIR$/client/app/nav/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/nav/nav.js.map" afterPath="$PROJECT_DIR$/client/app/nav/nav.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/not-found.js" afterPath="$PROJECT_DIR$/client/app/util/not-found.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/not-found.js.map" afterPath="$PROJECT_DIR$/client/app/util/not-found.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/url-helper.js" afterPath="$PROJECT_DIR$/client/app/util/url-helper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/url-helper.js.map" afterPath="$PROJECT_DIR$/client/app/util/url-helper.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/widget/widget.js" afterPath="$PROJECT_DIR$/client/app/widget/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/widget/widget.js.map" afterPath="$PROJECT_DIR$/client/app/widget/widget.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/dist/build.js" afterPath="$PROJECT_DIR$/client/dist/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index-dynamic.html" afterPath="$PROJECT_DIR$/client/index-dynamic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
     </list>
     <ignored path="ForeFront.iws" />
@@ -29,8 +104,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="132">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -46,21 +121,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/express.ts">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="express.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/express.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="242">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-dynamic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/index-dynamic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serverSettings.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/serverSettings.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client-install.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-install.sh">
+      <file leaf-file-name="reverseProxy.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/reverseProxy.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="462">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/app/util/url-helper.ts" />
         <option value="$PROJECT_DIR$/client/app/content/content.ts" />
         <option value="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" />
@@ -155,6 +251,7 @@
         <option value="$PROJECT_DIR$/client-install.sh" />
         <option value="$PROJECT_DIR$/server/express.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/index-dynamic.html" />
         <option value="$PROJECT_DIR$/client/package.json" />
       </list>
     </option>
@@ -271,21 +368,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index.ts" />
-              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,10 +383,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,10 +401,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,7 +627,7 @@
       <workItem from="1475804415689" duration="8396000" />
       <workItem from="1476069105545" duration="628000" />
       <workItem from="1476142178527" duration="2220000" />
-      <workItem from="1476144412869" duration="1086000" />
+      <workItem from="1476144412869" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -565,7 +640,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299902000" />
+    <option name="totallyTimeSpent" value="301211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,13 +716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -875,7 +943,7 @@
         <state relative-caret-position="396">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,22 +963,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pak.txt" />
-    <entry file="file://$PROJECT_DIR$/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/reverseProxy.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -918,34 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/serverSettings.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/express.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -982,10 +1010,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/serverSettings.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/reverseProxy.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/express.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index-dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="132">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
           <folding />
         </state>
       </provider>
