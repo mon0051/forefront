@@ -1,11 +1,10 @@
 import {Component} from "@angular/core";
-import {pathPrefix} from "../util/url-helper";
 import {CardWidget} from "../widget/widget";
 import {DataLineRepository} from "./DataLineRepository";
 
 @Component({
     selector: 'data-line-component',
-    templateUrl: pathPrefix+'app/dataline/data-line-component.html',
+    templateUrl: 'data-line-component.html',
     providers: [DataLineRepository, CardWidget]
 })
 export class DataLineComponent {

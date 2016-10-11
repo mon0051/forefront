@@ -1,4 +1,3 @@
-import { pathPrefix } from '../util/url-helper';
 import { Component } from '@angular/core';
 export var ForeFrontRoot = (function () {
     function ForeFrontRoot() {
@@ -7,7 +6,7 @@ export var ForeFrontRoot = (function () {
     ForeFrontRoot.decorators = [
         { type: Component, args: [{
                     selector: 'forefront-root',
-                    templateUrl: pathPrefix + 'app/forefront-root/forefront-root.html',
+                    templateUrl: 'forefront-root.html',
                 },] },
     ];
     /** @nocollapse */

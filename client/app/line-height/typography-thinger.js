@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { pathPrefix } from "../util/url-helper";
 export var TypographyThinger = (function () {
     function TypographyThinger() {
         this.lineHeight = 22;
@@ -34,7 +33,7 @@ export var TypographyThinger = (function () {
     TypographyThinger.decorators = [
         { type: Component, args: [{
                     selector: "typography-thinger",
-                    templateUrl: pathPrefix + "app/line-height/typography-thinger.html"
+                    templateUrl: "typography-thinger.html"
                 },] },
     ];
     /** @nocollapse */

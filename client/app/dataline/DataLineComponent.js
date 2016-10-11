@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { pathPrefix } from "../util/url-helper";
 import { CardWidget } from "../widget/widget";
 import { DataLineRepository } from "./DataLineRepository";
 export var DataLineComponent = (function () {
@@ -39,7 +38,7 @@ export var DataLineComponent = (function () {
     DataLineComponent.decorators = [
         { type: Component, args: [{
                     selector: 'data-line-component',
-                    templateUrl: pathPrefix + 'app/dataline/data-line-component.html',
+                    templateUrl: 'data-line-component.html',
                     providers: [DataLineRepository, CardWidget]
                 },] },
     ];

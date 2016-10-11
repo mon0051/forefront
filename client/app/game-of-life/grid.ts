@@ -2,11 +2,10 @@ import {Cell} from './cell';
 import {Component} from '@angular/core';
 import {Settings} from "./settings";
 import {NgClass} from '@angular/common'
-import {pathPrefix} from "../util/url-helper";
 
 @Component({
     selector: 'gol-grid',
-    templateUrl: pathPrefix+'app/game-of-life/grid.html',
+    templateUrl: 'grid.html',
     providers:[NgClass]
 })
 export class Grid {

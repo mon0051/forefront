@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { pathPrefix } from "../util/url-helper";
 export var ForeFrontNav = (function () {
     function ForeFrontNav() {
     }
     ForeFrontNav.decorators = [
         { type: Component, args: [{
                     selector: 'forefront-nav',
-                    templateUrl: pathPrefix + 'app/nav/nav.html'
+                    templateUrl: 'nav.html'
                 },] },
     ];
     /** @nocollapse */

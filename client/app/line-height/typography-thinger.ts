@@ -1,9 +1,8 @@
 import {Component} from '@angular/core';
-import {pathPrefix} from "../util/url-helper";
 
 @Component({
     selector: "typography-thinger",
-    templateUrl: pathPrefix + "app/line-height/typography-thinger.html"
+    templateUrl: "typography-thinger.html"
 })
 export class TypographyThinger {
     lineHeight: number = 22;
