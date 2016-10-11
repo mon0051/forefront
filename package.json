@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "license": "Creative Commons 0",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "./client-install.sh"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.9.0",
