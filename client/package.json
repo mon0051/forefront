@@ -32,7 +32,9 @@
 
     "bootstrap": "^4.0.0-alpha.4",
     "socket.io": "^1.4.8",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
@@ -46,9 +48,7 @@
     "rollup": "^0.35.10",
     "rollup-plugin-commonjs": "^4.1.0",
     "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-uglify": "^1.0.1",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "rollup-plugin-uglify": "^1.0.1"
   },
   "description": "Sandbox for new tech",
   "main": "systemjs.config.js",
