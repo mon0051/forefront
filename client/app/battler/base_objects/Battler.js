@@ -1,11 +1,13 @@
 "use strict";
 var Effect_1 = require("./Effect");
+var Guid_1 = require("../../util/Guid");
 var Battler = (function () {
     function Battler() {
         this.multipliers = {
             incoming_damage: 1,
             outgoing_damage: 1
         };
+        this.id = new Guid_1.Guid();
         this.moves = [];
         this.active_effects = [];
     }

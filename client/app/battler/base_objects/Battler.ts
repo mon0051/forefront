@@ -1,7 +1,10 @@
 import {Move} from "./Move";
 import {ActiveEffect, Effect} from "./Effect";
+import {Guid} from "../../util/Guid";
 
 export class Battler {
+    name:string;
+    id:Guid;
     max_hp: number;
     hp: number;
 
@@ -14,6 +17,7 @@ export class Battler {
     active_effects: Array<ActiveEffect>;
 
     constructor() {
+        this.id = new Guid();
         this.moves = [];
         this.active_effects = [];
     }

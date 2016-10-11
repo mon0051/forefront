@@ -5,6 +5,7 @@
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
+    "build" : "node_modules\\.bin\\ngc -p tsconfig-aot.json && node_modules\\.bin\\rollup -c rollup.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings"

@@ -5,6 +5,7 @@ import {PageNotFoundComponent} from "./util/not-found";
 import {TypographyThinger} from "./line-height/typography-thinger";
 import {DataLineComponent} from "./dataline/DataLineComponent";
 import {ModuleWithProviders} from "@angular/core";
+import {DynamicFormsExampleComponent} from "./dynamic-forms/dynamic-form-example";
 
 const routes: Routes = [
     {path: 'home', component:HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
     {path: 'data-line',component: DataLineComponent},
     {path: '', redirectTo:'home',pathMatch:'full'},
     {path: 'index.html', redirectTo:'home',pathMatch:'full'},
+    {path: 'dynamic-forms',component:DynamicFormsExampleComponent},
     {path: '**', component: PageNotFoundComponent},
 ];
 
