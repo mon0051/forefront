@@ -4529,3 +4529,6 @@ div.top-line {
 
 .widget-std {
   min-height: 25rem; }
+
+body {
+  background-image: url("content/img/lighten-sm-d.jpg"); }
