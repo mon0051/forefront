@@ -4,6 +4,7 @@ export var PageNotFoundComponent = (function () {
     }
     PageNotFoundComponent.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     templateUrl: 'page-not-found.html'
                 },] },
     ];

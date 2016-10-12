@@ -4,6 +4,7 @@ export var HomeComponent = (function () {
     }
     HomeComponent.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'home-component',
                     templateUrl: 'home.html'
                 },] },

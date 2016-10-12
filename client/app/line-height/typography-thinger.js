@@ -32,6 +32,7 @@ export var TypographyThinger = (function () {
     }
     TypographyThinger.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: "typography-thinger",
                     templateUrl: "typography-thinger.html"
                 },] },

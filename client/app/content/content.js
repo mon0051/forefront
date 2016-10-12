@@ -4,6 +4,7 @@ export var ForeFrontContent = (function () {
     }
     ForeFrontContent.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'forefront-content',
                     templateUrl: 'content.html',
                 },] },

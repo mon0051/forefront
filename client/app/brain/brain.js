@@ -19,6 +19,7 @@ var Brain = (function () {
     Brain.prototype.ngOnInit = function () { };
     Brain = __decorate([
         core_1.Component({
+            moduleId: (module || { id: undefined }).id,
             selector: 'brain',
             templateUrl: 'brain.html'
         }), 

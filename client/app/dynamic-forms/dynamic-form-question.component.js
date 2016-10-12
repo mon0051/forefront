@@ -11,6 +11,7 @@ export var DynamicFormQuestionComponent = (function () {
     });
     DynamicFormQuestionComponent.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'df-question',
                     templateUrl: 'dynamic-form-question-component.html'
                 },] },

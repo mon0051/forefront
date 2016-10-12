@@ -1,7 +1,8 @@
 import {Component} from "@angular/core";
 import {FormDataService} from "./FormData.service";
 @Component({
-    template:"<dynamic-form [fieldInputs]='fieldInputs'></dynamic-form>"
+    moduleId: (module || {id: undefined}).id,
+    template:"<div><dynamic-form [fieldInputs]='fieldInputs'></dynamic-form></div>"
 })
 export class DynamicFormsExampleComponent{
     fieldInputs:any;

@@ -3,6 +3,7 @@ import {CardWidget} from "../widget/widget";
 import {DataLineRepository} from "./DataLineRepository";
 
 @Component({
+    moduleId: (module || {id: undefined}).id,
     selector: 'data-line-component',
     templateUrl: 'data-line-component.html',
     providers: [DataLineRepository, CardWidget]

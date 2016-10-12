@@ -4,6 +4,7 @@ export var ForeFrontNav = (function () {
     }
     ForeFrontNav.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'forefront-nav',
                     templateUrl: 'nav.html'
                 },] },

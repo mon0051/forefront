@@ -6,7 +6,8 @@ export var DynamicFormsExampleComponent = (function () {
     }
     DynamicFormsExampleComponent.decorators = [
         { type: Component, args: [{
-                    template: "<dynamic-form [fieldInputs]='fieldInputs'></dynamic-form>"
+                    moduleId: (module || { id: undefined }).id,
+                    template: "<div><dynamic-form [fieldInputs]='fieldInputs'></dynamic-form></div>"
                 },] },
     ];
     /** @nocollapse */

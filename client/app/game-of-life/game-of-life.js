@@ -7,6 +7,7 @@ export var GameOfLife = (function () {
     }
     GameOfLife.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'game-of-life',
                     templateUrl: 'game-of-life.html',
                     providers: [Settings, Grid],

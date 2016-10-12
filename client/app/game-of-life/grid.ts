@@ -4,6 +4,7 @@ import {Settings} from "./settings";
 import {NgClass} from '@angular/common'
 
 @Component({
+    moduleId: (module || {id: undefined}).id,
     selector: 'gol-grid',
     templateUrl: 'grid.html',
     providers:[NgClass]

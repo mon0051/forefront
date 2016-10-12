@@ -7,7 +7,10 @@ function startExpress() {
     // express       ===->
     clientFiles.use(express.static('client')); // relative to index.js, not this file
     clientFiles.get('*', function (request, response) {
-        response.sendFile('/client/index.html', { 'root': __dirname + '/../' });
+        console.log("Request : ", request);
+        console.log("Time : ", Date.now());
+        response.sendFile('/client/index-dynamic.html', { 'root': __dirname + '/../' });
+        console.log("Response : ", response);
     });
     // start serving static files    ===->
     nodeHttp.Server(clientFiles).listen(serverSettings_1.staticContentPort, function () {

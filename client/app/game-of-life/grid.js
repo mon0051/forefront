@@ -62,6 +62,7 @@ export var Grid = (function () {
     }
     Grid.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'gol-grid',
                     templateUrl: 'grid.html',
                     providers: [NgClass]

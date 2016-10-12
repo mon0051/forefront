@@ -5,8 +5,9 @@ export var ForeFrontRoot = (function () {
     }
     ForeFrontRoot.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'forefront-root',
-                    templateUrl: 'forefront-root.html',
+                    templateUrl: 'forefront-root.html'
                 },] },
     ];
     /** @nocollapse */

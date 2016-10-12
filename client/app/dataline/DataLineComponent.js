@@ -37,6 +37,7 @@ export var DataLineComponent = (function () {
     };
     DataLineComponent.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'data-line-component',
                     templateUrl: 'data-line-component.html',
                     providers: [DataLineRepository, CardWidget]

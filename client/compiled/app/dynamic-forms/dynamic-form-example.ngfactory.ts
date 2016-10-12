@@ -50,38 +50,44 @@ const styles_DynamicFormsExampleComponent:any[] = [];
 var renderType_DynamicFormsExampleComponent:import0.RenderComponentType = (null as any);
 class _View_DynamicFormsExampleComponent0 extends import1.AppView<import3.DynamicFormsExampleComponent> {
   _el_0:any;
-  /*private*/ _appEl_0:import2.AppElement;
-  _FieldInputControlService_0_4:import11.FieldInputControlService;
-  _DynamicFormComponent_0_5:import12.DynamicFormComponent;
+  _el_1:any;
+  /*private*/ _appEl_1:import2.AppElement;
+  _FieldInputControlService_1_4:import11.FieldInputControlService;
+  _DynamicFormComponent_1_5:import12.DynamicFormComponent;
   /*private*/ _expr_0:any;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_DynamicFormsExampleComponent0,renderType_DynamicFormsExampleComponent,import6.ViewType.COMPONENT,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import2.AppElement {
     const parentRenderNode:any = this.renderer.createViewRoot(this.declarationAppElement.nativeElement);
-    this._el_0 = this.renderer.createElement(parentRenderNode,'dynamic-form',(null as any));
-    this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
-    var compView_0:any = import13.viewFactory_DynamicFormComponent0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._FieldInputControlService_0_4 = new import11.FieldInputControlService();
-    this._DynamicFormComponent_0_5 = new import12.DynamicFormComponent(this._FieldInputControlService_0_4);
-    this._appEl_0.initComponent(this._DynamicFormComponent_0_5,[],compView_0);
-    compView_0.create(this._DynamicFormComponent_0_5,[],(null as any));
+    this._el_0 = this.renderer.createElement(parentRenderNode,'div',(null as any));
+    this._el_1 = this.renderer.createElement(this._el_0,'dynamic-form',(null as any));
+    this._appEl_1 = new import2.AppElement(1,0,this,this._el_1);
+    var compView_1:any = import13.viewFactory_DynamicFormComponent0(this.viewUtils,this.injector(1),this._appEl_1);
+    this._FieldInputControlService_1_4 = new import11.FieldInputControlService();
+    this._DynamicFormComponent_1_5 = new import12.DynamicFormComponent(this._FieldInputControlService_1_4);
+    this._appEl_1.initComponent(this._DynamicFormComponent_1_5,[],compView_1);
+    compView_1.create(this._DynamicFormComponent_1_5,[],(null as any));
     this._expr_0 = import7.UNINITIALIZED;
-    this.init([],[this._el_0],[],[]);
+    this.init([],[
+      this._el_0,
+      this._el_1
+    ]
+    ,[],[]);
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import11.FieldInputControlService) && (0 === requestNodeIndex))) { return this._FieldInputControlService_0_4; }
-    if (((token === import12.DynamicFormComponent) && (0 === requestNodeIndex))) { return this._DynamicFormComponent_0_5; }
+    if (((token === import11.FieldInputControlService) && (1 === requestNodeIndex))) { return this._FieldInputControlService_1_4; }
+    if (((token === import12.DynamicFormComponent) && (1 === requestNodeIndex))) { return this._DynamicFormComponent_1_5; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {
     const currVal_0:any = this.context.fieldInputs;
     if (import4.checkBinding(throwOnChange,this._expr_0,currVal_0)) {
-      this._DynamicFormComponent_0_5.fieldInputs = currVal_0;
+      this._DynamicFormComponent_1_5.fieldInputs = currVal_0;
       this._expr_0 = currVal_0;
     }
-    if (((this.numberOfChecks === 0) && !throwOnChange)) { this._DynamicFormComponent_0_5.ngOnInit(); }
+    if (((this.numberOfChecks === 0) && !throwOnChange)) { this._DynamicFormComponent_1_5.ngOnInit(); }
     this.detectContentChildrenChanges(throwOnChange);
     this.detectViewChildrenChanges(throwOnChange);
   }

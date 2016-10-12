@@ -4,6 +4,7 @@ export var CardWidget = (function () {
     }
     CardWidget.decorators = [
         { type: Component, args: [{
+                    moduleId: (module || { id: undefined }).id,
                     selector: 'card-widget',
                     templateUrl: 'widget.html'
                 },] },

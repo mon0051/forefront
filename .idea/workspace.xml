@@ -5,13 +5,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/plugin-babel" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/andrew_monteith.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/andrew_monteith.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js" afterPath="$PROJECT_DIR$/client/app/app.modules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.modules.js.map" afterPath="$PROJECT_DIR$/client/app/app.modules.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.routes.js" afterPath="$PROJECT_DIR$/client/app/app.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.routes.js.map" afterPath="$PROJECT_DIR$/client/app/app.routes.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/brain/brain.js" afterPath="$PROJECT_DIR$/client/app/brain/brain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/brain/brain.js.map" afterPath="$PROJECT_DIR$/client/app/brain/brain.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/brain/brain.ts" afterPath="$PROJECT_DIR$/client/app/brain/brain.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js" afterPath="$PROJECT_DIR$/client/app/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js.map" afterPath="$PROJECT_DIR$/client/app/content/content.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.ts" afterPath="$PROJECT_DIR$/client/app/content/content.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineRepository.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/http-dataline.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.ts" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/field-input-control.service.js" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/field-input-control.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dynamic-forms/field-input-control.service.js.map" afterPath="$PROJECT_DIR$/client/app/dynamic-forms/field-input-control.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js.map" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts" afterPath="$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/cell.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/cell.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/cell.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/grid.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/grid.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/grid.ts" afterPath="$PROJECT_DIR$/client/app/game-of-life/grid.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/settings.js" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/game-of-life/settings.js.map" afterPath="$PROJECT_DIR$/client/app/game-of-life/settings.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/home/home.js" afterPath="$PROJECT_DIR$/client/app/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/home/home.js.map" afterPath="$PROJECT_DIR$/client/app/home/home.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/home/home.ts" afterPath="$PROJECT_DIR$/client/app/home/home.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js" afterPath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js.map" afterPath="$PROJECT_DIR$/client/app/line-height/typography-thinger.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/line-height/typography-thinger.ts" afterPath="$PROJECT_DIR$/client/app/line-height/typography-thinger.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main.js" afterPath="$PROJECT_DIR$/client/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/main.js.map" afterPath="$PROJECT_DIR$/client/app/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js" afterPath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js.map" afterPath="$PROJECT_DIR$/client/app/mock-data/DataBlob.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/mock-data.js" afterPath="$PROJECT_DIR$/client/app/mock-data/mock-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/mock-data/mock-data.js.map" afterPath="$PROJECT_DIR$/client/app/mock-data/mock-data.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/nav/nav.js" afterPath="$PROJECT_DIR$/client/app/nav/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/nav/nav.js.map" afterPath="$PROJECT_DIR$/client/app/nav/nav.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/nav/nav.ts" afterPath="$PROJECT_DIR$/client/app/nav/nav.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/Guid.js" afterPath="$PROJECT_DIR$/client/app/util/Guid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/Guid.js.map" afterPath="$PROJECT_DIR$/client/app/util/Guid.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/not-found.js" afterPath="$PROJECT_DIR$/client/app/util/not-found.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/not-found.js.map" afterPath="$PROJECT_DIR$/client/app/util/not-found.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/util/not-found.ts" afterPath="$PROJECT_DIR$/client/app/util/not-found.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/widget/widget.js" afterPath="$PROJECT_DIR$/client/app/widget/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/widget/widget.js.map" afterPath="$PROJECT_DIR$/client/app/widget/widget.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/widget/widget.ts" afterPath="$PROJECT_DIR$/client/app/widget/widget.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.ts" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index-dynamic.html" afterPath="$PROJECT_DIR$/client/index-dynamic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/systemjs.config.js" afterPath="$PROJECT_DIR$/client/systemjs.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.js" afterPath="$PROJECT_DIR$/server/express.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.js.map" afterPath="$PROJECT_DIR$/server/express.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.ts" afterPath="$PROJECT_DIR$/server/express.ts" />
     </list>
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +130,96 @@
     <favorites_list name="ForeFront" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/app.routes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-dynamic.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/main-dynamic.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/content/content.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="101" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.modules.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/app.modules.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-841">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url-helper.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/util/url-helper.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widget.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/widget/widget.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,11 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/content/styles/wikipedia-theme.scss" />
-        <option value="$PROJECT_DIR$/server/reverseProxy.ts" />
-        <option value="$PROJECT_DIR$/client/tsconfig-aot.json" />
-        <option value="$PROJECT_DIR$/client/app/main.js" />
-        <option value="$PROJECT_DIR$/client/app/battler/BattlerMain.ts" />
         <option value="$PROJECT_DIR$/client/app/battler/Battler.ts" />
         <option value="$PROJECT_DIR$/client/app/battler/Move.ts" />
         <option value="$PROJECT_DIR$/client/app/battler/Effect.ts" />
@@ -67,19 +251,7 @@
         <option value="$PROJECT_DIR$/server/serverSettings.ts" />
         <option value="$PROJECT_DIR$/client-install.sh" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/index-dynamic.html" />
-        <option value="$PROJECT_DIR$/server/express.ts" />
         <option value="$PROJECT_DIR$/client/app/util/url-helper.ts" />
-        <option value="$PROJECT_DIR$/client/app/game-of-life/grid.ts" />
-        <option value="$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts" />
-        <option value="$PROJECT_DIR$/client/app/content/content.ts" />
-        <option value="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" />
-        <option value="$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts" />
-        <option value="$PROJECT_DIR$/client/app/home/home.ts" />
-        <option value="$PROJECT_DIR$/client/app/line-height/typography-thinger.ts" />
-        <option value="$PROJECT_DIR$/client/app/nav/nav.ts" />
-        <option value="$PROJECT_DIR$/client/app/util/not-found.ts" />
-        <option value="$PROJECT_DIR$/client/app/widget/widget.ts" />
         <option value="$PROJECT_DIR$/client/app/main.ts" />
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/app/dynamic-forms/DynamicFormComponent.ts" />
@@ -96,10 +268,27 @@
         <option value="$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.ts" />
         <option value="$PROJECT_DIR$/client/app/app.modules.ts" />
         <option value="$PROJECT_DIR$/client/app/app.routes.ts" />
-        <option value="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts" />
         <option value="$PROJECT_DIR$/client/package.json" />
-        <option value="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts" />
+        <option value="$PROJECT_DIR$/client/app/main-dynamic.ts" />
+        <option value="$PROJECT_DIR$/client/index-dynamic.html" />
+        <option value="$PROJECT_DIR$/server/express.ts" />
+        <option value="$PROJECT_DIR$/client/gulpfile.js" />
+        <option value="$PROJECT_DIR$/client/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/client/tsconfig.json" />
+        <option value="$PROJECT_DIR$/client/app/brain/brain.ts" />
+        <option value="$PROJECT_DIR$/client/app/content/content.ts" />
+        <option value="$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts" />
         <option value="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.ts" />
+        <option value="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts" />
+        <option value="$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts" />
+        <option value="$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts" />
+        <option value="$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts" />
+        <option value="$PROJECT_DIR$/client/app/game-of-life/grid.ts" />
+        <option value="$PROJECT_DIR$/client/app/home/home.ts" />
+        <option value="$PROJECT_DIR$/client/app/line-height/typography-thinger.ts" />
+        <option value="$PROJECT_DIR$/client/app/nav/nav.ts" />
+        <option value="$PROJECT_DIR$/client/app/util/not-found.ts" />
+        <option value="$PROJECT_DIR$/client/app/widget/widget.ts" />
       </list>
     </option>
   </component>
@@ -213,7 +402,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,32 +417,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForeFront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic-forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +427,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Bash" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSHint" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="JavaScriptPreferStrict" value="true" />
@@ -298,8 +461,11 @@
       <recent name="C:\Git\projects\ForeFront\client\client_node" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index-dynamic.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForeFront/client/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index-dynamic.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ForeFront/client/index-dynamic.html">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -408,12 +574,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index-dynamic.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index-dynamic.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +662,8 @@
       <workItem from="1476069105545" duration="628000" />
       <workItem from="1476142178527" duration="2220000" />
       <workItem from="1476144412869" duration="9658000" />
-      <workItem from="1476165811730" duration="4750000" />
+      <workItem from="1476165811730" duration="4990000" />
+      <workItem from="1476228334781" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -507,7 +676,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313224000" />
+    <option name="totallyTimeSpent" value="321903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,15 +688,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29660144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913646" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5053381" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -540,6 +708,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -583,10 +752,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/express.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/main-dynamic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/babel-standalone/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/mock-data/DataBlob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/babel-preset-es2015/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3322">
+          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/babel-plugin-systemjs/systemjs-babel-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/babel-plugin-systemjs/systemjs-babel-browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tsconfig-aot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/systemjs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,28 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/typings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/game-of-life.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/cell.ts">
+    <entry file="file://$PROJECT_DIR$/server/typings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -627,45 +843,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/build.js">
+    <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.ts">
+    <entry file="file://$PROJECT_DIR$/server/express.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/grid.ts">
+    <entry file="file://$PROJECT_DIR$/client/index-dynamic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="789">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/content/content.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/brain/brain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/brain/brain.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/brain/engine.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/battler/BattlerMain.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineRepository.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-467">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,223 +928,34 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/mock-data/DataBlob.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/mock-data/mock-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/nav/nav.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/proving-grounds/ProvingGrounds.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/util/not-found.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/util/url-helper.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/tsconfig-aot.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/settings.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/widget/widget.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/line-height/typography-thinger.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dataline/DataLineComponent.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/brain/engine.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/brain/brain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/main-dynamic.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/index-dynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/systemjs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/rollup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/util/Guid.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/battler/base_objects/Battler.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,17 +969,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/FieldInput.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.modules.ngfactory.ts">
+    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/FormData.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/forefront-root/forefront-root.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/cell.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -923,85 +1001,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-component.html">
+    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/game-of-life.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-example.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="110">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/grid.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/game-of-life/settings.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/line-height/typography-thinger.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/mock-data/DataBlob.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/mock-data/mock-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/nav/nav.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/proving-grounds/ProvingGrounds.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/Guid.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/Monad.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/not-found.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/NullSafeAccessor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/ParamsAggregate.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/util/url-helper.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/widget/widget.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/app.modules.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="-841">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.js">
+    <entry file="file://$PROJECT_DIR$/client/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/main-dynamic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/content/content.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/dynamic-forms/dynamic-form-question.component.ts">
+    <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="101" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>

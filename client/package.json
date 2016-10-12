@@ -5,7 +5,7 @@
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
-    "build" : "node_modules\\.bin\\ngc -p tsconfig-aot.json && node_modules\\.bin\\rollup -c rollup.js",
+    "build": "node_modules\\.bin\\ngc -p tsconfig-aot.json && node_modules\\.bin\\rollup -c rollup.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings"
@@ -14,28 +14,27 @@
   "dependencies": {
     "@angular/common": "~2.0.2",
     "@angular/compiler": "~2.0.2",
+    "@angular/compiler-cli": "^0.6.2",
     "@angular/core": "~2.0.2",
     "@angular/forms": "~2.0.2",
     "@angular/http": "~2.0.2",
     "@angular/platform-browser": "~2.0.2",
     "@angular/platform-browser-dynamic": "~2.0.2",
+    "@angular/platform-server": "^2.0.2",
     "@angular/router": "~3.0.2",
     "@angular/upgrade": "~2.0.2",
-
-    "@angular/compiler-cli": "^0.6.2",
-
     "angular-in-memory-web-api": "~0.1.5",
+    "babel-standalone": "^6.17.0",
+    "bootstrap": "^4.0.0-alpha.4",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.6.3",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "systemjs": "0.19.39",
-    "zone.js": "^0.6.25",
-
-    "bootstrap": "^4.0.0-alpha.4",
     "socket.io": "^1.4.8",
-    "font-awesome": "^4.6.3",
+    "systemjs": "0.19.39",
     "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "typings": "^1.4.0",
+    "zone.js": "^0.6.25"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",

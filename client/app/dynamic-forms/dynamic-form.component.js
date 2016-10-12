@@ -16,7 +16,8 @@ export var DynamicFormComponent = (function () {
         { type: Component, args: [{
                     selector: 'dynamic-form',
                     templateUrl: 'dynamic-form-component.html',
-                    providers: [FieldInputControlService]
+                    providers: [FieldInputControlService],
+                    moduleId: (module || { id: undefined }).id
                 },] },
     ];
     /** @nocollapse */

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Engine} from "./engine";
 
 @Component({
+    moduleId:(module || {id:undefined}).id,
     selector: 'brain',
     templateUrl: 'brain.html'
 })
