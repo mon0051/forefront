@@ -3,7 +3,6 @@ require('bunyan');
 var serverSettings_1 = require("./serverSettings");
 var redbird = require('redbird');
 function proxyResolver(host, url) {
-    console.log("host", host);
     if (host && typeof host === 'string' && host.includes('.live.')) {
         return url.startsWith("/api/") ? serverSettings_1.dotNetCoreServerAddress : { url: [serverSettings_1.liveContentServerAddress] };
     }

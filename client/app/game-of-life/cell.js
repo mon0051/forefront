@@ -1,4 +1,5 @@
-export var Cell = (function () {
+"use strict";
+var Cell = (function () {
     function Cell(grid) {
         this.uiStatus = {
             hovered: false,
@@ -99,4 +100,5 @@ export var Cell = (function () {
     }
     return Cell;
 }());
+exports.Cell = Cell;
 //# sourceMappingURL=cell.js.map

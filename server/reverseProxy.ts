@@ -10,7 +10,6 @@ import {
 let redbird = require('redbird');
 
 export function proxyResolver(host, url) {
-    console.log("host", host);
     if(host && typeof host === 'string' && host.includes('.live.')){
         return url.startsWith("/api/") ? dotNetCoreServerAddress : {url: [liveContentServerAddress]};
     }
