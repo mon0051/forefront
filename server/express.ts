@@ -11,7 +11,7 @@ export function startExpress(){
     clientFiles.get('*', (request, response) => {
         console.log("Request : ",request);
         console.log("Time : ",Date.now());
-        response.sendFile('/client/index-dynamic.html',{'root':__dirname + '/../'});
+        response.sendFile('/client/index.html',{'root':__dirname + '/../'});
         console.log("Response : ", response)
     });
 

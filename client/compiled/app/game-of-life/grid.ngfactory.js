@@ -3,26 +3,27 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import1 from '@angular/core/src/linker/view';
-import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/game-of-life/grid';
-import * as import4 from '@angular/common/src/directives/ng_class';
-import * as import5 from '@angular/core/src/linker/view_utils';
-import * as import7 from '@angular/core/src/linker/view_type';
-import * as import8 from '@angular/core/src/change_detection/change_detection';
-import * as import9 from '../../../app/game-of-life/settings';
-import * as import10 from '@angular/core/src/change_detection/differs/iterable_differs';
-import * as import11 from '@angular/core/src/change_detection/differs/keyvalue_differs';
-import * as import12 from '@angular/core/src/linker/element_ref';
-import * as import13 from '@angular/core/src/metadata/view';
-import * as import14 from '@angular/core/src/linker/component_factory';
-import * as import15 from '@angular/common/src/directives/ng_for';
-import * as import16 from '@angular/core/src/linker/template_ref';
+var import1 = require('@angular/core/src/linker/view');
+var import2 = require('@angular/core/src/linker/element');
+var import3 = require('../../../app/game-of-life/grid');
+var import4 = require('@angular/common/src/directives/ng_class');
+var import5 = require('@angular/core/src/linker/view_utils');
+var import7 = require('@angular/core/src/linker/view_type');
+var import8 = require('@angular/core/src/change_detection/change_detection');
+var import9 = require('../../../app/game-of-life/settings');
+var import10 = require('@angular/core/src/change_detection/differs/iterable_differs');
+var import11 = require('@angular/core/src/change_detection/differs/keyvalue_differs');
+var import12 = require('@angular/core/src/linker/element_ref');
+var import13 = require('@angular/core/src/metadata/view');
+var import14 = require('@angular/core/src/linker/component_factory');
+var import15 = require('@angular/common/src/directives/ng_for');
+var import16 = require('@angular/core/src/linker/template_ref');
 var renderType_Grid_Host = null;
 var _View_Grid_Host0 = (function (_super) {
     __extends(_View_Grid_Host0, _super);
@@ -57,7 +58,7 @@ function viewFactory_Grid_Host0(viewUtils, parentInjector, declarationEl) {
     }
     return new _View_Grid_Host0(viewUtils, parentInjector, declarationEl);
 }
-export var GridNgFactory = new import14.ComponentFactory('gol-grid', viewFactory_Grid_Host0, import3.Grid);
+exports.GridNgFactory = new import14.ComponentFactory('gol-grid', viewFactory_Grid_Host0, import3.Grid);
 var styles_Grid = [];
 var renderType_Grid = null;
 var _View_Grid0 = (function (_super) {
@@ -182,12 +183,13 @@ var _View_Grid0 = (function (_super) {
     };
     return _View_Grid0;
 }(import1.AppView));
-export function viewFactory_Grid0(viewUtils, parentInjector, declarationEl) {
+function viewFactory_Grid0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_Grid === null)) {
         (renderType_Grid = viewUtils.createRenderComponentType('', 0, import13.ViewEncapsulation.None, styles_Grid, {}));
     }
     return new _View_Grid0(viewUtils, parentInjector, declarationEl);
 }
+exports.viewFactory_Grid0 = viewFactory_Grid0;
 var _View_Grid1 = (function (_super) {
     __extends(_View_Grid1, _super);
     function _View_Grid1(viewUtils, parentInjector, declarationEl) {

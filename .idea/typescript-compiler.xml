@@ -4,6 +4,5 @@
     <option name="isCompilerEnabled" value="true" />
     <option name="scopeName" value="not_node" />
     <option name="useConfig" value="true" />
-    <option name="useService" value="true" />
   </component>
 </project>
