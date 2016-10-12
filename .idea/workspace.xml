@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/dist/globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/moduleFake.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/lib/plugin-babel" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js" afterPath="$PROJECT_DIR$/client/app/content/content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/content/content.js.map" afterPath="$PROJECT_DIR$/client/app/content/content.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" afterPath="$PROJECT_DIR$/client/app/dataline/DataLineComponent.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/app.modules.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/content/content.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dataline/DataLineComponent.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-example.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form-question.component.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/dynamic-forms/dynamic-form.component.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/forefront-root/forefront-root.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/game-of-life.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/game-of-life/grid.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/home/home.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/line-height/typography-thinger.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/nav/nav.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/util/not-found.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" afterPath="$PROJECT_DIR$/client/compiled/app/widget/widget.ngfactory.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.js" afterPath="$PROJECT_DIR$/server/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.js.map" afterPath="$PROJECT_DIR$/server/express.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/express.ts" afterPath="$PROJECT_DIR$/server/express.ts" />
     </list>
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="583">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -568,7 +530,7 @@
       <workItem from="1476142178527" duration="2220000" />
       <workItem from="1476144412869" duration="9658000" />
       <workItem from="1476165811730" duration="4990000" />
-      <workItem from="1476228334781" duration="14953000" />
+      <workItem from="1476228334781" duration="15101000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -581,7 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328417000" />
+    <option name="totallyTimeSpent" value="328565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,17 +556,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5053381" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59423274" sideWeight="0.49466193" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59423274" sideWeight="0.49466193" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29660144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1086,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="583">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
