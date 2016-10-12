@@ -1,7 +1,0 @@
-﻿{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=.\\SQL2014;Database=ForeFront;Trusted_Connection=True;IntegratedSecurity=True;"
-  }
-  
-}
-
