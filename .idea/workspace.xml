@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="" />
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -441,7 +439,7 @@
       <workItem from="1476144412869" duration="9658000" />
       <workItem from="1476165811730" duration="4990000" />
       <workItem from="1476228334781" duration="17764000" />
-      <workItem from="1476250481711" duration="1264000" />
+      <workItem from="1476250481711" duration="1424000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -454,7 +452,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332492000" />
+    <option name="totallyTimeSpent" value="332652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,6 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
