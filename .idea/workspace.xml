@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3bc0281a-8bad-49f2-9a18-de4c89af4278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.css" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.scss" afterPath="$PROJECT_DIR$/client/content/styles/bootstrap/scss/bootstrap-flex.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles.css" afterPath="$PROJECT_DIR$/client/styles.css" />
     </list>
     <ignored path="ForeFront.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -550,7 +547,7 @@
       <workItem from="1476165811730" duration="4990000" />
       <workItem from="1476228334781" duration="17764000" />
       <workItem from="1476250481711" duration="1424000" />
-      <workItem from="1476413171145" duration="48000" />
+      <workItem from="1476413171145" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="update styles">
       <created>1469071893169</created>
@@ -563,7 +560,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332700000" />
+    <option name="totallyTimeSpent" value="333334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
