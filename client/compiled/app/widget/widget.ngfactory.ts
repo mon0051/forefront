@@ -27,9 +27,9 @@ class _View_CardWidget_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_CardWidget0(this.viewUtils,this.injector(0),this._appEl_0);
     this._CardWidget_0_4 = new import3.CardWidget();
-    this._appEl_0.initComponent(this._CardWidget_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._CardWidget_0_4,([] as any[]),compView_0);
     compView_0.create(this._CardWidget_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -38,11 +38,11 @@ class _View_CardWidget_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_CardWidget_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_CardWidget_Host === (null as any))) { (renderType_CardWidget_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_CardWidget_Host === (null as any))) { (renderType_CardWidget_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_CardWidget_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const CardWidgetNgFactory:import9.ComponentFactory<import3.CardWidget> = new import9.ComponentFactory<import3.CardWidget>('card-widget',viewFactory_CardWidget_Host0,import3.CardWidget);
-const styles_CardWidget:any[] = [];
+const styles_CardWidget:any[] = ([] as any[]);
 var renderType_CardWidget:import0.RenderComponentType = (null as any);
 class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
   _el_0:any;
@@ -70,7 +70,7 @@ class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
     this.renderer.projectNodes(this._el_4,import4.flattenNestedViewRenderNodes(this.projectableNodes[0]));
     this._text_6 = this.renderer.createText(this._el_4,'\n    ',(null as any));
     this._text_7 = this.renderer.createText(this._el_0,'\n',(null as any));
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -80,7 +80,7 @@ class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
       this._text_6,
       this._text_7
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
 }

@@ -27,9 +27,9 @@ class _View_HomeComponent_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_HomeComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._HomeComponent_0_4 = new import3.HomeComponent();
-    this._appEl_0.initComponent(this._HomeComponent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._HomeComponent_0_4,([] as any[]),compView_0);
     compView_0.create(this._HomeComponent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -38,11 +38,11 @@ class _View_HomeComponent_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_HomeComponent_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_HomeComponent_Host === (null as any))) { (renderType_HomeComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_HomeComponent_Host === (null as any))) { (renderType_HomeComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_HomeComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const HomeComponentNgFactory:import9.ComponentFactory<import3.HomeComponent> = new import9.ComponentFactory<import3.HomeComponent>('home-component',viewFactory_HomeComponent_Host0,import3.HomeComponent);
-const styles_HomeComponent:any[] = [];
+const styles_HomeComponent:any[] = ([] as any[]);
 var renderType_HomeComponent:import0.RenderComponentType = (null as any);
 class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
   _el_0:any;
@@ -88,7 +88,7 @@ class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
     this._text_13 = this.renderer.createText(this._el_4,'\n        ',(null as any));
     this._text_14 = this.renderer.createText(this._el_2,'\n    ',(null as any));
     this._text_15 = this.renderer.createText(this._el_0,'\n',(null as any));
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -106,7 +106,7 @@ class _View_HomeComponent0 extends import1.AppView<import3.HomeComponent> {
       this._text_14,
       this._text_15
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
 }

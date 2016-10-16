@@ -3,24 +3,23 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/dynamic-forms/dynamic-form-example');
-var import4 = require('@angular/core/src/linker/view_utils');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('../../../app/dynamic-forms/FormData.service');
-var import9 = require('@angular/core/src/metadata/view');
-var import10 = require('@angular/core/src/linker/component_factory');
-var import11 = require('../../../app/dynamic-forms/field-input-control.service');
-var import12 = require('../../../app/dynamic-forms/dynamic-form.component');
-var import13 = require('./dynamic-form.component.ngfactory');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/dynamic-forms/dynamic-form-example';
+import * as import4 from '@angular/core/src/linker/view_utils';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '../../../app/dynamic-forms/FormData.service';
+import * as import9 from '@angular/core/src/metadata/view';
+import * as import10 from '@angular/core/src/linker/component_factory';
+import * as import11 from '../../../app/dynamic-forms/field-input-control.service';
+import * as import12 from '../../../app/dynamic-forms/dynamic-form.component';
+import * as import13 from './dynamic-form.component.ngfactory';
 var renderType_DynamicFormsExampleComponent_Host = null;
 var _View_DynamicFormsExampleComponent_Host0 = (function (_super) {
     __extends(_View_DynamicFormsExampleComponent_Host0, _super);
@@ -51,7 +50,7 @@ function viewFactory_DynamicFormsExampleComponent_Host0(viewUtils, parentInjecto
     }
     return new _View_DynamicFormsExampleComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.DynamicFormsExampleComponentNgFactory = new import10.ComponentFactory('ng-component', viewFactory_DynamicFormsExampleComponent_Host0, import3.DynamicFormsExampleComponent);
+export var DynamicFormsExampleComponentNgFactory = new import10.ComponentFactory('ng-component', viewFactory_DynamicFormsExampleComponent_Host0, import3.DynamicFormsExampleComponent);
 var styles_DynamicFormsExampleComponent = [];
 var renderType_DynamicFormsExampleComponent = null;
 var _View_DynamicFormsExampleComponent0 = (function (_super) {
@@ -99,11 +98,10 @@ var _View_DynamicFormsExampleComponent0 = (function (_super) {
     };
     return _View_DynamicFormsExampleComponent0;
 }(import1.AppView));
-function viewFactory_DynamicFormsExampleComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_DynamicFormsExampleComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_DynamicFormsExampleComponent === null)) {
         (renderType_DynamicFormsExampleComponent = viewUtils.createRenderComponentType('', 0, import9.ViewEncapsulation.None, styles_DynamicFormsExampleComponent, {}));
     }
     return new _View_DynamicFormsExampleComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_DynamicFormsExampleComponent0 = viewFactory_DynamicFormsExampleComponent0;
 //# sourceMappingURL=dynamic-form-example.ngfactory.js.map

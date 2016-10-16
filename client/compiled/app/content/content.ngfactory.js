@@ -3,22 +3,21 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/content/content');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('@angular/router/src/directives/router_outlet');
-var import11 = require('@angular/router/src/router_outlet_map');
-var import12 = require('@angular/core/src/linker/component_factory_resolver');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/content/content';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '@angular/router/src/directives/router_outlet';
+import * as import11 from '@angular/router/src/router_outlet_map';
+import * as import12 from '@angular/core/src/linker/component_factory_resolver';
 var renderType_ForeFrontContent_Host = null;
 var _View_ForeFrontContent_Host0 = (function (_super) {
     __extends(_View_ForeFrontContent_Host0, _super);
@@ -49,7 +48,7 @@ function viewFactory_ForeFrontContent_Host0(viewUtils, parentInjector, declarati
     }
     return new _View_ForeFrontContent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontContentNgFactory = new import9.ComponentFactory('forefront-content', viewFactory_ForeFrontContent_Host0, import3.ForeFrontContent);
+export var ForeFrontContentNgFactory = new import9.ComponentFactory('forefront-content', viewFactory_ForeFrontContent_Host0, import3.ForeFrontContent);
 var styles_ForeFrontContent = [];
 var renderType_ForeFrontContent = null;
 var _View_ForeFrontContent0 = (function (_super) {
@@ -85,11 +84,10 @@ var _View_ForeFrontContent0 = (function (_super) {
     };
     return _View_ForeFrontContent0;
 }(import1.AppView));
-function viewFactory_ForeFrontContent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_ForeFrontContent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ForeFrontContent === null)) {
         (renderType_ForeFrontContent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_ForeFrontContent, {}));
     }
     return new _View_ForeFrontContent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_ForeFrontContent0 = viewFactory_ForeFrontContent0;
 //# sourceMappingURL=content.ngfactory.js.map

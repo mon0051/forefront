@@ -3,24 +3,23 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/dataline/DataLineRepository');
-var import4 = require('../../../app/dataline/DataLineComponent');
-var import5 = require('../../../app/widget/widget');
-var import6 = require('@angular/core/src/linker/view_utils');
-var import8 = require('@angular/core/src/linker/view_type');
-var import9 = require('@angular/core/src/change_detection/change_detection');
-var import10 = require('../../../app/dataline/http-dataline');
-var import11 = require('@angular/core/src/metadata/view');
-var import12 = require('@angular/core/src/linker/component_factory');
-var import13 = require('../widget/widget.ngfactory');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/dataline/DataLineRepository';
+import * as import4 from '../../../app/dataline/DataLineComponent';
+import * as import5 from '../../../app/widget/widget';
+import * as import6 from '@angular/core/src/linker/view_utils';
+import * as import8 from '@angular/core/src/linker/view_type';
+import * as import9 from '@angular/core/src/change_detection/change_detection';
+import * as import10 from '../../../app/dataline/http-dataline';
+import * as import11 from '@angular/core/src/metadata/view';
+import * as import12 from '@angular/core/src/linker/component_factory';
+import * as import13 from '../widget/widget.ngfactory';
 var renderType_DataLineComponent_Host = null;
 var _View_DataLineComponent_Host0 = (function (_super) {
     __extends(_View_DataLineComponent_Host0, _super);
@@ -68,7 +67,7 @@ function viewFactory_DataLineComponent_Host0(viewUtils, parentInjector, declarat
     }
     return new _View_DataLineComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.DataLineComponentNgFactory = new import12.ComponentFactory('data-line-component', viewFactory_DataLineComponent_Host0, import4.DataLineComponent);
+export var DataLineComponentNgFactory = new import12.ComponentFactory('data-line-component', viewFactory_DataLineComponent_Host0, import4.DataLineComponent);
 var styles_DataLineComponent = [];
 var renderType_DataLineComponent = null;
 var _View_DataLineComponent0 = (function (_super) {
@@ -154,11 +153,10 @@ var _View_DataLineComponent0 = (function (_super) {
     };
     return _View_DataLineComponent0;
 }(import1.AppView));
-function viewFactory_DataLineComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_DataLineComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_DataLineComponent === null)) {
         (renderType_DataLineComponent = viewUtils.createRenderComponentType('', 0, import11.ViewEncapsulation.None, styles_DataLineComponent, {}));
     }
     return new _View_DataLineComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_DataLineComponent0 = viewFactory_DataLineComponent0;
 //# sourceMappingURL=DataLineComponent.ngfactory.js.map

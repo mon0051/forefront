@@ -38,9 +38,9 @@ class _View_DataLineComponent_Host0 extends import1.AppView<any> {
     var compView_0:any = viewFactory_DataLineComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._DataLineRepository_0_4 = new import3.DataLineRepository(this.parentInjector.get(import10.HttpDataLine));
     this._DataLineComponent_0_5 = new import4.DataLineComponent(this._DataLineRepository_0_4);
-    this._appEl_0.initComponent(this._DataLineComponent_0_5,[],compView_0);
+    this._appEl_0.initComponent(this._DataLineComponent_0_5,([] as any[]),compView_0);
     compView_0.create(this._DataLineComponent_0_5,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -51,11 +51,11 @@ class _View_DataLineComponent_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_DataLineComponent_Host0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_DataLineComponent_Host === (null as any))) { (renderType_DataLineComponent_Host = viewUtils.createRenderComponentType('',0,import11.ViewEncapsulation.None,[],{})); }
+  if ((renderType_DataLineComponent_Host === (null as any))) { (renderType_DataLineComponent_Host = viewUtils.createRenderComponentType('',0,import11.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_DataLineComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const DataLineComponentNgFactory:import12.ComponentFactory<import4.DataLineComponent> = new import12.ComponentFactory<import4.DataLineComponent>('data-line-component',viewFactory_DataLineComponent_Host0,import4.DataLineComponent);
-const styles_DataLineComponent:any[] = [];
+const styles_DataLineComponent:any[] = ([] as any[]);
 var renderType_DataLineComponent:import0.RenderComponentType = (null as any);
 class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent> {
   _el_0:any;
@@ -97,7 +97,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
     this._appEl_6 = new import2.AppElement(6,4,this,this._el_6);
     var compView_6:any = import13.viewFactory_CardWidget0(this.viewUtils,this.injector(6),this._appEl_6);
     this._CardWidget_6_4 = new import5.CardWidget();
-    this._appEl_6.initComponent(this._CardWidget_6_4,[],compView_6);
+    this._appEl_6.initComponent(this._CardWidget_6_4,([] as any[]),compView_6);
     this._text_7 = this.renderer.createText((null as any),'\n        ',(null as any));
     this._el_8 = this.renderer.createElement((null as any),'pre',(null as any));
     this._text_9 = this.renderer.createText(this._el_8,'',(null as any));
@@ -105,7 +105,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
     this._el_11 = this.renderer.createElement((null as any),'pre',(null as any));
     this._text_12 = this.renderer.createText(this._el_11,'',(null as any));
     this._text_13 = this.renderer.createText((null as any),'\n      ',(null as any));
-      compView_6.create(this._CardWidget_6_4,[[].concat([
+      compView_6.create(this._CardWidget_6_4,[([] as any[]).concat([
         this._text_7,
         this._el_8,
         this._text_10,
@@ -118,7 +118,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
     this._text_16 = this.renderer.createText(this._el_0,'\n',(null as any));
     this._expr_0 = import9.UNINITIALIZED;
     this._expr_1 = import9.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -137,7 +137,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
       this._text_15,
       this._text_16
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {

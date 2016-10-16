@@ -30,9 +30,9 @@ class _View_ForeFrontContent_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_ForeFrontContent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._ForeFrontContent_0_4 = new import3.ForeFrontContent();
-    this._appEl_0.initComponent(this._ForeFrontContent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._ForeFrontContent_0_4,([] as any[]),compView_0);
     compView_0.create(this._ForeFrontContent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -41,11 +41,11 @@ class _View_ForeFrontContent_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_ForeFrontContent_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_ForeFrontContent_Host === (null as any))) { (renderType_ForeFrontContent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_ForeFrontContent_Host === (null as any))) { (renderType_ForeFrontContent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_ForeFrontContent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const ForeFrontContentNgFactory:import9.ComponentFactory<import3.ForeFrontContent> = new import9.ComponentFactory<import3.ForeFrontContent>('forefront-content',viewFactory_ForeFrontContent_Host0,import3.ForeFrontContent);
-const styles_ForeFrontContent:any[] = [];
+const styles_ForeFrontContent:any[] = ([] as any[]);
 var renderType_ForeFrontContent:import0.RenderComponentType = (null as any);
 class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContent> {
   _el_0:any;
@@ -66,13 +66,13 @@ class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContent> 
     this._appEl_2 = new import2.AppElement(2,0,this,this._el_2);
     this._RouterOutlet_2_5 = new import10.RouterOutlet(this.parentInjector.get(import11.RouterOutletMap),this._appEl_2.vcRef,this.parentInjector.get(import12.ComponentFactoryResolver),(null as any));
     this._text_3 = this.renderer.createText(this._el_0,'\n',(null as any));
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
       this._text_3
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {

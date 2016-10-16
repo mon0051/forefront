@@ -36,9 +36,9 @@ class _View_Grid_Host0 extends import1.AppView<any> {
     var compView_0:any = viewFactory_Grid0(this.viewUtils,this.injector(0),this._appEl_0);
     this._Grid_0_4 = new import3.Grid(this.parentInjector.get(import9.Settings));
     this._NgClass_0_5 = new import4.NgClass(this.parentInjector.get(import10.IterableDiffers),this.parentInjector.get(import11.KeyValueDiffers),new import12.ElementRef(this._el_0),this.renderer);
-    this._appEl_0.initComponent(this._Grid_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._Grid_0_4,([] as any[]),compView_0);
     compView_0.create(this._Grid_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -48,11 +48,11 @@ class _View_Grid_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_Grid_Host0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_Grid_Host === (null as any))) { (renderType_Grid_Host = viewUtils.createRenderComponentType('',0,import13.ViewEncapsulation.None,[],{})); }
+  if ((renderType_Grid_Host === (null as any))) { (renderType_Grid_Host = viewUtils.createRenderComponentType('',0,import13.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_Grid_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const GridNgFactory:import14.ComponentFactory<import3.Grid> = new import14.ComponentFactory<import3.Grid>('gol-grid',viewFactory_Grid_Host0,import3.Grid);
-const styles_Grid:any[] = [];
+const styles_Grid:any[] = ([] as any[]);
 var renderType_Grid:import0.RenderComponentType = (null as any);
 class _View_Grid0 extends import1.AppView<import3.Grid> {
   _el_0:any;
@@ -124,7 +124,7 @@ class _View_Grid0 extends import1.AppView<import3.Grid> {
     var disposable_0:Function = this.renderer.listen(this._el_11,'click',this.eventHandler(this._handle_click_11_0.bind(this)));
     var disposable_1:Function = this.renderer.listen(this._el_14,'click',this.eventHandler(this._handle_click_14_0.bind(this)));
     var disposable_2:Function = this.renderer.listen(this._el_17,'click',this.eventHandler(this._handle_click_17_0.bind(this)));
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -154,7 +154,7 @@ class _View_Grid0 extends import1.AppView<import3.Grid> {
       disposable_1,
       disposable_2
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -219,13 +219,13 @@ class _View_Grid1 extends import1.AppView<any> {
     this._NgFor_2_6 = new import15.NgFor(this._appEl_2.vcRef,this._TemplateRef_2_5,this.parent.parentInjector.get(import10.IterableDiffers),this.parent.ref);
     this._text_3 = this.renderer.createText(this._el_0,'\n    ',(null as any));
     this._expr_0 = import8.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._anchor_2,
       this._text_3
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -282,7 +282,7 @@ class _View_Grid2 extends import1.AppView<any> {
     var disposable_2:Function = this.renderer.listen(this._el_2,'click',this.eventHandler(this._handle_click_2_2.bind(this)));
     this._expr_3 = import8.UNINITIALIZED;
     this._expr_4 = import8.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -296,7 +296,7 @@ class _View_Grid2 extends import1.AppView<any> {
       disposable_1,
       disposable_2
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {

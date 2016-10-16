@@ -3,35 +3,34 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/dynamic-forms/dynamic-form-question.component');
-var import4 = require('@angular/core/src/linker/view_utils');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('@angular/forms/src/directives/reactive_directives/form_group_directive');
-var import11 = require('@angular/forms/src/directives/ng_control_status');
-var import12 = require('@angular/common/src/directives/ng_switch');
-var import13 = require('@angular/common/src/directives/ng_if');
-var import14 = require('@angular/core/src/linker/template_ref');
-var import15 = require('@angular/forms/src/directives/control_container');
-var import16 = require('@angular/forms/src/directives/default_value_accessor');
-var import17 = require('@angular/forms/src/directives/reactive_directives/form_control_name');
-var import18 = require('@angular/core/src/linker/element_ref');
-var import19 = require('@angular/forms/src/directives/control_value_accessor');
-var import20 = require('@angular/forms/src/directives/ng_control');
-var import21 = require('@angular/forms/src/directives/select_control_value_accessor');
-var import22 = require('@angular/common/src/directives/ng_for');
-var import23 = require('@angular/core/src/change_detection/differs/iterable_differs');
-var import24 = require('@angular/forms/src/directives/select_multiple_control_value_accessor');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/dynamic-forms/dynamic-form-question.component';
+import * as import4 from '@angular/core/src/linker/view_utils';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '@angular/forms/src/directives/reactive_directives/form_group_directive';
+import * as import11 from '@angular/forms/src/directives/ng_control_status';
+import * as import12 from '@angular/common/src/directives/ng_switch';
+import * as import13 from '@angular/common/src/directives/ng_if';
+import * as import14 from '@angular/core/src/linker/template_ref';
+import * as import15 from '@angular/forms/src/directives/control_container';
+import * as import16 from '@angular/forms/src/directives/default_value_accessor';
+import * as import17 from '@angular/forms/src/directives/reactive_directives/form_control_name';
+import * as import18 from '@angular/core/src/linker/element_ref';
+import * as import19 from '@angular/forms/src/directives/control_value_accessor';
+import * as import20 from '@angular/forms/src/directives/ng_control';
+import * as import21 from '@angular/forms/src/directives/select_control_value_accessor';
+import * as import22 from '@angular/common/src/directives/ng_for';
+import * as import23 from '@angular/core/src/change_detection/differs/iterable_differs';
+import * as import24 from '@angular/forms/src/directives/select_multiple_control_value_accessor';
 var renderType_DynamicFormQuestionComponent_Host = null;
 var _View_DynamicFormQuestionComponent_Host0 = (function (_super) {
     __extends(_View_DynamicFormQuestionComponent_Host0, _super);
@@ -62,7 +61,7 @@ function viewFactory_DynamicFormQuestionComponent_Host0(viewUtils, parentInjecto
     }
     return new _View_DynamicFormQuestionComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.DynamicFormQuestionComponentNgFactory = new import9.ComponentFactory('df-question', viewFactory_DynamicFormQuestionComponent_Host0, import3.DynamicFormQuestionComponent);
+export var DynamicFormQuestionComponentNgFactory = new import9.ComponentFactory('df-question', viewFactory_DynamicFormQuestionComponent_Host0, import3.DynamicFormQuestionComponent);
 var styles_DynamicFormQuestionComponent = [];
 var renderType_DynamicFormQuestionComponent = null;
 var _View_DynamicFormQuestionComponent0 = (function (_super) {
@@ -248,7 +247,7 @@ var _View_DynamicFormQuestionComponent0 = (function (_super) {
     };
     _View_DynamicFormQuestionComponent0.prototype._handle_submit_0_0 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._FormGroupDirective_0_3.onSubmit() !== false);
+        var pd_0 = (this._FormGroupDirective_0_3.onSubmit($event) !== false);
         return (true && pd_0);
     };
     _View_DynamicFormQuestionComponent0.prototype._handle_reset_0_1 = function ($event) {
@@ -258,13 +257,12 @@ var _View_DynamicFormQuestionComponent0 = (function (_super) {
     };
     return _View_DynamicFormQuestionComponent0;
 }(import1.AppView));
-function viewFactory_DynamicFormQuestionComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_DynamicFormQuestionComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_DynamicFormQuestionComponent === null)) {
         (renderType_DynamicFormQuestionComponent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_DynamicFormQuestionComponent, {}));
     }
     return new _View_DynamicFormQuestionComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_DynamicFormQuestionComponent0 = viewFactory_DynamicFormQuestionComponent0;
 var _View_DynamicFormQuestionComponent1 = (function (_super) {
     __extends(_View_DynamicFormQuestionComponent1, _super);
     function _View_DynamicFormQuestionComponent1(viewUtils, parentInjector, declarationEl) {

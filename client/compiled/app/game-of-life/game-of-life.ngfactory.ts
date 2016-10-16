@@ -44,9 +44,9 @@ class _View_GameOfLife_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_GameOfLife0(this.viewUtils,this.injector(0),this._appEl_0);
     this._GameOfLife_0_4 = new import3.GameOfLife();
-    this._appEl_0.initComponent(this._GameOfLife_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._GameOfLife_0_4,([] as any[]),compView_0);
     compView_0.create(this._GameOfLife_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -57,11 +57,11 @@ class _View_GameOfLife_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_GameOfLife_Host0(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_GameOfLife_Host === (null as any))) { (renderType_GameOfLife_Host = viewUtils.createRenderComponentType('',0,import10.ViewEncapsulation.None,[],{})); }
+  if ((renderType_GameOfLife_Host === (null as any))) { (renderType_GameOfLife_Host = viewUtils.createRenderComponentType('',0,import10.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_GameOfLife_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const GameOfLifeNgFactory:import11.ComponentFactory<import3.GameOfLife> = new import11.ComponentFactory<import3.GameOfLife>('game-of-life',viewFactory_GameOfLife_Host0,import3.GameOfLife);
-const styles_GameOfLife:any[] = [];
+const styles_GameOfLife:any[] = ([] as any[]);
 var renderType_GameOfLife:import0.RenderComponentType = (null as any);
 class _View_GameOfLife0 extends import1.AppView<import3.GameOfLife> {
   _el_0:any;
@@ -95,11 +95,11 @@ class _View_GameOfLife0 extends import1.AppView<import3.GameOfLife> {
     var compView_6:any = import13.viewFactory_Grid0(this.viewUtils,this.injector(6),this._appEl_6);
     this._Grid_6_4 = new import5.Grid(this.parentInjector.get(import4.Settings));
     this._NgClass_6_5 = new import12.NgClass(this.parentInjector.get(import14.IterableDiffers),this.parentInjector.get(import15.KeyValueDiffers),new import16.ElementRef(this._el_6),this.renderer);
-    this._appEl_6.initComponent(this._Grid_6_4,[],compView_6);
+    this._appEl_6.initComponent(this._Grid_6_4,([] as any[]),compView_6);
     this._text_7 = this.renderer.createText((null as any),'Temp',(null as any));
-    compView_6.create(this._Grid_6_4,[],(null as any));
+    compView_6.create(this._Grid_6_4,([] as any[]),(null as any));
     this._text_8 = this.renderer.createText(this._el_0,'\n',(null as any));
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -110,7 +110,7 @@ class _View_GameOfLife0 extends import1.AppView<import3.GameOfLife> {
       this._text_7,
       this._text_8
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {

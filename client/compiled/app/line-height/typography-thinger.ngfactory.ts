@@ -35,9 +35,9 @@ class _View_TypographyThinger_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_TypographyThinger0(this.viewUtils,this.injector(0),this._appEl_0);
     this._TypographyThinger_0_4 = new import3.TypographyThinger();
-    this._appEl_0.initComponent(this._TypographyThinger_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._TypographyThinger_0_4,([] as any[]),compView_0);
     compView_0.create(this._TypographyThinger_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -46,11 +46,11 @@ class _View_TypographyThinger_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_TypographyThinger_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_TypographyThinger_Host === (null as any))) { (renderType_TypographyThinger_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_TypographyThinger_Host === (null as any))) { (renderType_TypographyThinger_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_TypographyThinger_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const TypographyThingerNgFactory:import9.ComponentFactory<import3.TypographyThinger> = new import9.ComponentFactory<import3.TypographyThinger>('typography-thinger',viewFactory_TypographyThinger_Host0,import3.TypographyThinger);
-const styles_TypographyThinger:any[] = [];
+const styles_TypographyThinger:any[] = ([] as any[]);
 var renderType_TypographyThinger:import0.RenderComponentType = (null as any);
 class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThinger> {
   _el_0:any;
@@ -338,7 +338,7 @@ class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThinger
     this._expr_49 = import7.UNINITIALIZED;
     this._expr_50 = import7.UNINITIALIZED;
     this._expr_51 = import7.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,

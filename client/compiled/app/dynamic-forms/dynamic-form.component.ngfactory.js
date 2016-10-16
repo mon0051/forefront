@@ -3,30 +3,29 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/dynamic-forms/field-input-control.service');
-var import4 = require('../../../app/dynamic-forms/dynamic-form.component');
-var import5 = require('@angular/core/src/linker/view_utils');
-var import7 = require('@angular/core/src/linker/view_type');
-var import8 = require('@angular/core/src/change_detection/change_detection');
-var import9 = require('@angular/core/src/metadata/view');
-var import10 = require('@angular/core/src/linker/component_factory');
-var import11 = require('@angular/forms/src/directives/reactive_directives/form_group_directive');
-var import12 = require('@angular/forms/src/directives/ng_control_status');
-var import13 = require('@angular/common/src/directives/ng_for');
-var import14 = require('@angular/common/src/directives/ng_if');
-var import15 = require('@angular/core/src/linker/template_ref');
-var import16 = require('@angular/core/src/change_detection/differs/iterable_differs');
-var import17 = require('@angular/forms/src/directives/control_container');
-var import18 = require('../../../app/dynamic-forms/dynamic-form-question.component');
-var import19 = require('./dynamic-form-question.component.ngfactory');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/dynamic-forms/field-input-control.service';
+import * as import4 from '../../../app/dynamic-forms/dynamic-form.component';
+import * as import5 from '@angular/core/src/linker/view_utils';
+import * as import7 from '@angular/core/src/linker/view_type';
+import * as import8 from '@angular/core/src/change_detection/change_detection';
+import * as import9 from '@angular/core/src/metadata/view';
+import * as import10 from '@angular/core/src/linker/component_factory';
+import * as import11 from '@angular/forms/src/directives/reactive_directives/form_group_directive';
+import * as import12 from '@angular/forms/src/directives/ng_control_status';
+import * as import13 from '@angular/common/src/directives/ng_for';
+import * as import14 from '@angular/common/src/directives/ng_if';
+import * as import15 from '@angular/core/src/linker/template_ref';
+import * as import16 from '@angular/core/src/change_detection/differs/iterable_differs';
+import * as import17 from '@angular/forms/src/directives/control_container';
+import * as import18 from '../../../app/dynamic-forms/dynamic-form-question.component';
+import * as import19 from './dynamic-form-question.component.ngfactory';
 var renderType_DynamicFormComponent_Host = null;
 var _View_DynamicFormComponent_Host0 = (function (_super) {
     __extends(_View_DynamicFormComponent_Host0, _super);
@@ -68,7 +67,7 @@ function viewFactory_DynamicFormComponent_Host0(viewUtils, parentInjector, decla
     }
     return new _View_DynamicFormComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.DynamicFormComponentNgFactory = new import10.ComponentFactory('dynamic-form', viewFactory_DynamicFormComponent_Host0, import4.DynamicFormComponent);
+export var DynamicFormComponentNgFactory = new import10.ComponentFactory('dynamic-form', viewFactory_DynamicFormComponent_Host0, import4.DynamicFormComponent);
 var styles_DynamicFormComponent = [];
 var renderType_DynamicFormComponent = null;
 var _View_DynamicFormComponent0 = (function (_super) {
@@ -246,7 +245,7 @@ var _View_DynamicFormComponent0 = (function (_super) {
     };
     _View_DynamicFormComponent0.prototype._handle_submit_2_1 = function ($event) {
         this.markPathToRootAsCheckOnce();
-        var pd_0 = (this._FormGroupDirective_2_3.onSubmit() !== false);
+        var pd_0 = (this._FormGroupDirective_2_3.onSubmit($event) !== false);
         return (true && pd_0);
     };
     _View_DynamicFormComponent0.prototype._handle_reset_2_2 = function ($event) {
@@ -256,13 +255,12 @@ var _View_DynamicFormComponent0 = (function (_super) {
     };
     return _View_DynamicFormComponent0;
 }(import1.AppView));
-function viewFactory_DynamicFormComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_DynamicFormComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_DynamicFormComponent === null)) {
         (renderType_DynamicFormComponent = viewUtils.createRenderComponentType('', 0, import9.ViewEncapsulation.None, styles_DynamicFormComponent, {}));
     }
     return new _View_DynamicFormComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_DynamicFormComponent0 = viewFactory_DynamicFormComponent0;
 var _View_DynamicFormComponent1 = (function (_super) {
     __extends(_View_DynamicFormComponent1, _super);
     function _View_DynamicFormComponent1(viewUtils, parentInjector, declarationEl) {

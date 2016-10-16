@@ -42,9 +42,9 @@ class _View_DynamicFormQuestionComponent_Host0 extends import1.AppView<any> {
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_DynamicFormQuestionComponent0(this.viewUtils,this.injector(0),this._appEl_0);
     this._DynamicFormQuestionComponent_0_4 = new import3.DynamicFormQuestionComponent();
-    this._appEl_0.initComponent(this._DynamicFormQuestionComponent_0_4,[],compView_0);
+    this._appEl_0.initComponent(this._DynamicFormQuestionComponent_0_4,([] as any[]),compView_0);
     compView_0.create(this._DynamicFormQuestionComponent_0_4,this.projectableNodes,(null as any));
-    this.init([].concat([this._el_0]),[this._el_0],[],[]);
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -53,11 +53,11 @@ class _View_DynamicFormQuestionComponent_Host0 extends import1.AppView<any> {
   }
 }
 function viewFactory_DynamicFormQuestionComponent_Host0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<any> {
-  if ((renderType_DynamicFormQuestionComponent_Host === (null as any))) { (renderType_DynamicFormQuestionComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,[],{})); }
+  if ((renderType_DynamicFormQuestionComponent_Host === (null as any))) { (renderType_DynamicFormQuestionComponent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_DynamicFormQuestionComponent_Host0(viewUtils,parentInjector,declarationEl);
 }
 export const DynamicFormQuestionComponentNgFactory:import9.ComponentFactory<import3.DynamicFormQuestionComponent> = new import9.ComponentFactory<import3.DynamicFormQuestionComponent>('df-question',viewFactory_DynamicFormQuestionComponent_Host0,import3.DynamicFormQuestionComponent);
-const styles_DynamicFormQuestionComponent:any[] = [];
+const styles_DynamicFormQuestionComponent:any[] = ([] as any[]);
 var renderType_DynamicFormQuestionComponent:import0.RenderComponentType = (null as any);
 class _View_DynamicFormQuestionComponent0 extends import1.AppView<import3.DynamicFormQuestionComponent> {
   _el_0:any;
@@ -147,7 +147,7 @@ class _View_DynamicFormQuestionComponent0 extends import1.AppView<import3.Dynami
     this._expr_12 = import7.UNINITIALIZED;
     this._expr_13 = import7.UNINITIALIZED;
     this._expr_14 = import7.UNINITIALIZED;
-    this.init([],[
+    this.init(([] as any[]),[
       this._el_0,
       this._text_1,
       this._el_2,
@@ -167,7 +167,7 @@ class _View_DynamicFormQuestionComponent0 extends import1.AppView<import3.Dynami
       disposable_0,
       disposable_1
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -259,7 +259,7 @@ class _View_DynamicFormQuestionComponent0 extends import1.AppView<import3.Dynami
   }
   private _handle_submit_0_0($event:any):boolean {
     this.markPathToRootAsCheckOnce();
-    const pd_0:any = ((<any>this._FormGroupDirective_0_3.onSubmit()) !== false);
+    const pd_0:any = ((<any>this._FormGroupDirective_0_3.onSubmit($event)) !== false);
     return (true && pd_0);
   }
   private _handle_reset_0_1($event:any):boolean {
@@ -309,11 +309,11 @@ class _View_DynamicFormQuestionComponent1 extends import1.AppView<any> {
     this._expr_8 = import7.UNINITIALIZED;
     this._expr_9 = import7.UNINITIALIZED;
     this._expr_10 = import7.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[this._el_0],[
+    this.init(([] as any[]).concat([this._el_0]),[this._el_0],[
       disposable_0,
       disposable_1
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -444,7 +444,7 @@ class _View_DynamicFormQuestionComponent2 extends import1.AppView<any> {
     this._expr_8 = import7.UNINITIALIZED;
     this._expr_9 = import7.UNINITIALIZED;
     this._expr_10 = import7.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1,
       this._anchor_2,
@@ -454,7 +454,7 @@ class _View_DynamicFormQuestionComponent2 extends import1.AppView<any> {
       disposable_0,
       disposable_1
     ]
-    ,[]);
+    ,([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -562,11 +562,11 @@ class _View_DynamicFormQuestionComponent3 extends import1.AppView<any> {
     this._expr_0 = import7.UNINITIALIZED;
     this._expr_1 = import7.UNINITIALIZED;
     this._expr_2 = import7.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
@@ -613,11 +613,11 @@ class _View_DynamicFormQuestionComponent4 extends import1.AppView<any> {
     this.renderer.setElementAttribute(this._el_0,'class','errorMessage');
     this._text_1 = this.renderer.createText(this._el_0,'',(null as any));
     this._expr_0 = import7.UNINITIALIZED;
-    this.init([].concat([this._el_0]),[
+    this.init(([] as any[]).concat([this._el_0]),[
       this._el_0,
       this._text_1
     ]
-    ,[],[]);
+    ,([] as any[]),([] as any[]));
     return (null as any);
   }
   detectChangesInternal(throwOnChange:boolean):void {
