@@ -3,19 +3,20 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import1 from '@angular/core/src/linker/view';
-import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/widget/widget';
-import * as import4 from '@angular/core/src/linker/view_utils';
-import * as import6 from '@angular/core/src/linker/view_type';
-import * as import7 from '@angular/core/src/change_detection/change_detection';
-import * as import8 from '@angular/core/src/metadata/view';
-import * as import9 from '@angular/core/src/linker/component_factory';
+var import1 = require('@angular/core/src/linker/view');
+var import2 = require('@angular/core/src/linker/element');
+var import3 = require('../../../app/widget/widget');
+var import4 = require('@angular/core/src/linker/view_utils');
+var import6 = require('@angular/core/src/linker/view_type');
+var import7 = require('@angular/core/src/change_detection/change_detection');
+var import8 = require('@angular/core/src/metadata/view');
+var import9 = require('@angular/core/src/linker/component_factory');
 var renderType_CardWidget_Host = null;
 var _View_CardWidget_Host0 = (function (_super) {
     __extends(_View_CardWidget_Host0, _super);
@@ -46,7 +47,7 @@ function viewFactory_CardWidget_Host0(viewUtils, parentInjector, declarationEl) 
     }
     return new _View_CardWidget_Host0(viewUtils, parentInjector, declarationEl);
 }
-export var CardWidgetNgFactory = new import9.ComponentFactory('card-widget', viewFactory_CardWidget_Host0, import3.CardWidget);
+exports.CardWidgetNgFactory = new import9.ComponentFactory('card-widget', viewFactory_CardWidget_Host0, import3.CardWidget);
 var styles_CardWidget = [];
 var renderType_CardWidget = null;
 var _View_CardWidget0 = (function (_super) {
@@ -82,10 +83,11 @@ var _View_CardWidget0 = (function (_super) {
     };
     return _View_CardWidget0;
 }(import1.AppView));
-export function viewFactory_CardWidget0(viewUtils, parentInjector, declarationEl) {
+function viewFactory_CardWidget0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_CardWidget === null)) {
         (renderType_CardWidget = viewUtils.createRenderComponentType('', 1, import8.ViewEncapsulation.None, styles_CardWidget, {}));
     }
     return new _View_CardWidget0(viewUtils, parentInjector, declarationEl);
 }
+exports.viewFactory_CardWidget0 = viewFactory_CardWidget0;
 //# sourceMappingURL=widget.ngfactory.js.map
