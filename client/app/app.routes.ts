@@ -6,10 +6,12 @@ import {TypographyThinger} from "./line-height/typography-thinger";
 import {DataLineComponent} from "./dataline/DataLineComponent";
 import {ModuleWithProviders} from "@angular/core";
 import {DynamicFormsExampleComponent} from "./dynamic-forms/dynamic-form-example";
+import {BattlerMain} from "./battler/BattlerMain";
 
 const routes: Routes = [
     {path: 'home', component:HomeComponent},
     {path: 'game-of-life', component: GameOfLife},
+    {path: 'battler', component:BattlerMain},
     {path: 'typography',component:TypographyThinger},
     {path: 'data-line',component: DataLineComponent},
     {path: '', redirectTo:'home',pathMatch:'full'},

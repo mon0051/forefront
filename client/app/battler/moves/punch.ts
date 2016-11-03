@@ -1,7 +1,7 @@
 import {Move} from "../base_objects/Move";
 import {getDamage} from "../effects/damage";
 
-export function getPunch(){
+export function getPunch() : Move{
     let move = new Move();
     move.duration =1;
     move.effects[move.effects.length] = getDamage(10);

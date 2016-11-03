@@ -6,9 +6,11 @@ var not_found_1 = require("./util/not-found");
 var typography_thinger_1 = require("./line-height/typography-thinger");
 var DataLineComponent_1 = require("./dataline/DataLineComponent");
 var dynamic_form_example_1 = require("./dynamic-forms/dynamic-form-example");
+var BattlerMain_1 = require("./battler/BattlerMain");
 var routes = [
     { path: 'home', component: home_1.HomeComponent },
     { path: 'game-of-life', component: game_of_life_1.GameOfLife },
+    { path: 'battler', component: BattlerMain_1.BattlerMain },
     { path: 'typography', component: typography_thinger_1.TypographyThinger },
     { path: 'data-line', component: DataLineComponent_1.DataLineComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' },

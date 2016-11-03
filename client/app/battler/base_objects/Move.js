@@ -1,6 +1,8 @@
 "use strict";
 var Move = (function () {
     function Move() {
+        this.target = [];
+        this.effects = [];
     }
     return Move;
 }());

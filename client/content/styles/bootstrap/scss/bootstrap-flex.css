@@ -4530,5 +4530,8 @@ div.top-line {
 .widget-std {
   min-height: 25rem; }
 
+.player .hp {
+  margin-top: 230px; }
+
 body {
   background-image: url("content/img/lighten-sm-d_s.jpg"); }

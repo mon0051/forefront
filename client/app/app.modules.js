@@ -35,6 +35,7 @@ var typography_thinger_1 = require("./line-height/typography-thinger");
 var dynamic_form_component_1 = require("./dynamic-forms/dynamic-form.component");
 var dynamic_form_question_component_1 = require("./dynamic-forms/dynamic-form-question.component");
 var dynamic_form_example_1 = require("./dynamic-forms/dynamic-form-example");
+var BattlerMain_1 = require("./battler/BattlerMain");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -54,6 +55,7 @@ var AppModule = (function () {
                 game_of_life_1.GameOfLife,
                 home_1.HomeComponent,
                 grid_1.Grid,
+                BattlerMain_1.BattlerMain,
                 widget_1.CardWidget,
                 typography_thinger_1.TypographyThinger,
                 DataLineComponent_1.DataLineComponent,
