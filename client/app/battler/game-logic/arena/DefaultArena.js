@@ -5,6 +5,7 @@ function getDefaultArena() {
     var arena = new Arena_1.Arena();
     arena.opponent = Farscrubler_1.getFarscrubler();
     arena.player = Farscrubler_1.getFarscrubler();
+    arena.opponent.hp = 50;
     return arena;
 }
 exports.getDefaultArena = getDefaultArena;

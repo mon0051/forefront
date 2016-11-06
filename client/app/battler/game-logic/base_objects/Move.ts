@@ -1,5 +1,5 @@
 import {Effect} from "./Effect";
-import {Guid} from "../../util/Guid";
+import {Guid} from "../../../util/Guid";
 
 
 export class Move {

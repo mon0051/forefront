@@ -7,5 +7,7 @@ export function getDefaultArena():Arena{
     arena.opponent = getFarscrubler();
     arena.player = getFarscrubler();
 
+    arena.opponent.hp = 50;
+
     return arena;
 }

@@ -1,5 +1,5 @@
 import {Battler} from "./Battler";
-import {Guid} from "../../util/Guid";
+import {Guid} from "../../../util/Guid";
 
 export class Effect {
     id:Guid = new Guid();

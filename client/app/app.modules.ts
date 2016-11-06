@@ -28,6 +28,7 @@ import {DynamicFormComponent} from "./dynamic-forms/dynamic-form.component";
 import {DynamicFormQuestionComponent} from "./dynamic-forms/dynamic-form-question.component";
 import {DynamicFormsExampleComponent} from "./dynamic-forms/dynamic-form-example";
 import {BattlerMain} from "./battler/BattlerMain";
+import {StatusBarComponent, BattlerImage} from "./battler/UiBits";
 
 @NgModule({
     imports: [
@@ -51,7 +52,10 @@ import {BattlerMain} from "./battler/BattlerMain";
         PageNotFoundComponent,
         DynamicFormComponent,
         DynamicFormQuestionComponent,
+        StatusBarComponent,
+        BattlerImage,
         DynamicFormsExampleComponent],
+
     providers: [
         HttpDataLine
     ],

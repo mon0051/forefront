@@ -1,6 +1,6 @@
 import {Move} from "./Move";
 import {ActiveEffect, Effect} from "./Effect";
-import {Guid} from "../../util/Guid";
+import {Guid} from "../../../util/Guid";
 
 export class Battler {
     name:string;

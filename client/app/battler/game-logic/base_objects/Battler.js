@@ -1,5 +1,5 @@
 "use strict";
-var Guid_1 = require("../../util/Guid");
+var Guid_1 = require("../../../util/Guid");
 var Battler = (function () {
     function Battler() {
         this.id = new Guid_1.Guid();

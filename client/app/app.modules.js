@@ -36,6 +36,7 @@ var dynamic_form_component_1 = require("./dynamic-forms/dynamic-form.component")
 var dynamic_form_question_component_1 = require("./dynamic-forms/dynamic-form-question.component");
 var dynamic_form_example_1 = require("./dynamic-forms/dynamic-form-example");
 var BattlerMain_1 = require("./battler/BattlerMain");
+var UiBits_1 = require("./battler/UiBits");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -62,6 +63,8 @@ var AppModule = (function () {
                 not_found_1.PageNotFoundComponent,
                 dynamic_form_component_1.DynamicFormComponent,
                 dynamic_form_question_component_1.DynamicFormQuestionComponent,
+                UiBits_1.StatusBarComponent,
+                UiBits_1.BattlerImage,
                 dynamic_form_example_1.DynamicFormsExampleComponent],
             providers: [
                 http_dataline_1.HttpDataLine
