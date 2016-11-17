@@ -13,7 +13,7 @@ var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
 var import3 = require('../../../app/game-of-life/game-of-life');
 var import4 = require('../../../app/game-of-life/settings');
-var import5 = require('../../../app/game-of-life/grid');
+var import5 = require('../../../app/game-of-life/grid.component');
 var import8 = require('@angular/core/src/linker/view_type');
 var import9 = require('@angular/core/src/change_detection/change_detection');
 var import10 = require('@angular/core/src/metadata/view');
@@ -42,7 +42,7 @@ var _View_GameOfLife_Host0 = (function (_super) {
     Object.defineProperty(_View_GameOfLife_Host0.prototype, "_Grid_0_6", {
         get: function () {
             if ((this.__Grid_0_6 == null)) {
-                (this.__Grid_0_6 = new import5.Grid(this._Settings_0_5));
+                (this.__Grid_0_6 = new import5.GridComponent(this._Settings_0_5));
             }
             return this.__Grid_0_6;
         },
@@ -66,7 +66,7 @@ var _View_GameOfLife_Host0 = (function (_super) {
         if (((token === import4.Settings) && (0 === requestNodeIndex))) {
             return this._Settings_0_5;
         }
-        if (((token === import5.Grid) && (0 === requestNodeIndex))) {
+        if (((token === import5.GridComponent) && (0 === requestNodeIndex))) {
             return this._Grid_0_6;
         }
         return notFoundResult;
@@ -101,7 +101,7 @@ var _View_GameOfLife0 = (function (_super) {
         this._el_6 = this.renderer.createElement(this._el_0, 'gol-grid', null);
         this._appEl_6 = new import2.AppElement(6, 0, this, this._el_6);
         var compView_6 = import13.viewFactory_Grid0(this.viewUtils, this.injector(6), this._appEl_6);
-        this._Grid_6_4 = new import5.Grid(this.parentInjector.get(import4.Settings));
+        this._Grid_6_4 = new import5.GridComponent(this.parentInjector.get(import4.Settings));
         this._NgClass_6_5 = new import12.NgClass(this.parentInjector.get(import14.IterableDiffers), this.parentInjector.get(import15.KeyValueDiffers), new import16.ElementRef(this._el_6), this.renderer);
         this._appEl_6.initComponent(this._Grid_6_4, [], compView_6);
         this._text_7 = this.renderer.createText(null, 'Temp', null);
@@ -121,7 +121,7 @@ var _View_GameOfLife0 = (function (_super) {
         return null;
     };
     _View_GameOfLife0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import5.Grid) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 7)))) {
+        if (((token === import5.GridComponent) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 7)))) {
             return this._Grid_6_4;
         }
         if (((token === import12.NgClass) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 7)))) {

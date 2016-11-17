@@ -13,17 +13,17 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/operator/toPromise';
 
-import {CardWidget} from "./widget/widget";
-import {DataLineComponent} from "./dataline/DataLineComponent";
-import {ForeFrontContent} from "./content/content";
-import {ForeFrontNav} from "./nav/nav";
-import {ForeFrontRoot} from "./forefront-root/forefront-root";
-import {GameOfLife} from "./game-of-life/game-of-life";
-import {Grid} from "./game-of-life/grid";
-import {HomeComponent} from "./home/home";
+import {CardWidgetComponent} from "./widget/card-widget.component";
+import {DataLineComponent} from "./dataline/data-line.component";
+import {ForeFrontContentComponent} from "./content/content.component";
+import {ForeFrontNavComponent} from "./nav/nav.component";
+import {ForeFrontRootComponent} from "./forefront-root/forefront-root.component";
+import {GameOfLifeComponent} from "./game-of-life/game-of-life.component";
+import {GridComponent} from "./game-of-life/grid.component";
+import {HomeComponent} from "./home/home.component";
 import {HttpDataLine} from "./dataline/http-dataline";
 import {PageNotFoundComponent} from "./util/not-found";
-import {TypographyThinger} from "./line-height/typography-thinger";
+import {TypographyThingerComponent} from "./line-height/typography-thinger.component";
 import {DynamicFormComponent} from "./dynamic-forms/dynamic-form.component";
 import {DynamicFormQuestionComponent} from "./dynamic-forms/dynamic-form-question.component";
 import {DynamicFormsExampleComponent} from "./dynamic-forms/dynamic-form-example";
@@ -38,15 +38,15 @@ import {BattlerMain} from "./battler/BattlerMain";
         ReactiveFormsModule
     ],
     declarations: [
-        ForeFrontRoot,
-        ForeFrontNav,
-        ForeFrontContent,
-        GameOfLife,
+        ForeFrontRootComponent,
+        ForeFrontNavComponent,
+        ForeFrontContentComponent,
+        GameOfLifeComponent,
         HomeComponent,
-        Grid,
+        GridComponent,
         BattlerMain,
-        CardWidget,
-        TypographyThinger,
+        CardWidgetComponent,
+        TypographyThingerComponent,
         DataLineComponent,
         PageNotFoundComponent,
         DynamicFormComponent,
@@ -56,9 +56,9 @@ import {BattlerMain} from "./battler/BattlerMain";
         HttpDataLine
     ],
     bootstrap: [
-        ForeFrontRoot
+        ForeFrontRootComponent
     ]
 })
-export class AppModule {
+export class ForefrontModule {
 
 }

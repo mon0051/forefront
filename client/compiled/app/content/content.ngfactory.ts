@@ -7,7 +7,7 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/content/content';
+import * as import3 from '../../../app/content/content.component';
 import * as import4 from '@angular/core/src/linker/view_utils';
 import * as import5 from '@angular/core/src/di/injector';
 import * as import6 from '@angular/core/src/linker/view_type';
@@ -21,7 +21,7 @@ var renderType_ForeFrontContent_Host:import0.RenderComponentType = (null as any)
 class _View_ForeFrontContent_Host0 extends import1.AppView<any> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
-  _ForeFrontContent_0_4:import3.ForeFrontContent;
+  _ForeFrontContent_0_4:import3.ForeFrontContentComponent;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_ForeFrontContent_Host0,renderType_ForeFrontContent_Host,import6.ViewType.HOST,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -29,14 +29,14 @@ class _View_ForeFrontContent_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('forefront-content',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_ForeFrontContent0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._ForeFrontContent_0_4 = new import3.ForeFrontContent();
+    this._ForeFrontContent_0_4 = new import3.ForeFrontContentComponent();
     this._appEl_0.initComponent(this._ForeFrontContent_0_4,([] as any[]),compView_0);
     compView_0.create(this._ForeFrontContent_0_4,this.projectableNodes,(null as any));
     this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import3.ForeFrontContent) && (0 === requestNodeIndex))) { return this._ForeFrontContent_0_4; }
+    if (((token === import3.ForeFrontContentComponent) && (0 === requestNodeIndex))) { return this._ForeFrontContent_0_4; }
     return notFoundResult;
   }
 }
@@ -44,10 +44,10 @@ function viewFactory_ForeFrontContent_Host0(viewUtils:import4.ViewUtils,parentIn
   if ((renderType_ForeFrontContent_Host === (null as any))) { (renderType_ForeFrontContent_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_ForeFrontContent_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const ForeFrontContentNgFactory:import9.ComponentFactory<import3.ForeFrontContent> = new import9.ComponentFactory<import3.ForeFrontContent>('forefront-content',viewFactory_ForeFrontContent_Host0,import3.ForeFrontContent);
+export const ForeFrontContentNgFactory:import9.ComponentFactory<import3.ForeFrontContentComponent> = new import9.ComponentFactory<import3.ForeFrontContentComponent>('forefront-content',viewFactory_ForeFrontContent_Host0,import3.ForeFrontContentComponent);
 const styles_ForeFrontContent:any[] = ([] as any[]);
 var renderType_ForeFrontContent:import0.RenderComponentType = (null as any);
-class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContent> {
+class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContentComponent> {
   _el_0:any;
   _text_1:any;
   _el_2:any;
@@ -83,7 +83,7 @@ class _View_ForeFrontContent0 extends import1.AppView<import3.ForeFrontContent> 
     this._RouterOutlet_2_5.ngOnDestroy();
   }
 }
-export function viewFactory_ForeFrontContent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontContent> {
+export function viewFactory_ForeFrontContent0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontContentComponent> {
   if ((renderType_ForeFrontContent === (null as any))) { (renderType_ForeFrontContent = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_ForeFrontContent,{})); }
   return new _View_ForeFrontContent0(viewUtils,parentInjector,declarationEl);
 }

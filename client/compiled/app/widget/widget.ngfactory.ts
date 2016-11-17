@@ -7,7 +7,7 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/widget/widget';
+import * as import3 from '../../../app/widget/card-widget.component';
 import * as import4 from '@angular/core/src/linker/view_utils';
 import * as import5 from '@angular/core/src/di/injector';
 import * as import6 from '@angular/core/src/linker/view_type';
@@ -18,7 +18,7 @@ var renderType_CardWidget_Host:import0.RenderComponentType = (null as any);
 class _View_CardWidget_Host0 extends import1.AppView<any> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
-  _CardWidget_0_4:import3.CardWidget;
+  _CardWidget_0_4:import3.CardWidgetComponent;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_CardWidget_Host0,renderType_CardWidget_Host,import6.ViewType.HOST,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -26,14 +26,14 @@ class _View_CardWidget_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('card-widget',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_CardWidget0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._CardWidget_0_4 = new import3.CardWidget();
+    this._CardWidget_0_4 = new import3.CardWidgetComponent();
     this._appEl_0.initComponent(this._CardWidget_0_4,([] as any[]),compView_0);
     compView_0.create(this._CardWidget_0_4,this.projectableNodes,(null as any));
     this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import3.CardWidget) && (0 === requestNodeIndex))) { return this._CardWidget_0_4; }
+    if (((token === import3.CardWidgetComponent) && (0 === requestNodeIndex))) { return this._CardWidget_0_4; }
     return notFoundResult;
   }
 }
@@ -41,10 +41,10 @@ function viewFactory_CardWidget_Host0(viewUtils:import4.ViewUtils,parentInjector
   if ((renderType_CardWidget_Host === (null as any))) { (renderType_CardWidget_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_CardWidget_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const CardWidgetNgFactory:import9.ComponentFactory<import3.CardWidget> = new import9.ComponentFactory<import3.CardWidget>('card-widget',viewFactory_CardWidget_Host0,import3.CardWidget);
+export const CardWidgetNgFactory:import9.ComponentFactory<import3.CardWidgetComponent> = new import9.ComponentFactory<import3.CardWidgetComponent>('card-widget',viewFactory_CardWidget_Host0,import3.CardWidgetComponent);
 const styles_CardWidget:any[] = ([] as any[]);
 var renderType_CardWidget:import0.RenderComponentType = (null as any);
-class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
+class _View_CardWidget0 extends import1.AppView<import3.CardWidgetComponent> {
   _el_0:any;
   _text_1:any;
   _el_2:any;
@@ -84,7 +84,7 @@ class _View_CardWidget0 extends import1.AppView<import3.CardWidget> {
     return (null as any);
   }
 }
-export function viewFactory_CardWidget0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.CardWidget> {
+export function viewFactory_CardWidget0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.CardWidgetComponent> {
   if ((renderType_CardWidget === (null as any))) { (renderType_CardWidget = viewUtils.createRenderComponentType('',1,import8.ViewEncapsulation.None,styles_CardWidget,{})); }
   return new _View_CardWidget0(viewUtils,parentInjector,declarationEl);
 }

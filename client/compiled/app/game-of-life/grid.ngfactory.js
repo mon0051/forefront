@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/game-of-life/grid');
+var import3 = require('../../../app/game-of-life/grid.component');
 var import4 = require('@angular/common/src/directives/ng_class');
 var import5 = require('@angular/core/src/linker/view_utils');
 var import7 = require('@angular/core/src/linker/view_type');
@@ -34,7 +34,7 @@ var _View_Grid_Host0 = (function (_super) {
         this._el_0 = this.selectOrCreateHostElement('gol-grid', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_Grid0(this.viewUtils, this.injector(0), this._appEl_0);
-        this._Grid_0_4 = new import3.Grid(this.parentInjector.get(import9.Settings));
+        this._Grid_0_4 = new import3.GridComponent(this.parentInjector.get(import9.Settings));
         this._NgClass_0_5 = new import4.NgClass(this.parentInjector.get(import10.IterableDiffers), this.parentInjector.get(import11.KeyValueDiffers), new import12.ElementRef(this._el_0), this.renderer);
         this._appEl_0.initComponent(this._Grid_0_4, [], compView_0);
         compView_0.create(this._Grid_0_4, this.projectableNodes, null);
@@ -42,7 +42,7 @@ var _View_Grid_Host0 = (function (_super) {
         return this._appEl_0;
     };
     _View_Grid_Host0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import3.Grid) && (0 === requestNodeIndex))) {
+        if (((token === import3.GridComponent) && (0 === requestNodeIndex))) {
             return this._Grid_0_4;
         }
         if (((token === import4.NgClass) && (0 === requestNodeIndex))) {
@@ -58,7 +58,7 @@ function viewFactory_Grid_Host0(viewUtils, parentInjector, declarationEl) {
     }
     return new _View_Grid_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.GridNgFactory = new import14.ComponentFactory('gol-grid', viewFactory_Grid_Host0, import3.Grid);
+exports.GridNgFactory = new import14.ComponentFactory('gol-grid', viewFactory_Grid_Host0, import3.GridComponent);
 var styles_Grid = [];
 var renderType_Grid = null;
 var _View_Grid0 = (function (_super) {

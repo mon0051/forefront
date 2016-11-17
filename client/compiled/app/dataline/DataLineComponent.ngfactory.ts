@@ -7,9 +7,9 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/dataline/DataLineRepository';
-import * as import4 from '../../../app/dataline/DataLineComponent';
-import * as import5 from '../../../app/widget/widget';
+import * as import3 from '../../../app/dataline/data-line-repository';
+import * as import4 from '../../../app/dataline/data-line.component';
+import * as import5 from '../../../app/widget/card-widget.component';
 import * as import6 from '@angular/core/src/linker/view_utils';
 import * as import7 from '@angular/core/src/di/injector';
 import * as import8 from '@angular/core/src/linker/view_type';
@@ -24,12 +24,12 @@ class _View_DataLineComponent_Host0 extends import1.AppView<any> {
   /*private*/ _appEl_0:import2.AppElement;
   _DataLineRepository_0_4:import3.DataLineRepository;
   _DataLineComponent_0_5:import4.DataLineComponent;
-  __CardWidget_0_6:import5.CardWidget;
+  __CardWidget_0_6:import5.CardWidgetComponent;
   constructor(viewUtils:import6.ViewUtils,parentInjector:import7.Injector,declarationEl:import2.AppElement) {
     super(_View_DataLineComponent_Host0,renderType_DataLineComponent_Host,import8.ViewType.HOST,viewUtils,parentInjector,declarationEl,import9.ChangeDetectorStatus.CheckAlways);
   }
-  get _CardWidget_0_6():import5.CardWidget {
-    if ((this.__CardWidget_0_6 == (null as any))) { (this.__CardWidget_0_6 = new import5.CardWidget()); }
+  get _CardWidget_0_6():import5.CardWidgetComponent {
+    if ((this.__CardWidget_0_6 == (null as any))) { (this.__CardWidget_0_6 = new import5.CardWidgetComponent()); }
     return this.__CardWidget_0_6;
   }
   createInternal(rootSelector:string):import2.AppElement {
@@ -46,7 +46,7 @@ class _View_DataLineComponent_Host0 extends import1.AppView<any> {
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
     if (((token === import3.DataLineRepository) && (0 === requestNodeIndex))) { return this._DataLineRepository_0_4; }
     if (((token === import4.DataLineComponent) && (0 === requestNodeIndex))) { return this._DataLineComponent_0_5; }
-    if (((token === import5.CardWidget) && (0 === requestNodeIndex))) { return this._CardWidget_0_6; }
+    if (((token === import5.CardWidgetComponent) && (0 === requestNodeIndex))) { return this._CardWidget_0_6; }
     return notFoundResult;
   }
 }
@@ -66,7 +66,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
   _text_5:any;
   _el_6:any;
   /*private*/ _appEl_6:import2.AppElement;
-  _CardWidget_6_4:import5.CardWidget;
+  _CardWidget_6_4:import5.CardWidgetComponent;
   _text_7:any;
   _el_8:any;
   _text_9:any;
@@ -96,7 +96,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
     this._el_6 = this.renderer.createElement(this._el_4,'card-widget',(null as any));
     this._appEl_6 = new import2.AppElement(6,4,this,this._el_6);
     var compView_6:any = import13.viewFactory_CardWidget0(this.viewUtils,this.injector(6),this._appEl_6);
-    this._CardWidget_6_4 = new import5.CardWidget();
+    this._CardWidget_6_4 = new import5.CardWidgetComponent();
     this._appEl_6.initComponent(this._CardWidget_6_4,([] as any[]),compView_6);
     this._text_7 = this.renderer.createText((null as any),'\n        ',(null as any));
     this._el_8 = this.renderer.createElement((null as any),'pre',(null as any));
@@ -141,7 +141,7 @@ class _View_DataLineComponent0 extends import1.AppView<import4.DataLineComponent
     return (null as any);
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import5.CardWidget) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 13)))) { return this._CardWidget_6_4; }
+    if (((token === import5.CardWidgetComponent) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 13)))) { return this._CardWidget_6_4; }
     return notFoundResult;
   }
   detectChangesInternal(throwOnChange:boolean):void {

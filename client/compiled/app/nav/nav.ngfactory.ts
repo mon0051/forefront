@@ -7,7 +7,7 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/nav/nav';
+import * as import3 from '../../../app/nav/nav.component';
 import * as import4 from '@angular/core/src/linker/view_utils';
 import * as import5 from '@angular/core/src/di/injector';
 import * as import6 from '@angular/core/src/linker/view_type';
@@ -26,7 +26,7 @@ var renderType_ForeFrontNav_Host:import0.RenderComponentType = (null as any);
 class _View_ForeFrontNav_Host0 extends import1.AppView<any> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
-  _ForeFrontNav_0_4:import3.ForeFrontNav;
+  _ForeFrontNav_0_4:import3.ForeFrontNavComponent;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_ForeFrontNav_Host0,renderType_ForeFrontNav_Host,import6.ViewType.HOST,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -34,14 +34,14 @@ class _View_ForeFrontNav_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('forefront-nav',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_ForeFrontNav0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._ForeFrontNav_0_4 = new import3.ForeFrontNav();
+    this._ForeFrontNav_0_4 = new import3.ForeFrontNavComponent();
     this._appEl_0.initComponent(this._ForeFrontNav_0_4,([] as any[]),compView_0);
     compView_0.create(this._ForeFrontNav_0_4,this.projectableNodes,(null as any));
     this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import3.ForeFrontNav) && (0 === requestNodeIndex))) { return this._ForeFrontNav_0_4; }
+    if (((token === import3.ForeFrontNavComponent) && (0 === requestNodeIndex))) { return this._ForeFrontNav_0_4; }
     return notFoundResult;
   }
 }
@@ -49,10 +49,10 @@ function viewFactory_ForeFrontNav_Host0(viewUtils:import4.ViewUtils,parentInject
   if ((renderType_ForeFrontNav_Host === (null as any))) { (renderType_ForeFrontNav_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_ForeFrontNav_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const ForeFrontNavNgFactory:import9.ComponentFactory<import3.ForeFrontNav> = new import9.ComponentFactory<import3.ForeFrontNav>('forefront-nav',viewFactory_ForeFrontNav_Host0,import3.ForeFrontNav);
+export const ForeFrontNavNgFactory:import9.ComponentFactory<import3.ForeFrontNavComponent> = new import9.ComponentFactory<import3.ForeFrontNavComponent>('forefront-nav',viewFactory_ForeFrontNav_Host0,import3.ForeFrontNavComponent);
 const styles_ForeFrontNav:any[] = ([] as any[]);
 var renderType_ForeFrontNav:import0.RenderComponentType = (null as any);
-class _View_ForeFrontNav0 extends import1.AppView<import3.ForeFrontNav> {
+class _View_ForeFrontNav0 extends import1.AppView<import3.ForeFrontNavComponent> {
   _el_0:any;
   _text_1:any;
   _el_2:any;
@@ -421,7 +421,7 @@ class _View_ForeFrontNav0 extends import1.AppView<import3.ForeFrontNav> {
     return (true && pd_0);
   }
 }
-export function viewFactory_ForeFrontNav0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontNav> {
+export function viewFactory_ForeFrontNav0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.ForeFrontNavComponent> {
   if ((renderType_ForeFrontNav === (null as any))) { (renderType_ForeFrontNav = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_ForeFrontNav,{})); }
   return new _View_ForeFrontNav0(viewUtils,parentInjector,declarationEl);
 }

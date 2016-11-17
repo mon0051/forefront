@@ -56,10 +56,10 @@ var import44 = require('@angular/core/src/zone/ng_zone');
 var import45 = require('@angular/platform-browser/src/dom/debug/ng_probe');
 var import46 = require('@angular/common/src/location/platform_location');
 var import47 = require('@angular/common/src/location/location_strategy');
-var import48 = require('../../app/home/home');
+var import48 = require('../../app/home/home.component');
 var import49 = require('../../app/game-of-life/game-of-life');
-var import50 = require('../../app/line-height/typography-thinger');
-var import51 = require('../../app/dataline/DataLineComponent');
+var import50 = require('../../app/line-height/typography-thinger.component');
+var import51 = require('../../app/dataline/data-line.component');
 var import52 = require('../../app/dynamic-forms/dynamic-form-example');
 var import53 = require('../../app/util/not-found');
 var import54 = require('@angular/router/src/router');
@@ -448,7 +448,7 @@ var AppModuleInjector = (function (_super) {
                         },
                         {
                             path: 'typography',
-                            component: import50.TypographyThinger
+                            component: import50.TypographyThingerComponent
                         },
                         {
                             path: 'data-line',
@@ -540,7 +540,7 @@ var AppModuleInjector = (function (_super) {
         this._ROUTER_FORROOT_GUARD_6 = import8.provideForRootGuard(this.parent.get(import54.Router, null));
         this._RouterModule_7 = new import8.RouterModule(this._ROUTER_FORROOT_GUARD_6);
         this._ReactiveFormsModule_8 = new import4.ReactiveFormsModule();
-        this._AppModule_9 = new import1.AppModule();
+        this._AppModule_9 = new import1.ForefrontModule();
         this._ErrorHandler_19 = import7.errorHandler();
         this._ApplicationInitStatus_20 = new import15.ApplicationInitStatus(this.parent.get(import15.APP_INITIALIZER, null));
         this._Testability_21 = new import16.Testability(this.parent.get(import44.NgZone));
@@ -578,7 +578,7 @@ var AppModuleInjector = (function (_super) {
         if ((token === import4.ReactiveFormsModule)) {
             return this._ReactiveFormsModule_8;
         }
-        if ((token === import1.AppModule)) {
+        if ((token === import1.ForefrontModule)) {
             return this._AppModule_9;
         }
         if ((token === import9.BrowserXhr)) {
@@ -730,5 +730,5 @@ var AppModuleInjector = (function (_super) {
     };
     return AppModuleInjector;
 }(import0.NgModuleInjector));
-exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
+exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.ForefrontModule);
 //# sourceMappingURL=app.modules.ngfactory.js.map

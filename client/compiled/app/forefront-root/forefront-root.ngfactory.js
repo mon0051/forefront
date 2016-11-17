@@ -11,13 +11,13 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/forefront-root/forefront-root');
+var import3 = require('../../../app/forefront-root/forefront-root.component');
 var import6 = require('@angular/core/src/linker/view_type');
 var import7 = require('@angular/core/src/change_detection/change_detection');
 var import8 = require('@angular/core/src/metadata/view');
 var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('../../../app/nav/nav');
-var import11 = require('../../../app/content/content');
+var import10 = require('../../../app/nav/nav.component');
+var import11 = require('../../../app/content/content.component');
 var import12 = require('../nav/nav.ngfactory');
 var import13 = require('../content/content.ngfactory');
 var renderType_ForeFrontRoot_Host = null;
@@ -30,14 +30,14 @@ var _View_ForeFrontRoot_Host0 = (function (_super) {
         this._el_0 = this.selectOrCreateHostElement('forefront-root', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_ForeFrontRoot0(this.viewUtils, this.injector(0), this._appEl_0);
-        this._ForeFrontRoot_0_4 = new import3.ForeFrontRoot();
+        this._ForeFrontRoot_0_4 = new import3.ForeFrontRootComponent();
         this._appEl_0.initComponent(this._ForeFrontRoot_0_4, [], compView_0);
         compView_0.create(this._ForeFrontRoot_0_4, this.projectableNodes, null);
         this.init([].concat([this._el_0]), [this._el_0], [], []);
         return this._appEl_0;
     };
     _View_ForeFrontRoot_Host0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import3.ForeFrontRoot) && (0 === requestNodeIndex))) {
+        if (((token === import3.ForeFrontRootComponent) && (0 === requestNodeIndex))) {
             return this._ForeFrontRoot_0_4;
         }
         return notFoundResult;
@@ -50,7 +50,7 @@ function viewFactory_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationE
     }
     return new _View_ForeFrontRoot_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontRootNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRoot);
+exports.ForeFrontRootNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRoot_Host0, import3.ForeFrontRootComponent);
 var styles_ForeFrontRoot = [];
 var renderType_ForeFrontRoot = null;
 var _View_ForeFrontRoot0 = (function (_super) {
@@ -66,14 +66,14 @@ var _View_ForeFrontRoot0 = (function (_super) {
         this._el_2 = this.renderer.createElement(this._el_0, 'forefront-nav', null);
         this._appEl_2 = new import2.AppElement(2, 0, this, this._el_2);
         var compView_2 = import12.viewFactory_ForeFrontNav0(this.viewUtils, this.injector(2), this._appEl_2);
-        this._ForeFrontNav_2_4 = new import10.ForeFrontNav();
+        this._ForeFrontNav_2_4 = new import10.ForeFrontNavComponent();
         this._appEl_2.initComponent(this._ForeFrontNav_2_4, [], compView_2);
         compView_2.create(this._ForeFrontNav_2_4, [], null);
         this._text_3 = this.renderer.createText(this._el_0, '\n    ', null);
         this._el_4 = this.renderer.createElement(this._el_0, 'forefront-content', null);
         this._appEl_4 = new import2.AppElement(4, 0, this, this._el_4);
         var compView_4 = import13.viewFactory_ForeFrontContent0(this.viewUtils, this.injector(4), this._appEl_4);
-        this._ForeFrontContent_4_4 = new import11.ForeFrontContent();
+        this._ForeFrontContent_4_4 = new import11.ForeFrontContentComponent();
         this._appEl_4.initComponent(this._ForeFrontContent_4_4, [], compView_4);
         compView_4.create(this._ForeFrontContent_4_4, [], null);
         this._text_5 = this.renderer.createText(this._el_0, '\n', null);
@@ -88,10 +88,10 @@ var _View_ForeFrontRoot0 = (function (_super) {
         return null;
     };
     _View_ForeFrontRoot0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import10.ForeFrontNav) && (2 === requestNodeIndex))) {
+        if (((token === import10.ForeFrontNavComponent) && (2 === requestNodeIndex))) {
             return this._ForeFrontNav_2_4;
         }
-        if (((token === import11.ForeFrontContent) && (4 === requestNodeIndex))) {
+        if (((token === import11.ForeFrontContentComponent) && (4 === requestNodeIndex))) {
             return this._ForeFrontContent_4_4;
         }
         return notFoundResult;

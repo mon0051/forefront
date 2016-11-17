@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/line-height/typography-thinger');
+var import3 = require('../../../app/line-height/typography-thinger.component');
 var import4 = require('@angular/core/src/linker/view_utils');
 var import6 = require('@angular/core/src/linker/view_type');
 var import7 = require('@angular/core/src/change_detection/change_detection');
@@ -35,14 +35,14 @@ var _View_TypographyThinger_Host0 = (function (_super) {
         this._el_0 = this.selectOrCreateHostElement('typography-thinger', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_TypographyThinger0(this.viewUtils, this.injector(0), this._appEl_0);
-        this._TypographyThinger_0_4 = new import3.TypographyThinger();
+        this._TypographyThinger_0_4 = new import3.TypographyThingerComponent();
         this._appEl_0.initComponent(this._TypographyThinger_0_4, [], compView_0);
         compView_0.create(this._TypographyThinger_0_4, this.projectableNodes, null);
         this.init([].concat([this._el_0]), [this._el_0], [], []);
         return this._appEl_0;
     };
     _View_TypographyThinger_Host0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import3.TypographyThinger) && (0 === requestNodeIndex))) {
+        if (((token === import3.TypographyThingerComponent) && (0 === requestNodeIndex))) {
             return this._TypographyThinger_0_4;
         }
         return notFoundResult;
@@ -55,7 +55,7 @@ function viewFactory_TypographyThinger_Host0(viewUtils, parentInjector, declarat
     }
     return new _View_TypographyThinger_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.TypographyThingerNgFactory = new import9.ComponentFactory('typography-thinger', viewFactory_TypographyThinger_Host0, import3.TypographyThinger);
+exports.TypographyThingerNgFactory = new import9.ComponentFactory('typography-thinger', viewFactory_TypographyThinger_Host0, import3.TypographyThingerComponent);
 var styles_TypographyThinger = [];
 var renderType_TypographyThinger = null;
 var _View_TypographyThinger0 = (function (_super) {

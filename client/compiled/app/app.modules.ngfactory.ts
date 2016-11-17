@@ -52,10 +52,10 @@ import * as import44 from '@angular/core/src/zone/ng_zone';
 import * as import45 from '@angular/platform-browser/src/dom/debug/ng_probe';
 import * as import46 from '@angular/common/src/location/platform_location';
 import * as import47 from '@angular/common/src/location/location_strategy';
-import * as import48 from '../../app/home/home';
+import * as import48 from '../../app/home/home.component';
 import * as import49 from '../../app/game-of-life/game-of-life';
-import * as import50 from '../../app/line-height/typography-thinger';
-import * as import51 from '../../app/dataline/DataLineComponent';
+import * as import50 from '../../app/line-height/typography-thinger.component';
+import * as import51 from '../../app/dataline/data-line.component';
 import * as import52 from '../../app/dynamic-forms/dynamic-form-example';
 import * as import53 from '../../app/util/not-found';
 import * as import54 from '@angular/router/src/router';
@@ -73,7 +73,7 @@ import * as import65 from '@angular/core/src/change_detection/differs/keyvalue_d
 import * as import66 from '@angular/core/src/linker/ng_module_factory_loader';
 import * as import67 from '@angular/router/src/router_config_loader';
 import * as import68 from '@angular/router/src/router_state';
-class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
+class AppModuleInjector extends import0.NgModuleInjector<import1.ForefrontModule> {
   _HttpModule_0:import2.HttpModule;
   _InternalFormsSharedModule_1:import3.InternalFormsSharedModule;
   _FormsModule_2:import4.FormsModule;
@@ -83,7 +83,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
   _ROUTER_FORROOT_GUARD_6:any;
   _RouterModule_7:import8.RouterModule;
   _ReactiveFormsModule_8:import4.ReactiveFormsModule;
-  _AppModule_9:import1.AppModule;
+  _AppModule_9:import1.ForefrontModule;
   __BrowserXhr_10:import9.BrowserXhr;
   __ResponseOptions_11:import10.BaseResponseOptions;
   __XSRFStrategy_12:any;
@@ -298,7 +298,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
         ,
         {
           path: 'typography',
-          component: import50.TypographyThinger
+          component: import50.TypographyThingerComponent
         }
         ,
         {
@@ -352,7 +352,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((this.__HttpDataLine_56 == (null as any))) { (this.__HttpDataLine_56 = new import32.HttpDataLine(this._Http_15)); }
     return this.__HttpDataLine_56;
   }
-  createInternal():import1.AppModule {
+  createInternal():import1.ForefrontModule {
     this._HttpModule_0 = new import2.HttpModule();
     this._InternalFormsSharedModule_1 = new import3.InternalFormsSharedModule();
     this._FormsModule_2 = new import4.FormsModule();
@@ -362,7 +362,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     this._ROUTER_FORROOT_GUARD_6 = import8.provideForRootGuard(this.parent.get(import54.Router,(null as any)));
     this._RouterModule_7 = new import8.RouterModule(this._ROUTER_FORROOT_GUARD_6);
     this._ReactiveFormsModule_8 = new import4.ReactiveFormsModule();
-    this._AppModule_9 = new import1.AppModule();
+    this._AppModule_9 = new import1.ForefrontModule();
     this._ErrorHandler_19 = import7.errorHandler();
     this._ApplicationInitStatus_20 = new import15.ApplicationInitStatus(this.parent.get(import15.APP_INITIALIZER,(null as any)));
     this._Testability_21 = new import16.Testability(this.parent.get(import44.NgZone));
@@ -382,7 +382,7 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     if ((token === import8.ROUTER_FORROOT_GUARD)) { return this._ROUTER_FORROOT_GUARD_6; }
     if ((token === import8.RouterModule)) { return this._RouterModule_7; }
     if ((token === import4.ReactiveFormsModule)) { return this._ReactiveFormsModule_8; }
-    if ((token === import1.AppModule)) { return this._AppModule_9; }
+    if ((token === import1.ForefrontModule)) { return this._AppModule_9; }
     if ((token === import9.BrowserXhr)) { return this._BrowserXhr_10; }
     if ((token === import10.ResponseOptions)) { return this._ResponseOptions_11; }
     if ((token === import56.XSRFStrategy)) { return this._XSRFStrategy_12; }
@@ -437,4 +437,4 @@ class AppModuleInjector extends import0.NgModuleInjector<import1.AppModule> {
     this._RouterPreloader_53.ngOnDestroy();
   }
 }
-export const AppModuleNgFactory:import0.NgModuleFactory<import1.AppModule> = new import0.NgModuleFactory(AppModuleInjector,import1.AppModule);
+export const AppModuleNgFactory:import0.NgModuleFactory<import1.ForefrontModule> = new import0.NgModuleFactory(AppModuleInjector,import1.ForefrontModule);

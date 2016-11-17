@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/nav/nav');
+var import3 = require('../../../app/nav/nav.component');
 var import4 = require('@angular/core/src/linker/view_utils');
 var import6 = require('@angular/core/src/linker/view_type');
 var import7 = require('@angular/core/src/change_detection/change_detection');
@@ -35,14 +35,14 @@ var _View_ForeFrontNav_Host0 = (function (_super) {
         this._el_0 = this.selectOrCreateHostElement('forefront-nav', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_ForeFrontNav0(this.viewUtils, this.injector(0), this._appEl_0);
-        this._ForeFrontNav_0_4 = new import3.ForeFrontNav();
+        this._ForeFrontNav_0_4 = new import3.ForeFrontNavComponent();
         this._appEl_0.initComponent(this._ForeFrontNav_0_4, [], compView_0);
         compView_0.create(this._ForeFrontNav_0_4, this.projectableNodes, null);
         this.init([].concat([this._el_0]), [this._el_0], [], []);
         return this._appEl_0;
     };
     _View_ForeFrontNav_Host0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import3.ForeFrontNav) && (0 === requestNodeIndex))) {
+        if (((token === import3.ForeFrontNavComponent) && (0 === requestNodeIndex))) {
             return this._ForeFrontNav_0_4;
         }
         return notFoundResult;
@@ -55,7 +55,7 @@ function viewFactory_ForeFrontNav_Host0(viewUtils, parentInjector, declarationEl
     }
     return new _View_ForeFrontNav_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontNavNgFactory = new import9.ComponentFactory('forefront-nav', viewFactory_ForeFrontNav_Host0, import3.ForeFrontNav);
+exports.ForeFrontNavNgFactory = new import9.ComponentFactory('forefront-nav', viewFactory_ForeFrontNav_Host0, import3.ForeFrontNavComponent);
 var styles_ForeFrontNav = [];
 var renderType_ForeFrontNav = null;
 var _View_ForeFrontNav0 = (function (_super) {

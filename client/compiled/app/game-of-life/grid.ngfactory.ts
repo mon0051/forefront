@@ -7,7 +7,7 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/game-of-life/grid';
+import * as import3 from '../../../app/game-of-life/grid.component';
 import * as import4 from '@angular/common/src/directives/ng_class';
 import * as import5 from '@angular/core/src/linker/view_utils';
 import * as import6 from '@angular/core/src/di/injector';
@@ -25,7 +25,7 @@ var renderType_Grid_Host:import0.RenderComponentType = (null as any);
 class _View_Grid_Host0 extends import1.AppView<any> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
-  _Grid_0_4:import3.Grid;
+  _Grid_0_4:import3.GridComponent;
   _NgClass_0_5:import4.NgClass;
   constructor(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import2.AppElement) {
     super(_View_Grid_Host0,renderType_Grid_Host,import7.ViewType.HOST,viewUtils,parentInjector,declarationEl,import8.ChangeDetectorStatus.CheckAlways);
@@ -34,7 +34,7 @@ class _View_Grid_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('gol-grid',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_Grid0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._Grid_0_4 = new import3.Grid(this.parentInjector.get(import9.Settings));
+    this._Grid_0_4 = new import3.GridComponent(this.parentInjector.get(import9.Settings));
     this._NgClass_0_5 = new import4.NgClass(this.parentInjector.get(import10.IterableDiffers),this.parentInjector.get(import11.KeyValueDiffers),new import12.ElementRef(this._el_0),this.renderer);
     this._appEl_0.initComponent(this._Grid_0_4,([] as any[]),compView_0);
     compView_0.create(this._Grid_0_4,this.projectableNodes,(null as any));
@@ -42,7 +42,7 @@ class _View_Grid_Host0 extends import1.AppView<any> {
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import3.Grid) && (0 === requestNodeIndex))) { return this._Grid_0_4; }
+    if (((token === import3.GridComponent) && (0 === requestNodeIndex))) { return this._Grid_0_4; }
     if (((token === import4.NgClass) && (0 === requestNodeIndex))) { return this._NgClass_0_5; }
     return notFoundResult;
   }
@@ -51,10 +51,10 @@ function viewFactory_Grid_Host0(viewUtils:import5.ViewUtils,parentInjector:impor
   if ((renderType_Grid_Host === (null as any))) { (renderType_Grid_Host = viewUtils.createRenderComponentType('',0,import13.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_Grid_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const GridNgFactory:import14.ComponentFactory<import3.Grid> = new import14.ComponentFactory<import3.Grid>('gol-grid',viewFactory_Grid_Host0,import3.Grid);
+export const GridNgFactory:import14.ComponentFactory<import3.GridComponent> = new import14.ComponentFactory<import3.GridComponent>('gol-grid',viewFactory_Grid_Host0,import3.GridComponent);
 const styles_Grid:any[] = ([] as any[]);
 var renderType_Grid:import0.RenderComponentType = (null as any);
-class _View_Grid0 extends import1.AppView<import3.Grid> {
+class _View_Grid0 extends import1.AppView<import3.GridComponent> {
   _el_0:any;
   _text_1:any;
   _el_2:any;
@@ -193,7 +193,7 @@ class _View_Grid0 extends import1.AppView<import3.Grid> {
     return (true && pd_0);
   }
 }
-export function viewFactory_Grid0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import2.AppElement):import1.AppView<import3.Grid> {
+export function viewFactory_Grid0(viewUtils:import5.ViewUtils,parentInjector:import6.Injector,declarationEl:import2.AppElement):import1.AppView<import3.GridComponent> {
   if ((renderType_Grid === (null as any))) { (renderType_Grid = viewUtils.createRenderComponentType('',0,import13.ViewEncapsulation.None,styles_Grid,{})); }
   return new _View_Grid0(viewUtils,parentInjector,declarationEl);
 }

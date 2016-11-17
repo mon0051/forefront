@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/content/content');
+var import3 = require('../../../app/content/content.component');
 var import6 = require('@angular/core/src/linker/view_type');
 var import7 = require('@angular/core/src/change_detection/change_detection');
 var import8 = require('@angular/core/src/metadata/view');
@@ -29,14 +29,14 @@ var _View_ForeFrontContent_Host0 = (function (_super) {
         this._el_0 = this.selectOrCreateHostElement('forefront-content', rootSelector, null);
         this._appEl_0 = new import2.AppElement(0, null, this, this._el_0);
         var compView_0 = viewFactory_ForeFrontContent0(this.viewUtils, this.injector(0), this._appEl_0);
-        this._ForeFrontContent_0_4 = new import3.ForeFrontContent();
+        this._ForeFrontContent_0_4 = new import3.ForeFrontContentComponent();
         this._appEl_0.initComponent(this._ForeFrontContent_0_4, [], compView_0);
         compView_0.create(this._ForeFrontContent_0_4, this.projectableNodes, null);
         this.init([].concat([this._el_0]), [this._el_0], [], []);
         return this._appEl_0;
     };
     _View_ForeFrontContent_Host0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import3.ForeFrontContent) && (0 === requestNodeIndex))) {
+        if (((token === import3.ForeFrontContentComponent) && (0 === requestNodeIndex))) {
             return this._ForeFrontContent_0_4;
         }
         return notFoundResult;
@@ -49,7 +49,7 @@ function viewFactory_ForeFrontContent_Host0(viewUtils, parentInjector, declarati
     }
     return new _View_ForeFrontContent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.ForeFrontContentNgFactory = new import9.ComponentFactory('forefront-content', viewFactory_ForeFrontContent_Host0, import3.ForeFrontContent);
+exports.ForeFrontContentNgFactory = new import9.ComponentFactory('forefront-content', viewFactory_ForeFrontContent_Host0, import3.ForeFrontContentComponent);
 var styles_ForeFrontContent = [];
 var renderType_ForeFrontContent = null;
 var _View_ForeFrontContent0 = (function (_super) {

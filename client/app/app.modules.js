@@ -21,25 +21,25 @@ require('rxjs/add/operator/distinctUntilChanged');
 require('rxjs/add/operator/map');
 require('rxjs/add/operator/switchMap');
 require('rxjs/add/operator/toPromise');
-var widget_1 = require("./widget/widget");
-var DataLineComponent_1 = require("./dataline/DataLineComponent");
-var content_1 = require("./content/content");
-var nav_1 = require("./nav/nav");
-var forefront_root_1 = require("./forefront-root/forefront-root");
-var game_of_life_1 = require("./game-of-life/game-of-life");
-var grid_1 = require("./game-of-life/grid");
-var home_1 = require("./home/home");
+var card_widget_component_1 = require("./widget/card-widget.component");
+var data_line_component_1 = require("./dataline/data-line.component");
+var content_component_1 = require("./content/content.component");
+var nav_component_1 = require("./nav/nav.component");
+var forefront_root_component_1 = require("./forefront-root/forefront-root.component");
+var game_of_life_component_1 = require("./game-of-life/game-of-life.component");
+var grid_component_1 = require("./game-of-life/grid.component");
+var home_component_1 = require("./home/home.component");
 var http_dataline_1 = require("./dataline/http-dataline");
 var not_found_1 = require("./util/not-found");
-var typography_thinger_1 = require("./line-height/typography-thinger");
+var typography_thinger_component_1 = require("./line-height/typography-thinger.component");
 var dynamic_form_component_1 = require("./dynamic-forms/dynamic-form.component");
 var dynamic_form_question_component_1 = require("./dynamic-forms/dynamic-form-question.component");
 var dynamic_form_example_1 = require("./dynamic-forms/dynamic-form-example");
 var BattlerMain_1 = require("./battler/BattlerMain");
-var AppModule = (function () {
-    function AppModule() {
+var ForefrontModule = (function () {
+    function ForefrontModule() {
     }
-    AppModule = __decorate([
+    ForefrontModule = __decorate([
         core_1.NgModule({
             imports: [
                 http_1.HttpModule,
@@ -49,16 +49,16 @@ var AppModule = (function () {
                 forms_2.ReactiveFormsModule
             ],
             declarations: [
-                forefront_root_1.ForeFrontRoot,
-                nav_1.ForeFrontNav,
-                content_1.ForeFrontContent,
-                game_of_life_1.GameOfLife,
-                home_1.HomeComponent,
-                grid_1.Grid,
+                forefront_root_component_1.ForeFrontRootComponent,
+                nav_component_1.ForeFrontNavComponent,
+                content_component_1.ForeFrontContentComponent,
+                game_of_life_component_1.GameOfLifeComponent,
+                home_component_1.HomeComponent,
+                grid_component_1.GridComponent,
                 BattlerMain_1.BattlerMain,
-                widget_1.CardWidget,
-                typography_thinger_1.TypographyThinger,
-                DataLineComponent_1.DataLineComponent,
+                card_widget_component_1.CardWidgetComponent,
+                typography_thinger_component_1.TypographyThingerComponent,
+                data_line_component_1.DataLineComponent,
                 not_found_1.PageNotFoundComponent,
                 dynamic_form_component_1.DynamicFormComponent,
                 dynamic_form_question_component_1.DynamicFormQuestionComponent,
@@ -67,12 +67,12 @@ var AppModule = (function () {
                 http_dataline_1.HttpDataLine
             ],
             bootstrap: [
-                forefront_root_1.ForeFrontRoot
+                forefront_root_component_1.ForeFrontRootComponent
             ]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], ForefrontModule);
+    return ForefrontModule;
 }());
-exports.AppModule = AppModule;
+exports.ForefrontModule = ForefrontModule;
 //# sourceMappingURL=app.modules.js.map

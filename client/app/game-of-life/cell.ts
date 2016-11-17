@@ -1,9 +1,9 @@
-import {Grid} from "./grid";
+import {GridComponent} from "./grid.component";
 
 export class Cell {
     status:string;
     environment:string;
-    parentGrid:Grid;
+    parentGrid:GridComponent;
     neighbours:Array<Cell>;
     uiStatus:any = {
         hovered:false,
@@ -12,7 +12,7 @@ export class Cell {
     x:number;
     y:number;
 
-    constructor(grid:Grid){
+    constructor(grid:GridComponent){
         this.parentGrid = grid;
         this.environment = "toxic"
     }

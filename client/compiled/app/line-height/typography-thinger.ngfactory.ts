@@ -7,7 +7,7 @@
 import * as import0 from '@angular/core/src/render/api';
 import * as import1 from '@angular/core/src/linker/view';
 import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/line-height/typography-thinger';
+import * as import3 from '../../../app/line-height/typography-thinger.component';
 import * as import4 from '@angular/core/src/linker/view_utils';
 import * as import5 from '@angular/core/src/di/injector';
 import * as import6 from '@angular/core/src/linker/view_type';
@@ -26,7 +26,7 @@ var renderType_TypographyThinger_Host:import0.RenderComponentType = (null as any
 class _View_TypographyThinger_Host0 extends import1.AppView<any> {
   _el_0:any;
   /*private*/ _appEl_0:import2.AppElement;
-  _TypographyThinger_0_4:import3.TypographyThinger;
+  _TypographyThinger_0_4:import3.TypographyThingerComponent;
   constructor(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement) {
     super(_View_TypographyThinger_Host0,renderType_TypographyThinger_Host,import6.ViewType.HOST,viewUtils,parentInjector,declarationEl,import7.ChangeDetectorStatus.CheckAlways);
   }
@@ -34,14 +34,14 @@ class _View_TypographyThinger_Host0 extends import1.AppView<any> {
     this._el_0 = this.selectOrCreateHostElement('typography-thinger',rootSelector,(null as any));
     this._appEl_0 = new import2.AppElement(0,(null as any),this,this._el_0);
     var compView_0:any = viewFactory_TypographyThinger0(this.viewUtils,this.injector(0),this._appEl_0);
-    this._TypographyThinger_0_4 = new import3.TypographyThinger();
+    this._TypographyThinger_0_4 = new import3.TypographyThingerComponent();
     this._appEl_0.initComponent(this._TypographyThinger_0_4,([] as any[]),compView_0);
     compView_0.create(this._TypographyThinger_0_4,this.projectableNodes,(null as any));
     this.init(([] as any[]).concat([this._el_0]),[this._el_0],([] as any[]),([] as any[]));
     return this._appEl_0;
   }
   injectorGetInternal(token:any,requestNodeIndex:number,notFoundResult:any):any {
-    if (((token === import3.TypographyThinger) && (0 === requestNodeIndex))) { return this._TypographyThinger_0_4; }
+    if (((token === import3.TypographyThingerComponent) && (0 === requestNodeIndex))) { return this._TypographyThinger_0_4; }
     return notFoundResult;
   }
 }
@@ -49,10 +49,10 @@ function viewFactory_TypographyThinger_Host0(viewUtils:import4.ViewUtils,parentI
   if ((renderType_TypographyThinger_Host === (null as any))) { (renderType_TypographyThinger_Host = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,([] as any[]),{})); }
   return new _View_TypographyThinger_Host0(viewUtils,parentInjector,declarationEl);
 }
-export const TypographyThingerNgFactory:import9.ComponentFactory<import3.TypographyThinger> = new import9.ComponentFactory<import3.TypographyThinger>('typography-thinger',viewFactory_TypographyThinger_Host0,import3.TypographyThinger);
+export const TypographyThingerNgFactory:import9.ComponentFactory<import3.TypographyThingerComponent> = new import9.ComponentFactory<import3.TypographyThingerComponent>('typography-thinger',viewFactory_TypographyThinger_Host0,import3.TypographyThingerComponent);
 const styles_TypographyThinger:any[] = ([] as any[]);
 var renderType_TypographyThinger:import0.RenderComponentType = (null as any);
-class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThinger> {
+class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThingerComponent> {
   _el_0:any;
   _text_1:any;
   _el_2:any;
@@ -693,7 +693,7 @@ class _View_TypographyThinger0 extends import1.AppView<import3.TypographyThinger
     return ((true && pd_0) && pd_1);
   }
 }
-export function viewFactory_TypographyThinger0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.TypographyThinger> {
+export function viewFactory_TypographyThinger0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.TypographyThingerComponent> {
   if ((renderType_TypographyThinger === (null as any))) { (renderType_TypographyThinger = viewUtils.createRenderComponentType('',0,import8.ViewEncapsulation.None,styles_TypographyThinger,{})); }
   return new _View_TypographyThinger0(viewUtils,parentInjector,declarationEl);
 }

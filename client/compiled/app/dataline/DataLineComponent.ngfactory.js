@@ -11,9 +11,9 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var import1 = require('@angular/core/src/linker/view');
 var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/dataline/DataLineRepository');
-var import4 = require('../../../app/dataline/DataLineComponent');
-var import5 = require('../../../app/widget/widget');
+var import3 = require('../../../app/dataline/data-line-repository');
+var import4 = require('../../../app/dataline/data-line.component');
+var import5 = require('../../../app/widget/card-widget.component');
 var import6 = require('@angular/core/src/linker/view_utils');
 var import8 = require('@angular/core/src/linker/view_type');
 var import9 = require('@angular/core/src/change_detection/change_detection');
@@ -30,7 +30,7 @@ var _View_DataLineComponent_Host0 = (function (_super) {
     Object.defineProperty(_View_DataLineComponent_Host0.prototype, "_CardWidget_0_6", {
         get: function () {
             if ((this.__CardWidget_0_6 == null)) {
-                (this.__CardWidget_0_6 = new import5.CardWidget());
+                (this.__CardWidget_0_6 = new import5.CardWidgetComponent());
             }
             return this.__CardWidget_0_6;
         },
@@ -55,7 +55,7 @@ var _View_DataLineComponent_Host0 = (function (_super) {
         if (((token === import4.DataLineComponent) && (0 === requestNodeIndex))) {
             return this._DataLineComponent_0_5;
         }
-        if (((token === import5.CardWidget) && (0 === requestNodeIndex))) {
+        if (((token === import5.CardWidgetComponent) && (0 === requestNodeIndex))) {
             return this._CardWidget_0_6;
         }
         return notFoundResult;
@@ -90,7 +90,7 @@ var _View_DataLineComponent0 = (function (_super) {
         this._el_6 = this.renderer.createElement(this._el_4, 'card-widget', null);
         this._appEl_6 = new import2.AppElement(6, 4, this, this._el_6);
         var compView_6 = import13.viewFactory_CardWidget0(this.viewUtils, this.injector(6), this._appEl_6);
-        this._CardWidget_6_4 = new import5.CardWidget();
+        this._CardWidget_6_4 = new import5.CardWidgetComponent();
         this._appEl_6.initComponent(this._CardWidget_6_4, [], compView_6);
         this._text_7 = this.renderer.createText(null, '\n        ', null);
         this._el_8 = this.renderer.createElement(null, 'pre', null);
@@ -133,7 +133,7 @@ var _View_DataLineComponent0 = (function (_super) {
         return null;
     };
     _View_DataLineComponent0.prototype.injectorGetInternal = function (token, requestNodeIndex, notFoundResult) {
-        if (((token === import5.CardWidget) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 13)))) {
+        if (((token === import5.CardWidgetComponent) && ((6 <= requestNodeIndex) && (requestNodeIndex <= 13)))) {
             return this._CardWidget_6_4;
         }
         return notFoundResult;
