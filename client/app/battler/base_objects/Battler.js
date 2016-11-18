@@ -1,8 +1,7 @@
-"use strict";
-var Guid_1 = require("../../util/Guid");
-var Battler = (function () {
+import { Guid } from "../../util/Guid";
+export var Battler = (function () {
     function Battler() {
-        this.id = new Guid_1.Guid();
+        this.id = new Guid();
         this.moves = [];
         this.active_effects = [];
     }
@@ -16,5 +15,4 @@ var Battler = (function () {
     };
     return Battler;
 }());
-exports.Battler = Battler;
 //# sourceMappingURL=Battler.js.map

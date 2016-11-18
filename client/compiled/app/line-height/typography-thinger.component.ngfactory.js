@@ -3,28 +3,27 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/line-height/typography-thinger.component');
-var import4 = require('@angular/core/src/linker/view_utils');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('@angular/forms/src/directives/default_value_accessor');
-var import11 = require('@angular/forms/src/directives/number_value_accessor');
-var import12 = require('@angular/forms/src/directives/ng_model');
-var import13 = require('@angular/forms/src/directives/ng_control_status');
-var import14 = require('@angular/core/src/linker/element_ref');
-var import15 = require('@angular/forms/src/directives/control_value_accessor');
-var import16 = require('@angular/forms/src/directives/ng_control');
-var import17 = require('@angular/core/src/security');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/line-height/typography-thinger.component';
+import * as import4 from '@angular/core/src/linker/view_utils';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '@angular/forms/src/directives/default_value_accessor';
+import * as import11 from '@angular/forms/src/directives/number_value_accessor';
+import * as import12 from '@angular/forms/src/directives/ng_model';
+import * as import13 from '@angular/forms/src/directives/ng_control_status';
+import * as import14 from '@angular/core/src/linker/element_ref';
+import * as import15 from '@angular/forms/src/directives/control_value_accessor';
+import * as import16 from '@angular/forms/src/directives/ng_control';
+import * as import17 from '@angular/core/src/security';
 var renderType_TypographyThingerComponent_Host = null;
 var _View_TypographyThingerComponent_Host0 = (function (_super) {
     __extends(_View_TypographyThingerComponent_Host0, _super);
@@ -55,7 +54,7 @@ function viewFactory_TypographyThingerComponent_Host0(viewUtils, parentInjector,
     }
     return new _View_TypographyThingerComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.TypographyThingerComponentNgFactory = new import9.ComponentFactory('typography-thinger', viewFactory_TypographyThingerComponent_Host0, import3.TypographyThingerComponent);
+export var TypographyThingerComponentNgFactory = new import9.ComponentFactory('typography-thinger', viewFactory_TypographyThingerComponent_Host0, import3.TypographyThingerComponent);
 var styles_TypographyThingerComponent = [];
 var renderType_TypographyThingerComponent = null;
 var _View_TypographyThingerComponent0 = (function (_super) {
@@ -631,11 +630,10 @@ var _View_TypographyThingerComponent0 = (function (_super) {
     };
     return _View_TypographyThingerComponent0;
 }(import1.AppView));
-function viewFactory_TypographyThingerComponent0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_TypographyThingerComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_TypographyThingerComponent === null)) {
         (renderType_TypographyThingerComponent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_TypographyThingerComponent, {}));
     }
     return new _View_TypographyThingerComponent0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_TypographyThingerComponent0 = viewFactory_TypographyThingerComponent0;
 //# sourceMappingURL=typography-thinger.component.ngfactory.js.map

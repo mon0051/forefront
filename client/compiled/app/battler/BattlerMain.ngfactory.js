@@ -3,21 +3,20 @@
  * Do not edit.
  */
 /* tslint:disable */
-"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var import1 = require('@angular/core/src/linker/view');
-var import2 = require('@angular/core/src/linker/element');
-var import3 = require('../../../app/battler/BattlerMain');
-var import4 = require('@angular/core/src/linker/view_utils');
-var import6 = require('@angular/core/src/linker/view_type');
-var import7 = require('@angular/core/src/change_detection/change_detection');
-var import8 = require('@angular/core/src/metadata/view');
-var import9 = require('@angular/core/src/linker/component_factory');
-var import10 = require('@angular/core/src/security');
+import * as import1 from '@angular/core/src/linker/view';
+import * as import2 from '@angular/core/src/linker/element';
+import * as import3 from '../../../app/battler/BattlerMain';
+import * as import4 from '@angular/core/src/linker/view_utils';
+import * as import6 from '@angular/core/src/linker/view_type';
+import * as import7 from '@angular/core/src/change_detection/change_detection';
+import * as import8 from '@angular/core/src/metadata/view';
+import * as import9 from '@angular/core/src/linker/component_factory';
+import * as import10 from '@angular/core/src/security';
 var renderType_BattlerMain_Host = null;
 var _View_BattlerMain_Host0 = (function (_super) {
     __extends(_View_BattlerMain_Host0, _super);
@@ -48,7 +47,7 @@ function viewFactory_BattlerMain_Host0(viewUtils, parentInjector, declarationEl)
     }
     return new _View_BattlerMain_Host0(viewUtils, parentInjector, declarationEl);
 }
-exports.BattlerMainNgFactory = new import9.ComponentFactory('ng-component', viewFactory_BattlerMain_Host0, import3.BattlerMain);
+export var BattlerMainNgFactory = new import9.ComponentFactory('ng-component', viewFactory_BattlerMain_Host0, import3.BattlerMain);
 var styles_BattlerMain = [];
 var renderType_BattlerMain = null;
 var _View_BattlerMain0 = (function (_super) {
@@ -245,11 +244,10 @@ var _View_BattlerMain0 = (function (_super) {
     };
     return _View_BattlerMain0;
 }(import1.AppView));
-function viewFactory_BattlerMain0(viewUtils, parentInjector, declarationEl) {
+export function viewFactory_BattlerMain0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_BattlerMain === null)) {
         (renderType_BattlerMain = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_BattlerMain, {}));
     }
     return new _View_BattlerMain0(viewUtils, parentInjector, declarationEl);
 }
-exports.viewFactory_BattlerMain0 = viewFactory_BattlerMain0;
 //# sourceMappingURL=BattlerMain.ngfactory.js.map
