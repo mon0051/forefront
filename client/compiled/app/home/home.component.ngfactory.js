@@ -3,20 +3,21 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import1 from '@angular/core/src/linker/view';
-import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/home/home.component';
-import * as import6 from '@angular/core/src/linker/view_type';
-import * as import7 from '@angular/core/src/change_detection/change_detection';
-import * as import8 from '@angular/core/src/metadata/view';
-import * as import9 from '@angular/core/src/linker/component_factory';
-import * as import10 from '../../../app/widget/card-widget.component';
-import * as import11 from '../widget/card-widget.component.ngfactory';
+var import1 = require('@angular/core/src/linker/view');
+var import2 = require('@angular/core/src/linker/element');
+var import3 = require('../../../app/home/home.component');
+var import6 = require('@angular/core/src/linker/view_type');
+var import7 = require('@angular/core/src/change_detection/change_detection');
+var import8 = require('@angular/core/src/metadata/view');
+var import9 = require('@angular/core/src/linker/component_factory');
+var import10 = require('../../../app/widget/card-widget.component');
+var import11 = require('../widget/card-widget.component.ngfactory');
 var renderType_HomeComponent_Host = null;
 var _View_HomeComponent_Host0 = (function (_super) {
     __extends(_View_HomeComponent_Host0, _super);
@@ -47,7 +48,7 @@ function viewFactory_HomeComponent_Host0(viewUtils, parentInjector, declarationE
     }
     return new _View_HomeComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-export var HomeComponentNgFactory = new import9.ComponentFactory('home-component', viewFactory_HomeComponent_Host0, import3.HomeComponent);
+exports.HomeComponentNgFactory = new import9.ComponentFactory('home-component', viewFactory_HomeComponent_Host0, import3.HomeComponent);
 var styles_HomeComponent = [];
 var renderType_HomeComponent = null;
 var _View_HomeComponent0 = (function (_super) {
@@ -93,10 +94,11 @@ var _View_HomeComponent0 = (function (_super) {
     };
     return _View_HomeComponent0;
 }(import1.AppView));
-export function viewFactory_HomeComponent0(viewUtils, parentInjector, declarationEl) {
+function viewFactory_HomeComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_HomeComponent === null)) {
         (renderType_HomeComponent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_HomeComponent, {}));
     }
     return new _View_HomeComponent0(viewUtils, parentInjector, declarationEl);
 }
+exports.viewFactory_HomeComponent0 = viewFactory_HomeComponent0;
 //# sourceMappingURL=home.component.ngfactory.js.map

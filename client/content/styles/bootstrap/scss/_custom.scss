@@ -1,3 +1,36 @@
+$gray-dark: #333;
+$gray: #555 ;
+$gray-light: #CACACA ;
+$gray-lighter: #D5D5D5 ;
+$gray-lightest: #F7F7F9 ;
+$white-back: #FAFAFA;
+
+$brand-primary: #004B8B ;
+$brand-success: #89B200 ;
+$brand-info: #2CA7FF ;
+$brand-warning: #E37A13 ;
+$brand-danger: #C21C45 ;
+$brand-purple: #8C0095;
+$brand-pink: #DC4FAD;
+$brand-yellow: #FFC40D;
+$brand-link-color: #0072C6;
+$brand-link-color-hover: #00709F;
+
+$enable-flex: false ;
+$enable-rounded: false ;
+$enable-shadows: false ;
+$enable-gradients: false ;
+$enable-transitions: true ;
+$enable-hover-media-query: false ;
+$enable-grid-classes: true ;
+
+$container-max-widths: (
+                               sm: 540px,
+                               md: 720px,
+                               lg: 960px,
+                               xl: 1620px
+                       ) !default;
+
 @import 'variables';
 @import 'game-of-life';
 
@@ -26,4 +59,8 @@ div.top-line {
 
 .player .hp{
   margin-top: 230px;
+}
+nav.navbar{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }

@@ -24,7 +24,7 @@
     "@angular/upgrade": "~2.1.0",
     "angular-in-memory-web-api": "~0.1.5",
     "babel-standalone": "^6.17.0",
-    "bootstrap": "^4.0.0-alpha.4",
+    "bootstrap": "^4.0.0-alpha.5",
     "core-js": "^2.4.1",
     "font-awesome": "^4.6.3",
     "reflect-metadata": "^0.1.8",

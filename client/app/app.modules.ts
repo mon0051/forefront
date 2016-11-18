@@ -55,6 +55,7 @@ import {BattlerMain} from "./battler/BattlerMain";
     providers: [
         HttpDataLine
     ],
+
     bootstrap: [
         ForeFrontRootComponent
     ]
