@@ -1,5 +1,13 @@
 * text eol=lf
 *.png binary
+*.js text
+*.json text
+*.ts text
+*.css text
+*.html text
+*.sh text
+*.cmd text
+*.lock text
 *.jpg binary
 *.gif binary
 *.woff binary
