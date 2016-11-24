@@ -21,7 +21,6 @@
     "@angular/router": "~3.2.0",
     "@angular/upgrade": "~2.2.0",
 
-
     "angular-in-memory-web-api": "~0.1.5",
     "babel-standalone": "^6.17.0",
     "bootstrap": "^4.0.0-alpha.5",
