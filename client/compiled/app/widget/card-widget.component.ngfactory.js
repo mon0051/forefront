@@ -3,19 +3,20 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import1 from '@angular/core/src/linker/view';
-import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/widget/card-widget.component';
-import * as import4 from '@angular/core/src/linker/view_utils';
-import * as import6 from '@angular/core/src/linker/view_type';
-import * as import7 from '@angular/core/src/change_detection/change_detection';
-import * as import8 from '@angular/core/src/metadata/view';
-import * as import9 from '@angular/core/src/linker/component_factory';
+var import1 = require('@angular/core/src/linker/view');
+var import2 = require('@angular/core/src/linker/element');
+var import3 = require('../../../app/widget/card-widget.component');
+var import4 = require('@angular/core/src/linker/view_utils');
+var import6 = require('@angular/core/src/linker/view_type');
+var import7 = require('@angular/core/src/change_detection/change_detection');
+var import8 = require('@angular/core/src/metadata/view');
+var import9 = require('@angular/core/src/linker/component_factory');
 var renderType_CardWidgetComponent_Host = null;
 var _View_CardWidgetComponent_Host0 = (function (_super) {
     __extends(_View_CardWidgetComponent_Host0, _super);
@@ -46,7 +47,7 @@ function viewFactory_CardWidgetComponent_Host0(viewUtils, parentInjector, declar
     }
     return new _View_CardWidgetComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-export var CardWidgetComponentNgFactory = new import9.ComponentFactory('card-widget', viewFactory_CardWidgetComponent_Host0, import3.CardWidgetComponent);
+exports.CardWidgetComponentNgFactory = new import9.ComponentFactory('card-widget', viewFactory_CardWidgetComponent_Host0, import3.CardWidgetComponent);
 var styles_CardWidgetComponent = [];
 var renderType_CardWidgetComponent = null;
 var _View_CardWidgetComponent0 = (function (_super) {
@@ -82,10 +83,11 @@ var _View_CardWidgetComponent0 = (function (_super) {
     };
     return _View_CardWidgetComponent0;
 }(import1.AppView));
-export function viewFactory_CardWidgetComponent0(viewUtils, parentInjector, declarationEl) {
+function viewFactory_CardWidgetComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_CardWidgetComponent === null)) {
         (renderType_CardWidgetComponent = viewUtils.createRenderComponentType('', 1, import8.ViewEncapsulation.None, styles_CardWidgetComponent, {}));
     }
     return new _View_CardWidgetComponent0(viewUtils, parentInjector, declarationEl);
 }
+exports.viewFactory_CardWidgetComponent0 = viewFactory_CardWidgetComponent0;
 //# sourceMappingURL=card-widget.component.ngfactory.js.map

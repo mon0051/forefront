@@ -1,7 +1,17 @@
-import { Component } from "@angular/core";
-import { CardWidgetComponent } from "../widget/card-widget.component";
-import { DataLineRepository } from "./data-line-repository";
-export var DataLineComponent = (function () {
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var core_1 = require("@angular/core");
+var card_widget_component_1 = require("../widget/card-widget.component");
+var data_line_repository_1 = require("./data-line-repository");
+var DataLineComponent = (function () {
     function DataLineComponent(ds) {
         var _this = this;
         this.sourceTypes = ['dummyData', 'http'];
@@ -35,18 +45,16 @@ export var DataLineComponent = (function () {
     DataLineComponent.prototype.update = function () {
         this.data = this.dataLineService.getDataAsPromise(null, null);
     };
-    DataLineComponent.decorators = [
-        { type: Component, args: [{
-                    moduleId: (module || { id: undefined }).id,
-                    selector: 'data-line-component',
-                    templateUrl: 'data-line.component.html',
-                    providers: [DataLineRepository, CardWidgetComponent]
-                },] },
-    ];
-    /** @nocollapse */
-    DataLineComponent.ctorParameters = [
-        { type: DataLineRepository, },
-    ];
+    DataLineComponent = __decorate([
+        core_1.Component({
+            moduleId: (module || { id: undefined }).id,
+            selector: 'data-line-component',
+            templateUrl: 'data-line.component.html',
+            providers: [data_line_repository_1.DataLineRepository, card_widget_component_1.CardWidgetComponent]
+        }), 
+        __metadata('design:paramtypes', [data_line_repository_1.DataLineRepository])
+    ], DataLineComponent);
     return DataLineComponent;
 }());
+exports.DataLineComponent = DataLineComponent;
 //# sourceMappingURL=data-line.component.js.map

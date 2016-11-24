@@ -1,20 +1,28 @@
 "use strict";
+
 require('bunyan');
-var serverSettings_1 = require("./serverSettings");
+
+var serverSettings = require("./serverSettings");
 var redbird = require('redbird');
-function proxyResolver(host, url) {
+
+function proxyResolver(host) {
     if (host && typeof host === 'string' && host.includes('.live.')) {
-        return url.startsWith("/api/") ? serverSettings_1.dotNetCoreServerAddress : { url: [serverSettings_1.liveContentServerAddress] };
+        return { url: [serverSettings.liveContentServerAddress] };
     }
-    return url.startsWith("/api/") ? serverSettings_1.dotNetCoreServerAddress : { url: [serverSettings_1.staticContentServerAddress] };
+
+    return { url: [serverSettings.staticContentServerAddress] };
 }
+
 exports.proxyResolver = proxyResolver;
+
 function startRedbird() {
     return redbird({
-        port: serverSettings_1.reverseProxyPort,
-        bunyan: serverSettings_1.loggerSettings,
+        port: serverSettings.reverseProxyPort,
+        bunyan: serverSettings.loggerSettings,
         resolvers: [proxyResolver]
     });
 }
+
 exports.startRedbird = startRedbird;
+
 //# sourceMappingURL=reverseProxy.js.map
