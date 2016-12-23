@@ -3,22 +3,23 @@
  * Do not edit.
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-import * as import1 from '@angular/core/src/linker/view';
-import * as import2 from '@angular/core/src/linker/element';
-import * as import3 from '../../../app/forefront-root/forefront-root.component';
-import * as import6 from '@angular/core/src/linker/view_type';
-import * as import7 from '@angular/core/src/change_detection/change_detection';
-import * as import8 from '@angular/core/src/metadata/view';
-import * as import9 from '@angular/core/src/linker/component_factory';
-import * as import10 from '../../../app/nav/nav.component';
-import * as import11 from '../../../app/content/content.component';
-import * as import12 from '../nav/nav.component.ngfactory';
-import * as import13 from '../content/content.component.ngfactory';
+var import1 = require('@angular/core/src/linker/view');
+var import2 = require('@angular/core/src/linker/element');
+var import3 = require('../../../app/forefront-root/forefront-root.component');
+var import6 = require('@angular/core/src/linker/view_type');
+var import7 = require('@angular/core/src/change_detection/change_detection');
+var import8 = require('@angular/core/src/metadata/view');
+var import9 = require('@angular/core/src/linker/component_factory');
+var import10 = require('../../../app/nav/nav.component');
+var import11 = require('../../../app/content/content.component');
+var import12 = require('../nav/nav.component.ngfactory');
+var import13 = require('../content/content.component.ngfactory');
 var renderType_ForeFrontRootComponent_Host = null;
 var _View_ForeFrontRootComponent_Host0 = (function (_super) {
     __extends(_View_ForeFrontRootComponent_Host0, _super);
@@ -49,7 +50,7 @@ function viewFactory_ForeFrontRootComponent_Host0(viewUtils, parentInjector, dec
     }
     return new _View_ForeFrontRootComponent_Host0(viewUtils, parentInjector, declarationEl);
 }
-export var ForeFrontRootComponentNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRootComponent_Host0, import3.ForeFrontRootComponent);
+exports.ForeFrontRootComponentNgFactory = new import9.ComponentFactory('forefront-root', viewFactory_ForeFrontRootComponent_Host0, import3.ForeFrontRootComponent);
 var styles_ForeFrontRootComponent = [];
 var renderType_ForeFrontRootComponent = null;
 var _View_ForeFrontRootComponent0 = (function (_super) {
@@ -97,10 +98,11 @@ var _View_ForeFrontRootComponent0 = (function (_super) {
     };
     return _View_ForeFrontRootComponent0;
 }(import1.AppView));
-export function viewFactory_ForeFrontRootComponent0(viewUtils, parentInjector, declarationEl) {
+function viewFactory_ForeFrontRootComponent0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_ForeFrontRootComponent === null)) {
         (renderType_ForeFrontRootComponent = viewUtils.createRenderComponentType('', 0, import8.ViewEncapsulation.None, styles_ForeFrontRootComponent, {}));
     }
     return new _View_ForeFrontRootComponent0(viewUtils, parentInjector, declarationEl);
 }
+exports.viewFactory_ForeFrontRootComponent0 = viewFactory_ForeFrontRootComponent0;
 //# sourceMappingURL=forefront-root.component.ngfactory.js.map

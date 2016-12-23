@@ -27,7 +27,6 @@ import {TypographyThingerComponent} from "./line-height/typography-thinger.compo
 import {DynamicFormComponent} from "./dynamic-forms/dynamic-form.component";
 import {DynamicFormQuestionComponent} from "./dynamic-forms/dynamic-form-question.component";
 import {DynamicFormsExampleComponent} from "./dynamic-forms/dynamic-form-example";
-import {BattlerMain} from "./battler/BattlerMain";
 
 @NgModule({
     imports: [
@@ -44,7 +43,6 @@ import {BattlerMain} from "./battler/BattlerMain";
         GameOfLifeComponent,
         HomeComponent,
         GridComponent,
-        BattlerMain,
         CardWidgetComponent,
         TypographyThingerComponent,
         DataLineComponent,

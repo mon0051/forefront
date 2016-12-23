@@ -1,4 +1,5 @@
-export var Guid = (function () {
+"use strict";
+var Guid = (function () {
     function Guid() {
         this._id = this.generateGuid();
     }
@@ -13,4 +14,5 @@ export var Guid = (function () {
     };
     return Guid;
 }());
+exports.Guid = Guid;
 //# sourceMappingURL=Guid.js.map
