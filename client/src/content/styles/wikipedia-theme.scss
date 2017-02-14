@@ -1,0 +1,143 @@
+@import 'EightiesTheme';
+
+html, body, #mw-page-base {
+  background: $TextBack;
+}
+
+#mw-content-text .infobox {
+  width:    22em;
+  left:     828px;
+  position: absolute;
+  top: -205px;
+}
+
+#coordinates {
+  top: -15px;
+}
+
+.mw-indicators {
+  background: $Blue;
+  position: relative;
+  top: -20px;
+  width: 836px;
+  left: 48px;
+  height: 40px;
+  *{
+    opacity: 0;
+
+  }
+}
+
+.mw-body {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  z-index: 5;
+  position: relative;
+  top: 5px;
+  border: 1px solid $White;
+  * {
+    font-family: "segoe ui", sans-serif;
+  }
+}
+
+table.wikitable .description {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 30px 55px 55px;
+}
+
+h1, h1.firstHeading, h2, h3 {
+  font-family: "segoe ui", sans-serif;
+  font-weight: 300;
+}
+
+div#right-navigation {
+  position: relative;
+  margin-top: 10px;
+}
+
+#p-search {
+  div {
+    background: white;
+  }
+  input, div#simpleSearch{
+    height: 2rem;
+  }
+}
+
+#mw-head {
+  z-index: 0;
+  background: $TextBack;
+
+  .vectorTabs {
+    display: none;
+  }
+}
+
+#p-personal, #left-navigation, #mw-panel {
+  display: none;
+}
+
+#main {
+  width: 940px;
+}
+
+#sidebar-primary {
+  display: none;
+}
+
+#content {
+  position:relative;
+
+  a{
+    color:$BoldBlue;
+  }
+  a:visited{
+    color: $BoldMagenta;
+  }
+  b,caption,strong,th{
+    font-weight: 500;
+  }
+  h1, h2, h3, h4, h5, h6, p, a, div, span, body, li {
+    font-family: 'segoe ui', 'Helvetica Neue', 'Helvetica', sans-serif;
+  }
+
+  p, li {
+    font-size:   1rem;
+    line-height: 1.6rem;
+  }
+
+  h1 {
+    font-size:   3.998rem;
+    line-height: 5.653rem;
+    font-weight: 300;
+    border-bottom: none;
+  }
+  h2 {
+    font-size:   2.827rem;
+    line-height: 3.9973rem;
+    font-weight: 300;
+    border-bottom: none;
+  }
+  h3 {
+    font-size:   1.999rem;
+    line-height: 2.826rem;
+    font-weight: 300;
+    border-bottom: none;
+  }
+  h4 {
+    font-size:   1.414rem;
+    line-height: 1.999rem;
+    font-weight: 300;
+    border-bottom: none;
+  }
+
+  .code code {
+    font-family: consolas, sans-serif;
+    font-size:   1rem !important;
+    line-height: 1.414rem !important;
+  }
+}

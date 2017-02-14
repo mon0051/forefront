@@ -1,0 +1,94 @@
+@import 'EightiesTheme';
+
+html, body{
+    background: $TextBack;
+}
+
+h1, h1.firstHeading, h2, h3 {
+    font-family: "segoe ui", sans-serif;
+    font-weight: 300;
+}
+
+div#right-navigation {
+    position:   relative;
+    margin-top: 10px;
+}
+
+#p-search {
+    div {
+        background: white;
+    }
+    input, div#simpleSearch {
+        height: 2rem;
+    }
+}
+
+#mw-head {
+    z-index:    0;
+    background: white;
+
+    .vectorTabs {
+        display: none;
+    }
+}
+
+#p-personal, #left-navigation, #mw-panel {
+    display: none;
+}
+
+#main {
+    width: 940px;
+}
+
+#sidebar-primary {
+    display: none;
+}
+
+#content {
+    position: relative;
+    a {
+        color: $BoldBlue;
+    }
+    a:visited {
+        color: $BoldMagenta;
+    }
+    b, caption, strong, th {
+        font-weight: 500;
+    }
+    h1, h2, h3, h4, h5, h6, p, a, div, span, body, li {
+        font-family: 'segoe ui', 'Helvetica Neue', 'Helvetica', sans-serif;
+    }
+
+    p, li {
+        font-size:   1rem;
+        line-height: 1.6rem;
+    }
+
+    h1 {
+        font-size:   3.998rem;
+        line-height: 5.653rem;
+        font-weight: 300;
+      margin-bottom: 1.6rem;
+    }
+    h2 {
+        font-size:   2.827rem;
+        line-height: 3.9973rem;
+        font-weight: 300;
+    }
+    h3 {
+        font-size:   1.999rem;
+        line-height: 2.826rem;
+        font-weight: 300;
+    }
+    h4 {
+        font-size:   1.414rem;
+        line-height: 1.999rem;
+        font-weight: 300;
+    }
+
+    .code code {
+        font-family: consolas, sans-serif;
+        font-size:   1rem !important;
+        line-height: 1.414rem !important;
+    }
+}
