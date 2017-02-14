@@ -12,13 +12,13 @@ var core_1 = require("@angular/core");
 var ProvingGroundsComponent = (function () {
     function ProvingGroundsComponent() {
     }
+    ProvingGroundsComponent = __decorate([
+        core_1.Component({
+            templateUrl: "proving-grounds.component.html"
+        }), 
+        __metadata('design:paramtypes', [])
+    ], ProvingGroundsComponent);
     return ProvingGroundsComponent;
 }());
-ProvingGroundsComponent = __decorate([
-    core_1.Component({
-        templateUrl: "proving-grounds.component.html"
-    }),
-    __metadata("design:paramtypes", [])
-], ProvingGroundsComponent);
 exports.ProvingGroundsComponent = ProvingGroundsComponent;
 //# sourceMappingURL=proving-grounds.component.js.map

@@ -14,14 +14,14 @@ var DynamicFormsExampleComponent = (function () {
     function DynamicFormsExampleComponent(service) {
         this.fieldInputs = service.getQuestions();
     }
+    DynamicFormsExampleComponent = __decorate([
+        core_1.Component({
+            moduleId: (module || { id: undefined }).id,
+            template: "<div><dynamic-form [fieldInputs]='fieldInputs'></dynamic-form></div>"
+        }), 
+        __metadata('design:paramtypes', [FormData_service_1.FormDataService])
+    ], DynamicFormsExampleComponent);
     return DynamicFormsExampleComponent;
 }());
-DynamicFormsExampleComponent = __decorate([
-    core_1.Component({
-        moduleId: (module || { id: undefined }).id,
-        template: "<div><dynamic-form [fieldInputs]='fieldInputs'></dynamic-form></div>"
-    }),
-    __metadata("design:paramtypes", [FormData_service_1.FormDataService])
-], DynamicFormsExampleComponent);
 exports.DynamicFormsExampleComponent = DynamicFormsExampleComponent;
 //# sourceMappingURL=dynamic-form-example.js.map

@@ -1,14 +1,9 @@
 "use strict";
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
 var Guid_1 = require("../util/Guid");
 var FieldInputBase = (function () {
     function FieldInputBase(options) {
@@ -27,10 +22,9 @@ var FieldInputTextbox = (function (_super) {
     __extends(FieldInputTextbox, _super);
     function FieldInputTextbox(options) {
         if (options === void 0) { options = {}; }
-        var _this = _super.call(this, options) || this;
-        _this.controlType = 'textbox';
-        _this.type = options['type'] || '';
-        return _this;
+        _super.call(this, options);
+        this.controlType = 'textbox';
+        this.type = options['type'] || '';
     }
     return FieldInputTextbox;
 }(FieldInputBase));
@@ -39,12 +33,11 @@ var FieldInputDropdown = (function (_super) {
     __extends(FieldInputDropdown, _super);
     function FieldInputDropdown(options) {
         if (options === void 0) { options = {}; }
-        var _this = _super.call(this, options) || this;
-        _this.controlType = 'textbox';
-        _this.options = [];
-        _this.type = options['type'] || '';
-        _this.options = options['options'] || [];
-        return _this;
+        _super.call(this, options);
+        this.controlType = 'textbox';
+        this.options = [];
+        this.type = options['type'] || '';
+        this.options = options['options'] || [];
     }
     return FieldInputDropdown;
 }(FieldInputBase));

@@ -1,5 +1,5 @@
 "use strict";
-var router_1 = require("@angular/router");
+var router_1 = require('@angular/router');
 var game_of_life_component_1 = require("./game-of-life/game-of-life.component");
 var home_component_1 = require("./home/home.component");
 var not_found_1 = require("./util/not-found");

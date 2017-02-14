@@ -25,11 +25,11 @@ var HttpDataLine = (function () {
     HttpDataLine.prototype.getDataAsObservable = function () {
         return this.http.get('api/values').map(function (x) { return x.json() || {}; });
     };
+    HttpDataLine = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [http_1.Http])
+    ], HttpDataLine);
     return HttpDataLine;
 }());
-HttpDataLine = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [http_1.Http])
-], HttpDataLine);
 exports.HttpDataLine = HttpDataLine;
 //# sourceMappingURL=http-dataline.js.map

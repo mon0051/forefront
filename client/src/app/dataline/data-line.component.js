@@ -45,16 +45,16 @@ var DataLineComponent = (function () {
     DataLineComponent.prototype.update = function () {
         this.data = this.dataLineService.getDataAsPromise(null, null);
     };
+    DataLineComponent = __decorate([
+        core_1.Component({
+            moduleId: (module || { id: undefined }).id,
+            selector: 'data-line-component',
+            templateUrl: 'data-line.component.html',
+            providers: [data_line_repository_1.DataLineRepository, card_widget_component_1.CardWidgetComponent]
+        }), 
+        __metadata('design:paramtypes', [data_line_repository_1.DataLineRepository])
+    ], DataLineComponent);
     return DataLineComponent;
 }());
-DataLineComponent = __decorate([
-    core_1.Component({
-        moduleId: (module || { id: undefined }).id,
-        selector: 'data-line-component',
-        templateUrl: 'data-line.component.html',
-        providers: [data_line_repository_1.DataLineRepository, card_widget_component_1.CardWidgetComponent]
-    }),
-    __metadata("design:paramtypes", [data_line_repository_1.DataLineRepository])
-], DataLineComponent);
 exports.DataLineComponent = DataLineComponent;
 //# sourceMappingURL=data-line.component.js.map

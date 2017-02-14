@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var forms_1 = require("@angular/forms");
+var core_1 = require('@angular/core');
+var forms_1 = require('@angular/forms');
 var FieldInputControlService = (function () {
     function FieldInputControlService() {
     }
@@ -21,11 +21,11 @@ var FieldInputControlService = (function () {
         });
         return new forms_1.FormGroup(group);
     };
+    FieldInputControlService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [])
+    ], FieldInputControlService);
     return FieldInputControlService;
 }());
-FieldInputControlService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [])
-], FieldInputControlService);
 exports.FieldInputControlService = FieldInputControlService;
 //# sourceMappingURL=field-input-control.service.js.map

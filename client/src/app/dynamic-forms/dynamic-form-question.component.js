@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var forms_1 = require("@angular/forms");
+var core_1 = require('@angular/core');
+var forms_1 = require('@angular/forms');
 var FieldInput_1 = require("./FieldInput");
 var DynamicFormQuestionComponent = (function () {
     function DynamicFormQuestionComponent() {
@@ -21,22 +21,23 @@ var DynamicFormQuestionComponent = (function () {
         enumerable: true,
         configurable: true
     });
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', FieldInput_1.FieldInputBase)
+    ], DynamicFormQuestionComponent.prototype, "fieldInput", void 0);
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', forms_1.FormGroup)
+    ], DynamicFormQuestionComponent.prototype, "form", void 0);
+    DynamicFormQuestionComponent = __decorate([
+        core_1.Component({
+            moduleId: (module || { id: undefined }).id,
+            selector: 'df-question',
+            templateUrl: 'dynamic-form-question-component.html'
+        }), 
+        __metadata('design:paramtypes', [])
+    ], DynamicFormQuestionComponent);
     return DynamicFormQuestionComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", FieldInput_1.FieldInputBase)
-], DynamicFormQuestionComponent.prototype, "fieldInput", void 0);
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", forms_1.FormGroup)
-], DynamicFormQuestionComponent.prototype, "form", void 0);
-DynamicFormQuestionComponent = __decorate([
-    core_1.Component({
-        moduleId: (module || { id: undefined }).id,
-        selector: 'df-question',
-        templateUrl: 'dynamic-form-question-component.html'
-    })
-], DynamicFormQuestionComponent);
 exports.DynamicFormQuestionComponent = DynamicFormQuestionComponent;
 //# sourceMappingURL=dynamic-form-question.component.js.map

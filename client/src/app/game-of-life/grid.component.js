@@ -8,10 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var cell_1 = require("./cell");
-var core_1 = require("@angular/core");
+var cell_1 = require('./cell');
+var core_1 = require('@angular/core');
 var settings_1 = require("./settings");
-var common_1 = require("@angular/common");
+var common_1 = require('@angular/common');
 var GridComponent = (function () {
     function GridComponent(settings) {
         this.autoplay = false;
@@ -70,16 +70,16 @@ var GridComponent = (function () {
             });
         });
     }
+    GridComponent = __decorate([
+        core_1.Component({
+            moduleId: (module || { id: undefined }).id,
+            selector: 'gol-grid',
+            templateUrl: 'grid.component.html',
+            providers: [common_1.NgClass]
+        }), 
+        __metadata('design:paramtypes', [settings_1.Settings])
+    ], GridComponent);
     return GridComponent;
 }());
-GridComponent = __decorate([
-    core_1.Component({
-        moduleId: (module || { id: undefined }).id,
-        selector: 'gol-grid',
-        templateUrl: 'grid.component.html',
-        providers: [common_1.NgClass]
-    }),
-    __metadata("design:paramtypes", [settings_1.Settings])
-], GridComponent);
 exports.GridComponent = GridComponent;
 //# sourceMappingURL=grid.component.js.map

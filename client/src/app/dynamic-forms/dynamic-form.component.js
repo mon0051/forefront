@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
+var core_1 = require('@angular/core');
 var field_input_control_service_1 = require("./field-input-control.service");
 var DynamicFormComponent = (function () {
     function DynamicFormComponent(qcs) {
@@ -22,20 +22,20 @@ var DynamicFormComponent = (function () {
     DynamicFormComponent.prototype.onSubmit = function () {
         this.payLoad = JSON.stringify(this.form.value);
     };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Array)
+    ], DynamicFormComponent.prototype, "fieldInputs", void 0);
+    DynamicFormComponent = __decorate([
+        core_1.Component({
+            selector: 'dynamic-form',
+            templateUrl: 'dynamic-form-component.html',
+            providers: [field_input_control_service_1.FieldInputControlService],
+            moduleId: (module || { id: undefined }).id
+        }), 
+        __metadata('design:paramtypes', [field_input_control_service_1.FieldInputControlService])
+    ], DynamicFormComponent);
     return DynamicFormComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Array)
-], DynamicFormComponent.prototype, "fieldInputs", void 0);
-DynamicFormComponent = __decorate([
-    core_1.Component({
-        selector: 'dynamic-form',
-        templateUrl: 'dynamic-form-component.html',
-        providers: [field_input_control_service_1.FieldInputControlService],
-        moduleId: (module || { id: undefined }).id
-    }),
-    __metadata("design:paramtypes", [field_input_control_service_1.FieldInputControlService])
-], DynamicFormComponent);
 exports.DynamicFormComponent = DynamicFormComponent;
 //# sourceMappingURL=dynamic-form.component.js.map

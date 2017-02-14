@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
+var core_1 = require('@angular/core');
 var mock_data_1 = require("../mock-data/mock-data");
 var http_dataline_1 = require("./http-dataline");
 var PromiseObservable_1 = require("rxjs/observable/PromiseObservable");
@@ -42,11 +42,11 @@ var DataLineRepository = (function () {
             return getFunc;
         }
     };
+    DataLineRepository = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [http_dataline_1.HttpDataLine])
+    ], DataLineRepository);
     return DataLineRepository;
 }());
-DataLineRepository = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [http_dataline_1.HttpDataLine])
-], DataLineRepository);
 exports.DataLineRepository = DataLineRepository;
 //# sourceMappingURL=data-line-repository.js.map

@@ -48,14 +48,14 @@ exports.Node = Node;
 var Errors = (function () {
     function Errors() {
     }
+    Errors.SQUARE = {
+        error: function (output, target) {
+            return 0.5 * Math.pow(output - target, 2);
+        },
+        der: function (output, target) { return output - target; }
+    };
     return Errors;
 }());
-Errors.SQUARE = {
-    error: function (output, target) {
-        return 0.5 * Math.pow(output - target, 2);
-    },
-    der: function (output, target) { return output - target; }
-};
 exports.Errors = Errors;
 /** Polyfill for TANH */
 Math.tanh = Math.tanh || function (x) {
@@ -74,45 +74,45 @@ Math.tanh = Math.tanh || function (x) {
 var Activations = (function () {
     function Activations() {
     }
+    Activations.TANH = {
+        output: function (x) { return Math.tanh(x); },
+        der: function (x) {
+            var output = Activations.TANH.output(x);
+            return 1 - output * output;
+        }
+    };
+    Activations.RELU = {
+        output: function (x) { return Math.max(0, x); },
+        der: function (x) { return x <= 0 ? 0 : 1; }
+    };
+    Activations.SIGMOID = {
+        output: function (x) { return 1 / (1 + Math.exp(-x)); },
+        der: function (x) {
+            var output = Activations.SIGMOID.output(x);
+            return output * (1 - output);
+        }
+    };
+    Activations.LINEAR = {
+        output: function (x) { return x; },
+        der: function (x) { return 1; }
+    };
     return Activations;
 }());
-Activations.TANH = {
-    output: function (x) { return Math.tanh(x); },
-    der: function (x) {
-        var output = Activations.TANH.output(x);
-        return 1 - output * output;
-    }
-};
-Activations.RELU = {
-    output: function (x) { return Math.max(0, x); },
-    der: function (x) { return x <= 0 ? 0 : 1; }
-};
-Activations.SIGMOID = {
-    output: function (x) { return 1 / (1 + Math.exp(-x)); },
-    der: function (x) {
-        var output = Activations.SIGMOID.output(x);
-        return output * (1 - output);
-    }
-};
-Activations.LINEAR = {
-    output: function (x) { return x; },
-    der: function (x) { return 1; }
-};
 exports.Activations = Activations;
 /** Build-in regularization functions */
 var RegularizationFunction = (function () {
     function RegularizationFunction() {
     }
+    RegularizationFunction.L1 = {
+        output: function (w) { return Math.abs(w); },
+        der: function (w) { return w < 0 ? -1 : 1; }
+    };
+    RegularizationFunction.L2 = {
+        output: function (w) { return 0.5 * w * w; },
+        der: function (w) { return w; }
+    };
     return RegularizationFunction;
 }());
-RegularizationFunction.L1 = {
-    output: function (w) { return Math.abs(w); },
-    der: function (w) { return w < 0 ? -1 : 1; }
-};
-RegularizationFunction.L2 = {
-    output: function (w) { return 0.5 * w * w; },
-    der: function (w) { return w; }
-};
 exports.RegularizationFunction = RegularizationFunction;
 /**
  * A link in a neural network. Each link has a weight and a source and
